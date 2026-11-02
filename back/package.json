@@ -1,0 +1,27 @@
+{
+  "name": "pc-fit-back",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "nodemon ./bin/www",
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.107.0",
+    "axios": "^1.7.0",
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.0",
+    "express": "^4.21.0",
+    "express-rate-limit": "^7.4.0",
+    "express-session": "^1.18.0",
+    "express-validator": "^7.2.0",
+    "jade": "^1.11.0",
+    "openai": "^4.60.0",
+    "socket.io": "^4.7.0",
+    "xss": "^1.0.15"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}

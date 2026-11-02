@@ -1,0 +1,33 @@
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.fade-in-up { animation: fadeInUp 0.6s ease-out forwards; }
+
+.stagger-item { opacity: 0; animation: fadeInUp 0.5s ease-out forwards; }
+.stagger-item:nth-child(1) { animation-delay: 0.05s; }
+.stagger-item:nth-child(2) { animation-delay: 0.1s; }
+.stagger-item:nth-child(3) { animation-delay: 0.15s; }
+.stagger-item:nth-child(4) { animation-delay: 0.2s; }
+.stagger-item:nth-child(5) { animation-delay: 0.25s; }
+.stagger-item:nth-child(6) { animation-delay: 0.3s; }
+.stagger-item:nth-child(7) { animation-delay: 0.35s; }
+
+@keyframes fillGauge { from { width: 0%; } }
+.gauge-fill { animation: fillGauge 1.2s ease-out forwards; }
+
+@keyframes slideInFromTop {
+  from { opacity: 0; transform: translateY(-20px) scale(0.95); }
+  to { opacity: 1; transform: translateY(0) scale(1); }
+}
+.slide-in-top { animation: slideInFromTop 0.4s ease-out; }
+
+@keyframes votePulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.2); color: var(--neon-cyan); }
+  100% { transform: scale(1); }
+}
+.vote-pulse { animation: votePulse 0.3s ease; }
+
+@keyframes spin { to { transform: rotate(360deg); } }
+.spinner { animation: spin 1s linear infinite; }

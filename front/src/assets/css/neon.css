@@ -1,0 +1,85 @@
+/* ═══════════════════════════════════════════════
+   NEON TOKYO — Neon Utility Classes
+   ═══════════════════════════════════════════════ */
+
+/* ── Text Glow Classes ── */
+.neon-text-pink,
+.neon-text-cyan {
+  color: var(--neon-pink) !important;
+  text-shadow: 0 0 7px var(--neon-pink), 0 0 15px rgba(255, 0, 128, 0.5);
+}
+
+.neon-text-blue,
+.neon-text-purple {
+  color: var(--neon-blue) !important;
+  text-shadow: 0 0 7px var(--neon-blue), 0 0 15px rgba(0, 217, 255, 0.5);
+}
+
+/* Pink→Blue Gradient Text (Neon Tokyo Signature) */
+.neon-text-gradient {
+  background: linear-gradient(90deg, var(--neon-pink), var(--neon-blue));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: 900;
+}
+
+/* ── Border Glow Classes ── */
+.neon-border-pink,
+.neon-border-cyan {
+  border: 1px solid var(--neon-pink) !important;
+  box-shadow: var(--shadow-neon-pink);
+}
+
+.neon-border-blue,
+.neon-border-purple {
+  border: 1px solid var(--neon-blue) !important;
+  box-shadow: var(--shadow-neon-blue);
+}
+
+/* ── Blink Animations ── */
+.neon-blink-red {
+  animation: blinkRed 1.5s ease-in-out infinite;
+}
+
+@keyframes blinkRed {
+  0%, 100% { 
+    border-color: rgba(255, 0, 85, 0.3); 
+    box-shadow: 0 0 5px rgba(255, 0, 85, 0.2);
+  }
+  50% { 
+    border-color: var(--neon-red); 
+    box-shadow: var(--shadow-neon-red);
+  }
+}
+
+.neon-blink-pink {
+  animation: blinkPink 2s ease-in-out infinite;
+}
+
+@keyframes blinkPink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.3; }
+}
+
+/* ── Input Focus ── */
+.neon-input:focus {
+  outline: none;
+  border-color: var(--neon-pink) !important;
+  box-shadow: var(--shadow-neon-pink);
+}
+
+/* ── Glass-Neon Combinations ── */
+.glass-neon-pink,
+.glass-neon-cyan {
+  background: rgba(255, 0, 128, 0.03) !important;
+  border: 1px solid rgba(255, 0, 128, 0.3) !important;
+  backdrop-filter: blur(10px);
+}
+
+.glass-neon-blue,
+.glass-neon-purple {
+  background: rgba(0, 217, 255, 0.03) !important;
+  border: 1px solid rgba(0, 217, 255, 0.3) !important;
+  backdrop-filter: blur(10px);
+}

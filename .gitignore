@@ -1,0 +1,32 @@
+# Temporary DB directory
+temp_buildcores_db/
+
+# Dependency directories
+node_modules/
+back/node_modules/
+front/node_modules/
+
+# Environment variables (NEVER commit API keys!)
+.env
+.env.*
+!.env.example
+back/.env
+back/.env.*
+!back/.env.example
+front/.env
+front/.env.*
+!front/.env.example
+
+# Build artifacts & temporary test reports
+front/dist/
+back/parts_backup_*.json
+back/v_combo_report*.json
+back/test_results.txt
+front/screenshot_*.png
+
+# OS & Editor metadata
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+

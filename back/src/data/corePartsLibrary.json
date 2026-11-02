@@ -1,0 +1,5051 @@
+{
+  "cpu": [
+    {
+      "id": "cpu_01",
+      "name": "AMD 라이젠5-5세대 7500F (라파엘)",
+      "socket": "AM5",
+      "tdp": 65,
+      "performance_score": 75,
+      "search_keyword": "라이젠 7500F"
+    },
+    {
+      "id": "cpu_02",
+      "name": "AMD 라이젠7-5세대 7800X3D (라파엘)",
+      "socket": "AM5",
+      "tdp": 120,
+      "performance_score": 98,
+      "search_keyword": "라이젠 7800X3D"
+    },
+    {
+      "id": "cpu_03",
+      "name": "인텔 코어i5-14세대 14400F (랩터레이크 Refresh)",
+      "socket": "LGA1700",
+      "tdp": 65,
+      "performance_score": 72,
+      "search_keyword": "인텔 i5 14400F"
+    },
+    {
+      "id": "cpu_04",
+      "name": "인텔 코어i7-14세대 14700K (랩터레이크 Refresh)",
+      "socket": "LGA1700",
+      "tdp": 125,
+      "performance_score": 92,
+      "search_keyword": "인텔 i7 14700K"
+    },
+    {
+      "id": "cpu_05",
+      "name": "AMD 라이젠9-5세대 7950X3D (라파엘)",
+      "socket": "AM5",
+      "tdp": 120,
+      "performance_score": 99,
+      "search_keyword": "라이젠 7950X3D"
+    },
+    {
+      "id": "cpu_06",
+      "name": "인텔 코어i9-14세대 14900K (랩터레이크 Refresh)",
+      "socket": "LGA1700",
+      "tdp": 125,
+      "performance_score": 99,
+      "search_keyword": "인텔 i9 14900K"
+    },
+    {
+      "id": "cpu_07",
+      "name": "AMD 라이젠5-5세대 7600 (라파엘)",
+      "socket": "AM5",
+      "tdp": 65,
+      "performance_score": 77,
+      "search_keyword": "라이젠 7600"
+    },
+    {
+      "search_keyword": "AMD Ryzen 5 5600 3.5 GHz 6-Core AM4",
+      "socket": "LGA1700",
+      "performance_score": 132
+    },
+    {
+      "search_keyword": "AMD Ryzen 7 9700X 3.8 GHz 8-Core AM5",
+      "socket": "LGA1700",
+      "performance_score": 220
+    },
+    {
+      "search_keyword": "AMD Ryzen 5 9600 3.8 GHz 6-Core AM5",
+      "socket": "LGA1700",
+      "performance_score": 156
+    },
+    {
+      "search_keyword": "AMD Ryzen 5 7500F 3.7 GHz 6-Core AM5 OEM/Tray",
+      "socket": "LGA1700",
+      "performance_score": 150
+    },
+    {
+      "search_keyword": "AMD Ryzen 9 7900 3.6 GHz 12-Core AM5",
+      "socket": "LGA1700",
+      "performance_score": 324
+    },
+    {
+      "search_keyword": "AMD Ryzen 5 5600X 3.7 GHz 6-Core AM4",
+      "socket": "LGA1700",
+      "performance_score": 138
+    },
+    {
+      "search_keyword": "AMD Ryzen 5 7500X3D 4 GHz 6-Core AM5",
+      "socket": "LGA1700",
+      "performance_score": 135
+    },
+    {
+      "search_keyword": "AMD Ryzen 7 5700 3.7 GHz 8-Core AM4",
+      "socket": "LGA1700",
+      "performance_score": 184
+    },
+    {
+      "search_keyword": "AMD Ryzen 7 7800X3D 4.2 GHz 8-Core AM5",
+      "socket": "LGA1700",
+      "performance_score": 200
+    },
+    {
+      "search_keyword": "AMD Ryzen 9 7950X3D 4.2 GHz 16-Core AM5",
+      "socket": "LGA1700",
+      "performance_score": 456
+    },
+    {
+      "search_keyword": "Intel Core i9-14900KF",
+      "socket": "LGA1700",
+      "performance_score": 720
+    },
+    {
+      "search_keyword": "AMD Ryzen 5 5600T 3.5 GHz 6-Core AM4 OEM/Tray",
+      "socket": "LGA1700",
+      "performance_score": 135
+    },
+    {
+      "search_keyword": "AMD Ryzen 7 7700X 4.5 GHz 8-Core AM5",
+      "socket": "LGA1700",
+      "performance_score": 216
+    },
+    {
+      "search_keyword": "AMD Ryzen 9 7950X",
+      "socket": "AM5",
+      "performance_score": 456
+    },
+    {
+      "search_keyword": "AMD Ryzen 5 7600 3.8 GHz 6-Core AM5",
+      "socket": "LGA1700",
+      "performance_score": 153
+    },
+    {
+      "search_keyword": "AMD Ryzen 7 5800X3D 3.4 GHz 8-Core AM4",
+      "socket": "LGA1700",
+      "performance_score": 180
+    },
+    {
+      "search_keyword": "AMD Ryzen 5 5600XT",
+      "socket": "AM5",
+      "performance_score": 141
+    },
+    {
+      "search_keyword": "AMD Ryzen 5 5600T 3.5 GHz 6-Core AM4",
+      "socket": "LGA1700",
+      "performance_score": 135
+    },
+    {
+      "search_keyword": "AMD Ryzen 5 5600G 3.9 GHz 6-Core AM4",
+      "socket": "LGA1700",
+      "performance_score": 132
+    },
+    {
+      "search_keyword": "AMD Ryzen 9 7900X3D",
+      "socket": "AM5",
+      "performance_score": 335
+    },
+    {
+      "search_keyword": "AMD Ryzen 7 9800X3D 4.7 GHz 8-Core AM5",
+      "socket": "LGA1700",
+      "performance_score": 208
+    },
+    {
+      "search_keyword": "AMD Ryzen 5 7600X3D 4.1 GHz 6-Core AM5 OEM/Tray",
+      "socket": "LGA1700",
+      "performance_score": 141
+    },
+    {
+      "search_keyword": "AMD Ryzen 9 5900X",
+      "socket": "AM5",
+      "performance_score": 288
+    },
+    {
+      "search_keyword": "AMD Ryzen 7 5800X 3.8 GHz 8-Core AM4",
+      "socket": "LGA1700",
+      "performance_score": 188
+    },
+    {
+      "search_keyword": "AMD Ryzen 7 5700G",
+      "socket": "AM5",
+      "performance_score": 184
+    },
+    {
+      "search_keyword": "AMD Ryzen 9 9900X3D 4.4 GHz 12-Core AM5",
+      "socket": "LGA1700",
+      "performance_score": 330
+    },
+    {
+      "search_keyword": "Intel Core i9-13900F",
+      "socket": "LGA1700",
+      "performance_score": 624
+    },
+    {
+      "search_keyword": "AMD Ryzen 5 5600X3D 3.3 GHz 6-Core AM4",
+      "socket": "LGA1700",
+      "performance_score": 132
+    },
+    {
+      "search_keyword": "AMD Ryzen 7 7700",
+      "socket": "AM5",
+      "performance_score": 212
+    },
+    {
+      "search_keyword": "AMD Ryzen 7 5800XT 3.8 GHz 8-Core AM4",
+      "socket": "LGA1700",
+      "performance_score": 192
+    },
+    {
+      "search_keyword": "AMD Ryzen 9 9900X 4.4 GHz 12-Core AM5",
+      "socket": "LGA1700",
+      "performance_score": 335
+    },
+    {
+      "search_keyword": "AMD Ryzen 5 5600GT 3.6 GHz 6-Core AM4",
+      "socket": "LGA1700",
+      "performance_score": 138
+    },
+    {
+      "search_keyword": "AMD Ryzen 5 7600X3D 4.1 GHz 6-Core AM5",
+      "socket": "LGA1700",
+      "performance_score": 141
+    },
+    {
+      "search_keyword": "AMD Ryzen 5 5500 3.6 GHz 6-Core AM4",
+      "socket": "LGA1700",
+      "performance_score": 126
+    },
+    {
+      "search_keyword": "AMD Ryzen 5 9600X 3.9 GHz 6-Core AM5",
+      "socket": "LGA1700",
+      "performance_score": 162
+    },
+    {
+      "search_keyword": "AMD Ryzen 9 9950X3D 4.3 GHz 16-Core AM5",
+      "socket": "LGA1700",
+      "performance_score": 456
+    },
+    {
+      "search_keyword": "AMD Ryzen 5 5500GT",
+      "socket": "AM5",
+      "performance_score": 132
+    },
+    {
+      "search_keyword": "AMD Ryzen 9 5950X",
+      "socket": "AM5",
+      "performance_score": 392
+    },
+    {
+      "search_keyword": "AMD Ryzen 7 5700X3D 3.0 GHz 8-Core AM4",
+      "socket": "LGA1700",
+      "performance_score": 164
+    },
+    {
+      "search_keyword": "AMD Ryzen 7 9850X3D 4.7 GHz 8-Core AM5",
+      "socket": "LGA1700",
+      "performance_score": 224
+    },
+    {
+      "search_keyword": "AMD Ryzen 7 5700X 3.4 GHz 8-Core AM4",
+      "socket": "LGA1700",
+      "performance_score": 184
+    },
+    {
+      "search_keyword": "AMD Ryzen 9 9950X3D2 4.3 GHz 16-Core AM5",
+      "socket": "LGA1700",
+      "performance_score": 448
+    },
+    {
+      "search_keyword": "AMD Ryzen 5 7500F 3.7 GHz 6-Core AM5",
+      "socket": "LGA1700",
+      "performance_score": 150
+    },
+    {
+      "search_keyword": "AMD Ryzen 9 7900X 4.7 GHz 12-Core AM5",
+      "socket": "LGA1700",
+      "performance_score": 335
+    },
+    {
+      "search_keyword": "AMD Ryzen 9 9950X 4.3 GHz 16-Core AM5",
+      "socket": "LGA1700",
+      "performance_score": 456
+    },
+    {
+      "search_keyword": "AMD Ryzen 5 7600X 4.7 GHz 6-Core AM5",
+      "socket": "LGA1700",
+      "performance_score": 159
+    },
+    {
+      "search_keyword": "Intel Core i5 6400T 2.2 GHz 4-Core LGA1151 OEM/Tray",
+      "socket": "LGA1700",
+      "performance_score": 56
+    },
+    {
+      "search_keyword": "Intel Core i9 13900T 1.1 GHz 24-Core LGA1700 OEM/Tray",
+      "socket": "LGA1700",
+      "performance_score": 636
+    },
+    {
+      "search_keyword": "Intel Core i5 7600T 2.8 GHz 4-Core LGA1151",
+      "socket": "LGA1700",
+      "performance_score": 74
+    },
+    {
+      "search_keyword": "Intel Core i5 14400F 2.5 GHz 10-Core LGA1700",
+      "socket": "LGA1700",
+      "performance_score": 235
+    },
+    {
+      "search_keyword": "Intel Core i7 7700K 4.2 GHz 4-Core LGA1151",
+      "socket": "LGA1700",
+      "performance_score": 90
+    },
+    {
+      "search_keyword": "Intel Core i7 Extreme 6950X 3 GHz 10-Core LGA2011-3",
+      "socket": "LGA1700",
+      "performance_score": 175
+    },
+    {
+      "search_keyword": "Intel Core i5 4460S 2.9 GHz 4-Core LGA1150",
+      "socket": "LGA1700",
+      "performance_score": 68
+    },
+    {
+      "search_keyword": "Intel Core i9 13900K",
+      "socket": "LGA1700",
+      "performance_score": 696
+    },
+    {
+      "search_keyword": "Intel Core i5 3570S 3.1 GHz 4-Core LGA1155 OEM/Tray",
+      "socket": "LGA1700",
+      "performance_score": 76
+    },
+    {
+      "search_keyword": "Intel Core i5 8400 2.8 GHz 6-Core LGA1151",
+      "socket": "LGA1700",
+      "performance_score": 120
+    },
+    {
+      "search_keyword": "Intel Core i7 4930K 3.4 GHz 6-Core LGA2011",
+      "socket": "LGA1700",
+      "performance_score": 117
+    },
+    {
+      "search_keyword": "Intel Core i5 12600KF",
+      "socket": "LGA1700",
+      "performance_score": 245
+    },
+    {
+      "search_keyword": "Intel Core i7 5930K 3.5 GHz 6-Core LGA2011-3 OEM/Tray",
+      "socket": "LGA1700",
+      "performance_score": 111
+    },
+    {
+      "search_keyword": "Intel Core i3 9100 3.6 GHz 4-Core LGA1151",
+      "socket": "LGA1700",
+      "performance_score": 84
+    },
+    {
+      "search_keyword": "Intel Core i3 9320 3.7 GHz 4-Core LGA1151 OEM/Tray",
+      "socket": "LGA1700",
+      "performance_score": 88
+    },
+    {
+      "search_keyword": "Intel Core i7 7820X 3.6 GHz 8-Core LGA2066",
+      "socket": "LGA1700",
+      "performance_score": 180
+    },
+    {
+      "search_keyword": "Intel Core i7 4790K 4 GHz 4-Core LGA1150 OEM/Tray",
+      "socket": "LGA1700",
+      "performance_score": 88
+    },
+    {
+      "search_keyword": "Intel Core i7 6850K 3.6 GHz 6-Core LGA2011-3 OEM/Tray",
+      "socket": "LGA1700",
+      "performance_score": 113
+    },
+    {
+      "search_keyword": "Intel Core i7 Extreme 5960X 3 GHz 8-Core LGA2011-3",
+      "socket": "LGA1700",
+      "performance_score": 140
+    },
+    {
+      "search_keyword": "Intel Core i5 14500T 1.7 GHz 14-Core LGA1700 OEM/Tray",
+      "socket": "LGA1700",
+      "performance_score": 336
+    },
+    {
+      "search_keyword": "Intel Core i9-9920X",
+      "socket": "LGA1700",
+      "performance_score": 270
+    },
+    {
+      "search_keyword": "Intel Core i9 10850K 3.6 GHz 10-Core LGA1200",
+      "socket": "LGA1700",
+      "performance_score": 260
+    },
+    {
+      "search_keyword": "Intel Core i7 9800X 3.8 GHz 8-Core LGA2066",
+      "socket": "LGA1700",
+      "performance_score": 180
+    },
+    {
+      "search_keyword": "Intel Core i7 Extreme 6950X 3.0 GHz 10-Core LGA2011-3",
+      "socket": "LGA1700",
+      "performance_score": 175
+    },
+    {
+      "search_keyword": "Intel Core i7 4771 3.5 GHz 4-Core LGA1150",
+      "socket": "LGA1700",
+      "performance_score": 78
+    },
+    {
+      "search_keyword": "Intel Core i9 7940X 3.1 GHz 14-Core LGA2066",
+      "socket": "LGA1700",
+      "performance_score": 308
+    },
+    {
+      "search_keyword": "Intel Core i9 10900F 2.8 GHz 10-Core LGA1200",
+      "socket": "LGA1700",
+      "performance_score": 260
+    },
+    {
+      "search_keyword": "Intel Core i5 9500 3.0 GHz 6-Core LGA1151",
+      "socket": "LGA1700",
+      "performance_score": 132
+    },
+    {
+      "search_keyword": "Intel Core i3 12100F",
+      "socket": "LGA1700",
+      "performance_score": 86
+    },
+    {
+      "search_keyword": "Intel Core i9 14900F 2.0 GHz 24-Core LGA1700",
+      "socket": "LGA1700",
+      "performance_score": 696
+    },
+    {
+      "search_keyword": "Intel Core i5 7640X 4 GHz 4-Core LGA2066 OEM/Tray",
+      "socket": "LGA1700",
+      "performance_score": 84
+    },
+    {
+      "search_keyword": "Intel Core i9 11900 2.5 GHz 8-Core LGA1200",
+      "socket": "LGA1700",
+      "performance_score": 208
+    },
+    {
+      "search_keyword": "Intel Core i9 11900KF 3.5 GHz 8-Core LGA1200",
+      "socket": "LGA1700",
+      "performance_score": 212
+    },
+    {
+      "search_keyword": "Intel Core i7 6700K 4 GHz 4-Core LGA1151",
+      "socket": "LGA1700",
+      "performance_score": 84
+    },
+    {
+      "search_keyword": "Intel Core i9 14900 2 GHz 24-Core LGA1700",
+      "socket": "LGA1700",
+      "performance_score": 696
+    },
+    {
+      "search_keyword": "Intel Core i5 9500F 3 GHz 6-Core LGA1151",
+      "socket": "LGA1700",
+      "performance_score": 132
+    },
+    {
+      "search_keyword": "Intel Core i9-9820X X-series Processor (16.5M Cache, up to 4.20 GHz)",
+      "socket": "LGA1700",
+      "performance_score": 210
+    },
+    {
+      "search_keyword": "Intel Core i7 6900K 3.2 GHz 8-Core OEM/Tray LGA2011-3",
+      "socket": "LGA1700",
+      "performance_score": 148
+    },
+    {
+      "search_keyword": "Intel Core i7 4790T 2.7 GHz 4-Core LGA1150 OEM/Tray",
+      "socket": "LGA1700",
+      "performance_score": 78
+    },
+    {
+      "search_keyword": "Intel Core i5 12400F 2.5 GHz 6-Core LGA1700",
+      "socket": "LGA1700",
+      "performance_score": 132
+    },
+    {
+      "search_keyword": "Intel Core i9 7900X 3.3 GHz 10-Core LGA2066 OEM/Tray",
+      "socket": "LGA1700",
+      "performance_score": 225
+    },
+    {
+      "search_keyword": "Intel Core i9 9900T 2.1 GHz 8-Core LGA1151",
+      "socket": "LGA1700",
+      "performance_score": 176
+    },
+    {
+      "search_keyword": "Intel Core i9 10900KF 3.7 GHz 10-Core LGA1200",
+      "socket": "LGA1700",
+      "performance_score": 265
+    },
+    {
+      "search_keyword": "Intel Core i5 7500 OEM/Tray 3.4 GHz 4-Core LGA1151",
+      "socket": "LGA1700",
+      "performance_score": 76
+    },
+    {
+      "search_keyword": "Intel Core i5 4690K 3.5 GHz 4-Core LGA1150",
+      "socket": "LGA1700",
+      "performance_score": 78
+    },
+    {
+      "search_keyword": "Intel Core i7 7700T 2.9 GHz 4-Core LGA1151",
+      "socket": "LGA1700",
+      "performance_score": 76
+    },
+    {
+      "search_keyword": "Intel Core i3 9100F 3.6 GHz 4-Core LGA1151",
+      "socket": "LGA1700",
+      "performance_score": 84
+    },
+    {
+      "search_keyword": "Intel Core i5 9400T 1.8 GHz 6-Core LGA1151 (OEM/Tray)",
+      "socket": "LGA1700",
+      "performance_score": 102
+    },
+    {
+      "search_keyword": "Intel Core i9 10900 2.8 GHz 10-Core LGA1200",
+      "socket": "LGA1700",
+      "performance_score": 260
+    },
+    {
+      "search_keyword": "Intel Core i7 7700T 2.9 GHz 4-Core LGA1151 OEM/Tray",
+      "socket": "LGA1700",
+      "performance_score": 76
+    },
+    {
+      "search_keyword": "Intel Core i9 9980XE 3 GHz 18-Core LGA2066",
+      "socket": "LGA1700",
+      "performance_score": 396
+    },
+    {
+      "search_keyword": "Intel Core i7 4790K 4 GHz 4-Core LGA1150",
+      "socket": "LGA1700",
+      "performance_score": 88
+    },
+    {
+      "search_keyword": "Intel Core i3 10300 3.7 GHz 4-Core LGA1200",
+      "socket": "LGA1700",
+      "performance_score": 88
+    },
+    {
+      "search_keyword": "Intel Core i5 7400 3 GHz 4-Core LGA1151",
+      "socket": "LGA1700",
+      "performance_score": 70
+    },
+    {
+      "search_keyword": "Intel Core i5 13400F",
+      "socket": "LGA1700",
+      "performance_score": 230
+    },
+    {
+      "search_keyword": "Intel Core i7 6850K 3.6 GHz 6-Core LGA2011-3",
+      "socket": "LGA1700",
+      "performance_score": 113
+    },
+    {
+      "search_keyword": "Intel Core i7 10700KF 3.8 GHz 8-Core LGA1200",
+      "socket": "LGA1700",
+      "performance_score": 204
+    },
+    {
+      "search_keyword": "Intel Core i5 11600 2.8 GHz 6-Core LGA1200",
+      "socket": "LGA1700",
+      "performance_score": 144
+    },
+    {
+      "search_keyword": "Intel Core i5 9600K 3.7 GHz 6-Core LGA1151",
+      "socket": "LGA1700",
+      "performance_score": 138
+    },
+    {
+      "search_keyword": "Intel Core i9 9820X 3.3 GHz 10-Core LGA2066",
+      "socket": "LGA1700",
+      "performance_score": 205
+    },
+    {
+      "search_keyword": "Intel Core i9 11900K 3.5 GHz 8-Core LGA1200",
+      "socket": "LGA1700",
+      "performance_score": 212
+    },
+    {
+      "search_keyword": "Intel Core i7 13700K 3.4 GHz 16-Core LGA1700",
+      "socket": "LGA1700",
+      "performance_score": 424
+    },
+    {
+      "search_keyword": "Intel Core i5 4690S 3.2 GHz 4-Core LGA1150",
+      "socket": "LGA1700",
+      "performance_score": 78
+    },
+    {
+      "search_keyword": "Intel Core i5 7640X 4 GHz 4-Core LGA2066",
+      "socket": "LGA1700",
+      "performance_score": 84
+    },
+    {
+      "search_keyword": "Intel Core i5 9400 2.9 GHz 6-Core LGA1151 OEM/Tray",
+      "socket": "LGA1700",
+      "performance_score": 122
+    },
+    {
+      "search_keyword": "Intel Core i5 9500T 2.2 GHz 6-Core LGA1151",
+      "socket": "LGA1700",
+      "performance_score": 111
+    },
+    {
+      "search_keyword": "Intel Core i7 6700 3.4 GHz 4-Core LGA1151",
+      "socket": "LGA1700",
+      "performance_score": 80
+    },
+    {
+      "search_keyword": "Intel Core i7 13700T OEM/Tray 1.4 GHz 16-Core LGA1700",
+      "socket": "LGA1700",
+      "performance_score": 392
+    },
+    {
+      "search_keyword": "Intel Core i7 10700F 2.9 GHz 8-Core LGA1200",
+      "socket": "LGA1700",
+      "performance_score": 192
+    },
+    {
+      "search_keyword": "Intel Core i5 6500T 2.5 GHz 4-Core LGA1151",
+      "socket": "LGA1700",
+      "performance_score": 62
+    },
+    {
+      "search_keyword": "Intel Core i9 13900KF 3.0 GHz 24-Core LGA1700",
+      "socket": "LGA1700",
+      "performance_score": 696
+    },
+    {
+      "search_keyword": "Intel Core i5 11400 2.6 GHz 6-Core LGA1200",
+      "socket": "LGA1700",
+      "performance_score": 132
+    },
+    {
+      "search_keyword": "Intel Core i7 7700 3.6 GHz 4-Core LGA1151 OEM/Tray",
+      "socket": "LGA1700",
+      "performance_score": 84
+    },
+    {
+      "search_keyword": "Intel Core i7 8700 3.2 GHz 6-Core LGA1151 OEM/Tray",
+      "socket": "LGA1700",
+      "performance_score": 138
+    },
+    {
+      "search_keyword": "Intel Core i7 7700K 4.2 GHz 4-Core LGA1151 OEM/Tray",
+      "socket": "LGA1700",
+      "performance_score": 90
+    },
+    {
+      "search_keyword": "Intel Core i9 10900X 3.7 GHz 10-Core",
+      "socket": "LGA1700",
+      "performance_score": 235
+    },
+    {
+      "search_keyword": "Intel Core i9-9900X",
+      "socket": "LGA1700",
+      "performance_score": 220
+    },
+    {
+      "search_keyword": "Intel Core i5 12500 3.0 GHz 6-Core LGA1700",
+      "socket": "LGA1700",
+      "performance_score": 138
+    },
+    {
+      "search_keyword": "Intel Core i5 7600T 2.8 GHz 4-Core LGA1151 OEM/Tray",
+      "socket": "LGA1700",
+      "performance_score": 74
+    },
+    {
+      "search_keyword": "Intel Core i7-9800X Skylake X 8-Core 3.8 GHz (4.4 GHz Turbo) LGA 2066 165W BX80673I79800X Desktop Processor",
+      "socket": "LGA1700",
+      "performance_score": 176
+    },
+    {
+      "search_keyword": "Intel Core i7 4790 3.6 GHz 4-Core LGA1150",
+      "socket": "LGA1700",
+      "performance_score": 80
+    },
+    {
+      "search_keyword": "Intel Core i9 7960X 2.8 GHz 16-Core LGA2066 OEM/Tray",
+      "socket": "LGA1700",
+      "performance_score": 352
+    },
+    {
+      "search_keyword": "Intel Core i7 Extreme 4960X 3.6 GHz 6-Core LGA2011",
+      "socket": "LGA1700",
+      "performance_score": 120
+    },
+    {
+      "search_keyword": "Intel Core i5 8500 3 GHz 6-Core LGA1151",
+      "socket": "LGA1700",
+      "performance_score": 122
+    },
+    {
+      "search_keyword": "Intel Core i9 9900X 3.5 GHz 10-Core LGA2066",
+      "socket": "LGA1700",
+      "performance_score": 220
+    },
+    {
+      "search_keyword": "Intel Core i5 8600 3.1 GHz 6-Core LGA1151 OEM/Tray",
+      "socket": "LGA1700",
+      "performance_score": 129
+    },
+    {
+      "search_keyword": "Intel Core i5 6500T 2.5 GHz 4-Core LGA1151 OEM/Tray",
+      "socket": "LGA1700",
+      "performance_score": 62
+    },
+    {
+      "search_keyword": "Intel Core i7 8700T 2.4 GHz 6-Core LGA1151 OEM/Tray",
+      "socket": "LGA1700",
+      "performance_score": 120
+    },
+    {
+      "search_keyword": "Intel Core i7 9700K 3.6 GHz 8-Core LGA1151 OEM/Tray",
+      "socket": "LGA1700",
+      "performance_score": 196
+    },
+    {
+      "search_keyword": "Intel Core i7-7820X",
+      "socket": "LGA1700",
+      "performance_score": 180
+    },
+    {
+      "search_keyword": "Intel Core i7 14700KF 3.4 GHz 20-Core LGA1700",
+      "socket": "LGA1700",
+      "performance_score": 550
+    },
+    {
+      "search_keyword": "Intel Core i5 9400 2.9 GHz 6-Core LGA1151",
+      "socket": "LGA1700",
+      "performance_score": 122
+    },
+    {
+      "search_keyword": "Intel Core i3-6100 Processor 3M Cache 3.70 GHz",
+      "socket": "LGA1700",
+      "performance_score": 45
+    },
+    {
+      "search_keyword": "Intel Core i7 12700K 3.6 GHz 12-Core LGA1700",
+      "socket": "LGA1700",
+      "performance_score": 294
+    },
+    {
+      "search_keyword": "Intel Core i9 7900X 3.3 GHz 10-Core LGA2066",
+      "socket": "LGA1700",
+      "performance_score": 225
+    },
+    {
+      "search_keyword": "Intel Core i5 10600KF 4.1 GHz 6-Core LGA1200",
+      "socket": "LGA1700",
+      "performance_score": 144
+    },
+    {
+      "search_keyword": "Intel Core i3 12100T 2.2 GHz 4-Core LGA1700 OEM/Tray",
+      "socket": "LGA1700",
+      "performance_score": 82
+    },
+    {
+      "search_keyword": "Intel Core i5 10500 3.1 GHz 6-Core LGA1200",
+      "socket": "LGA1700",
+      "performance_score": 135
+    },
+    {
+      "search_keyword": "Intel Core i7 7800X 3.5 GHz 6-Core LGA2066 OEM/Tray",
+      "socket": "LGA1700",
+      "performance_score": 120
+    },
+    {
+      "search_keyword": "Intel Core i7 14700 2.1 GHz 20-Core LGA1700",
+      "socket": "LGA1700",
+      "performance_score": 540
+    },
+    {
+      "search_keyword": "Intel Core i9 7920X 2.9 GHz 12-Core LGA2066",
+      "socket": "LGA1700",
+      "performance_score": 264
+    },
+    {
+      "search_keyword": "Intel Core i3-8100",
+      "socket": "LGA1700",
+      "performance_score": 90
+    },
+    {
+      "search_keyword": "Intel Core i7 7700 3.6 GHz 4-Core LGA1151",
+      "socket": "LGA1700",
+      "performance_score": 84
+    },
+    {
+      "search_keyword": "Intel Core i9 9900 3.1 GHz 8-Core LGA1151",
+      "socket": "LGA1700",
+      "performance_score": 200
+    },
+    {
+      "search_keyword": "Intel Core i5 8600K 3.6 GHz 6-Core LGA1151",
+      "socket": "LGA1700",
+      "performance_score": 129
+    },
+    {
+      "search_keyword": "Intel Core i3 7100T",
+      "socket": "LGA1700",
+      "performance_score": 45
+    },
+    {
+      "search_keyword": "Intel Core i9 7980XE 2.6 GHz 18-Core LGA2066 OEM/Tray",
+      "socket": "LGA1700",
+      "performance_score": 396
+    },
+    {
+      "search_keyword": "Intel Core i9 9900KS 4 GHz 8-Core LGA1151",
+      "socket": "LGA1700",
+      "performance_score": 200
+    },
+    {
+      "search_keyword": "Intel Core i7 6900K 3.2 GHz 8-Core LGA2011-3",
+      "socket": "LGA1700",
+      "performance_score": 148
+    },
+    {
+      "search_keyword": "Intel Core i5 4670S 3.1 GHz 4-Core LGA1150",
+      "socket": "LGA1700",
+      "performance_score": 76
+    },
+    {
+      "search_keyword": "Intel Core i5 14600KF 3.5 GHz 14-Core LGA1700",
+      "socket": "LGA1700",
+      "performance_score": 371
+    },
+    {
+      "search_keyword": "Intel Core i9 7960X 2.8 GHz 16-Core LGA2066",
+      "socket": "LGA1700",
+      "performance_score": 352
+    },
+    {
+      "search_keyword": "Intel Core i7 9700 3.0 GHz 8-Core LGA1151",
+      "socket": "LGA1700",
+      "performance_score": 188
+    },
+    {
+      "search_keyword": "Intel Core i7 4770K 3.5 GHz 4-Core LGA1150",
+      "socket": "LGA1700",
+      "performance_score": 78
+    },
+    {
+      "search_keyword": "Intel Core i7 6700T 2.8 GHz 4-Core LGA1151 OEM/Tray",
+      "socket": "LGA1700",
+      "performance_score": 72
+    },
+    {
+      "search_keyword": "Intel Core i9 9960X 3.1 GHz 16-Core LGA2066",
+      "socket": "LGA1700",
+      "performance_score": 352
+    },
+    {
+      "search_keyword": "Intel Core i9 12900F 2.4 GHz 16-Core LGA1700",
+      "socket": "LGA1700",
+      "performance_score": 408
+    },
+    {
+      "search_keyword": "Intel Core i7-11700",
+      "socket": "LGA1700",
+      "performance_score": 196
+    },
+    {
+      "search_keyword": "Intel Core i7 6800K 3.4 GHz 6-Core LGA2011-3",
+      "socket": "LGA1700",
+      "performance_score": 108
+    },
+    {
+      "search_keyword": "Intel Core i3 9300 3.7 GHz 4-Core LGA1151",
+      "socket": "LGA1700",
+      "performance_score": 86
+    },
+    {
+      "search_keyword": "Intel Core i5 7500T 2.7 GHz 4-Core LGA1151",
+      "socket": "LGA1700",
+      "performance_score": 66
+    },
+    {
+      "search_keyword": "Intel Core i3 9300 3.7 GHz 4-Core LGA1151 OEM/Tray",
+      "socket": "LGA1700",
+      "performance_score": 86
+    },
+    {
+      "search_keyword": "Intel Core i9 10900K 3.7 GHz 10-Core LGA1200",
+      "socket": "LGA1700",
+      "performance_score": 265
+    },
+    {
+      "search_keyword": "Intel Core i5 8600T 2.3 GHz 6-Core LGA1151 OEM/Tray",
+      "socket": "LGA1700",
+      "performance_score": 111
+    },
+    {
+      "search_keyword": "Intel Core i3 14100 3.5 GHz 4-Core LGA1700",
+      "socket": "LGA1700",
+      "performance_score": 94
+    },
+    {
+      "search_keyword": "Intel Core i5 14600K",
+      "socket": "LGA1700",
+      "performance_score": 371
+    },
+    {
+      "search_keyword": "Intel Core i9-9960X",
+      "socket": "LGA1700",
+      "performance_score": 360
+    },
+    {
+      "search_keyword": "Intel Core i7 14700K 3.4 GHz 20-Core LGA1700",
+      "socket": "LGA1700",
+      "performance_score": 550
+    },
+    {
+      "search_keyword": "Intel Core i7 10700K Avengers Collector's Edition 3.8 GHz 8-Core LGA1200",
+      "socket": "LGA1700",
+      "performance_score": 204
+    },
+    {
+      "search_keyword": "Intel Core i7 11700F 2.5 GHz 8-Core LGA1200",
+      "socket": "LGA1700",
+      "performance_score": 196
+    },
+    {
+      "search_keyword": "Intel Core i3 12100 3.3 GHz 4-Core LGA1700",
+      "socket": "LGA1700",
+      "performance_score": 86
+    },
+    {
+      "search_keyword": "Intel Core i5 7600K 3.8 GHz 4-Core LGA1151 OEM/Tray",
+      "socket": "LGA1700",
+      "performance_score": 84
+    },
+    {
+      "search_keyword": "Intel Core i3 9320 3.7 GHz 4-Core LGA1151",
+      "socket": "LGA1700",
+      "performance_score": 88
+    },
+    {
+      "search_keyword": "Intel Core i5 6600K 3.5 GHz 4-Core LGA1151",
+      "socket": "LGA1700",
+      "performance_score": 78
+    },
+    {
+      "search_keyword": "Intel Core i9 9900K 3.6 GHz 8-Core LGA1151 OEM/Tray",
+      "socket": "LGA1700",
+      "performance_score": 200
+    },
+    {
+      "search_keyword": "Intel Core i7 5820K 3.3 GHz 6-Core LGA2011-3",
+      "socket": "LGA1700",
+      "performance_score": 108
+    },
+    {
+      "search_keyword": "Intel Core i9 9940X",
+      "socket": "LGA1700",
+      "performance_score": 308
+    },
+    {
+      "search_keyword": "Intel Core i9 13900KS",
+      "socket": "LGA1700",
+      "performance_score": 720
+    },
+    {
+      "search_keyword": "Intel Core i9 10980XE 3 GHz 18-Core LGA2066",
+      "socket": "LGA1700",
+      "performance_score": 431
+    },
+    {
+      "search_keyword": "Intel Core i9-10980XE Extreme Edition",
+      "socket": "LGA1700",
+      "performance_score": 431
+    },
+    {
+      "search_keyword": "Intel Core i7 8086K 4 GHz 6-Core LGA1151",
+      "socket": "LGA1700",
+      "performance_score": 150
+    },
+    {
+      "search_keyword": "Intel Core i9 9920X 3.5 GHz 12-Core LGA2066",
+      "socket": "LGA1700",
+      "performance_score": 264
+    },
+    {
+      "search_keyword": "Intel Core i9 10940X 3.3 GHz 14-Core LGA2066",
+      "socket": "LGA1700",
+      "performance_score": 336
+    },
+    {
+      "search_keyword": "Intel Core i5 9500F 3.0 GHz 6-Core LGA1151 OEM/Tray",
+      "socket": "LGA1700",
+      "performance_score": 132
+    },
+    {
+      "search_keyword": "Intel Core i5 10400F",
+      "socket": "LGA1700",
+      "performance_score": 129
+    },
+    {
+      "search_keyword": "Intel Core i9 11900F 2.5 GHz 8-Core LGA1200",
+      "socket": "LGA1700",
+      "performance_score": 208
+    },
+    {
+      "search_keyword": "Intel Core i9 9900K (Standard Folding Box) 3.6 GHz 8-Core LGA1151",
+      "socket": "LGA1700",
+      "performance_score": 200
+    },
+    {
+      "search_keyword": "Intel Core i7 4770 3.4 GHz 4-Core LGA1150",
+      "socket": "LGA1700",
+      "performance_score": 78
+    },
+    {
+      "search_keyword": "Intel Core i7 9800X 3.8 GHz 8-Core LGA2066 OEM/Tray",
+      "socket": "LGA1700",
+      "performance_score": 180
+    },
+    {
+      "search_keyword": "Intel Core i7 7740X 4.3 GHz 4-Core LGA2066",
+      "socket": "LGA1700",
+      "performance_score": 90
+    },
+    {
+      "search_keyword": "Intel Core i3 9350K 4 GHz 4-Core LGA1151",
+      "socket": "LGA1700",
+      "performance_score": 92
+    },
+    {
+      "search_keyword": "Intel Core i5 6600T 2.7 GHz 4-Core LGA1151",
+      "socket": "LGA1700",
+      "performance_score": 70
+    },
+    {
+      "search_keyword": "Intel Core i5 10600 3.3 GHz 6-Core LGA1200",
+      "socket": "LGA1700",
+      "performance_score": 144
+    },
+    {
+      "search_keyword": "Intel Core i5 3550S 3 GHz 4-Core LGA1155 (OEM/Tray)",
+      "socket": "LGA1700",
+      "performance_score": 74
+    },
+    {
+      "search_keyword": "Intel Core i9 13900 2 GHz 24-Core LGA1700",
+      "socket": "LGA1700",
+      "performance_score": 671
+    },
+    {
+      "search_keyword": "Intel Core i5 9500 3 GHz 6-Core LGA1151 OEM/Tray",
+      "socket": "LGA1700",
+      "performance_score": 132
+    },
+    {
+      "search_keyword": "Intel Core i7 13700 2.1 GHz 16-Core LGA1700",
+      "socket": "LGA1700",
+      "performance_score": 416
+    },
+    {
+      "search_keyword": "Intel Core i5 6500",
+      "socket": "LGA1700",
+      "performance_score": 72
+    },
+    {
+      "search_keyword": "Intel Core i5 4590S 3.0 GHz 4-Core LGA1150",
+      "socket": "LGA1700",
+      "performance_score": 74
+    },
+    {
+      "search_keyword": "Intel Core i9 14900KS 3.2 GHz 24-Core LGA1700",
+      "socket": "LGA1700",
+      "performance_score": 684
+    },
+    {
+      "search_keyword": "Intel Core i7 12700F",
+      "socket": "LGA1700",
+      "performance_score": 294
+    },
+    {
+      "search_keyword": "Intel Core i5 9600KF 3.7 GHz 6-Core LGA1151",
+      "socket": "LGA1700",
+      "performance_score": 138
+    },
+    {
+      "search_keyword": "Intel Core i7 12700 2.1 GHz 12-Core LGA1700",
+      "socket": "LGA1700",
+      "performance_score": 294
+    },
+    {
+      "search_keyword": "Intel Core i5 6600T 2.7 GHz 4-Core LGA1151 OEM/Tray",
+      "socket": "LGA1700",
+      "performance_score": 70
+    },
+    {
+      "search_keyword": "Intel Core i7 13700KF",
+      "socket": "LGA1700",
+      "performance_score": 432
+    },
+    {
+      "search_keyword": "Intel Core i9 12900KS 3.4 GHz 16-Core LGA1700",
+      "socket": "LGA1700",
+      "performance_score": 440
+    },
+    {
+      "search_keyword": "Intel Core i9 12900KF 3.2 GHz 16-Core LGA1700",
+      "socket": "LGA1700",
+      "performance_score": 416
+    },
+    {
+      "search_keyword": "Intel Core i5 6400 2.7 GHz 4-Core LGA1151",
+      "socket": "LGA1700",
+      "performance_score": 66
+    },
+    {
+      "search_keyword": "Intel Core i3 9350K 4 GHz 4-Core LGA1151 OEM/Tray",
+      "socket": "LGA1700",
+      "performance_score": 92
+    },
+    {
+      "search_keyword": "Intel Core i7 11700K 3.6 GHz 8-Core LGA1200",
+      "socket": "LGA1700",
+      "performance_score": 200
+    },
+    {
+      "search_keyword": "Intel Core i5 10400 2.9 GHz 6-Core LGA1200",
+      "socket": "LGA1700",
+      "performance_score": 129
+    },
+    {
+      "search_keyword": "Intel Core i5 5675C 3.1 GHz 4-Core LGA1150 OEM/Tray",
+      "socket": "LGA1700",
+      "performance_score": 72
+    },
+    {
+      "search_keyword": "Intel Core i7 8700K 3.7 GHz 6-Core LGA1151 OEM/Tray",
+      "socket": "LGA1700",
+      "performance_score": 141
+    },
+    {
+      "search_keyword": "Intel Core i3 10105 3.7 GHz 4-Core LGA1200",
+      "socket": "LGA1700",
+      "performance_score": 88
+    },
+    {
+      "search_keyword": "Intel Core i7 9700F 3 GHz 8-Core LGA1151 (OEM/Tray)",
+      "socket": "LGA1700",
+      "performance_score": 188
+    },
+    {
+      "search_keyword": "Intel Core i7 9700KF 3.6 GHz 8-Core LGA1151",
+      "socket": "LGA1700",
+      "performance_score": 196
+    },
+    {
+      "search_keyword": "Intel Core i9 9920X 3.5 GHz 12-Core LGA2066 OEM/Tray",
+      "socket": "LGA1700",
+      "performance_score": 264
+    },
+    {
+      "search_keyword": "Intel Core i7 7800X 3.5 GHz 6-Core LGA2066",
+      "socket": "LGA1700",
+      "performance_score": 120
+    },
+    {
+      "search_keyword": "Intel Core i3 10100T 3 GHz 4-Core LGA1200 OEM/Tray",
+      "socket": "LGA1700",
+      "performance_score": 76
+    },
+    {
+      "search_keyword": "Intel Core i7 6700T 2.8 GHz 4-Core LGA1151",
+      "socket": "LGA1700",
+      "performance_score": 72
+    },
+    {
+      "search_keyword": "Intel Core i3 13100T 2.5 GHz 4-Core LGA1700 OEM/Tray",
+      "socket": "LGA1700",
+      "performance_score": 84
+    },
+    {
+      "search_keyword": "Intel Core i9 7980XE 2.6 GHz 18-Core LGA2066",
+      "socket": "LGA1700",
+      "performance_score": 396
+    },
+    {
+      "search_keyword": "Intel Core i7 7820X 3.6 GHz 8-Core LGA2066 OEM/Tray",
+      "socket": "LGA1700",
+      "performance_score": 180
+    },
+    {
+      "search_keyword": "Intel Core i3 14100F",
+      "socket": "LGA1700",
+      "performance_score": 94
+    },
+    {
+      "search_keyword": "Intel Core i3 9350KF 4 GHz 4-Core LGA1151",
+      "socket": "LGA1700",
+      "performance_score": 92
+    },
+    {
+      "search_keyword": "Intel Core i9 12900K",
+      "socket": "LGA1700",
+      "performance_score": 416
+    },
+    {
+      "search_keyword": "Intel Core i5 4590 3.3 GHz 4-Core LGA1150",
+      "socket": "LGA1700",
+      "performance_score": 74
+    },
+    {
+      "search_keyword": "Intel Core i9 9900KF 3.6 GHz 8-Core LGA1151",
+      "socket": "LGA1700",
+      "performance_score": 200
+    },
+    {
+      "search_keyword": "Intel Core i9-9900K",
+      "socket": "LGA1700",
+      "performance_score": 200
+    },
+    {
+      "search_keyword": "Intel Core i7 Extreme 5960X 3 GHz 8-Core LGA2011-3 OEM/Tray",
+      "socket": "LGA1700",
+      "performance_score": 140
+    },
+    {
+      "search_keyword": "Intel Core i5 13600KF",
+      "socket": "LGA1700",
+      "performance_score": 356
+    },
+    {
+      "search_keyword": "Intel Core i9 12900 2.4 GHz 16-Core LGA1700",
+      "socket": "LGA1700",
+      "performance_score": 408
+    },
+    {
+      "search_keyword": "Intel Core i5 11600K 3.9 GHz 6-Core LGA1200",
+      "socket": "LGA1700",
+      "performance_score": 147
+    },
+    {
+      "search_keyword": "Intel Core i5 6400T 2.2 GHz 4-Core LGA1151",
+      "socket": "LGA1700",
+      "performance_score": 56
+    },
+    {
+      "search_keyword": "Intel Core i9-7960X X-series Processor",
+      "socket": "LGA1700",
+      "performance_score": 336
+    },
+    {
+      "search_keyword": "Intel Core i9 9960X 3.1 GHz 16-Core LGA2066 OEM/Tray",
+      "socket": "LGA1700",
+      "performance_score": 352
+    },
+    {
+      "search_keyword": "Intel Core i3-8350K",
+      "socket": "LGA1700",
+      "performance_score": 90
+    },
+    {
+      "search_keyword": "Intel Core i5 7500 3.4 GHz 4-Core LGA1151",
+      "socket": "LGA1700",
+      "performance_score": 76
+    },
+    {
+      "search_keyword": "Intel Core i7 6800K Core 3.4 GHz 6-Core LGA2011-3 OEM/Tray",
+      "socket": "LGA1700",
+      "performance_score": 108
+    },
+    {
+      "search_keyword": "Intel Core i5 9400F 2.9 GHz 6-Core LGA1151 OEM/Tray",
+      "socket": "LGA1700",
+      "performance_score": 122
+    },
+    {
+      "search_keyword": "Intel Core i5 8500 3 GHz 6-Core LGA1151 OEM/Tray",
+      "socket": "LGA1700",
+      "performance_score": 122
+    },
+    {
+      "search_keyword": "Intel Core i3 10305 3.8 GHz 4-Core LGA1200",
+      "socket": "LGA1700",
+      "performance_score": 90
+    },
+    {
+      "search_keyword": "Intel Core i7 9700F 3.0 GHz 8-Core LGA1151",
+      "socket": "LGA1700",
+      "performance_score": 188
+    },
+    {
+      "search_keyword": "Intel Core i7 8700 3.2 GHz 6-Core LGA1151",
+      "socket": "LGA1700",
+      "performance_score": 138
+    },
+    {
+      "search_keyword": "Intel Core i5 7400T 2.4 GHz 4-Core LGA1151",
+      "socket": "LGA1700",
+      "performance_score": 60
+    },
+    {
+      "search_keyword": "Intel Core i5 8600K 3.6 GHz 6-Core LGA1151 OEM/Tray",
+      "socket": "LGA1700",
+      "performance_score": 129
+    },
+    {
+      "search_keyword": "Intel Core i5 14400",
+      "socket": "LGA1700",
+      "performance_score": 235
+    },
+    {
+      "search_keyword": "Intel Core i7 4790S 3.2 GHz 4-Core LGA1150",
+      "socket": "LGA1700",
+      "performance_score": 80
+    },
+    {
+      "search_keyword": "Intel Core i5 7600 3.5 GHz 4-Core LGA1151 OEM/Tray",
+      "socket": "LGA1700",
+      "performance_score": 82
+    },
+    {
+      "search_keyword": "Intel Core i5 6600 3.3 GHz Quad-Core LGA1151 OEM/Tray",
+      "socket": "LGA1700",
+      "performance_score": 78
+    },
+    {
+      "search_keyword": "Intel Core i3 10105F 3.7 GHz 4-Core LGA1200",
+      "socket": "LGA1700",
+      "performance_score": 88
+    },
+    {
+      "search_keyword": "Intel Core i7 4790 3.6 GHz 4-Core LGA1150 OEM/Tray",
+      "socket": "LGA1700",
+      "performance_score": 80
+    },
+    {
+      "search_keyword": "Intel Core i5 13400 2.5 GHz 10-Core LGA1700",
+      "socket": "LGA1700",
+      "performance_score": 230
+    },
+    {
+      "search_keyword": "Intel Core i9 9940X 3.3 GHz 14-Core LGA2066 OEM/Tray",
+      "socket": "LGA1700",
+      "performance_score": 308
+    },
+    {
+      "search_keyword": "Intel Core i5 13600 2.7 GHz 14-Core LGA1700",
+      "socket": "LGA1700",
+      "performance_score": 350
+    },
+    {
+      "search_keyword": "Intel Core i3 9100T OEM/Tray 3.1 GHz 4-Core LGA1151",
+      "socket": "LGA1700",
+      "performance_score": 74
+    },
+    {
+      "search_keyword": "Intel Core i3 10320 3.8 GHz 4-Core LGA1200",
+      "socket": "LGA1700",
+      "performance_score": 92
+    },
+    {
+      "search_keyword": "Intel Core i5 3340S 2.8 GHz 4-Core LGA1155",
+      "socket": "LGA1700",
+      "performance_score": 66
+    },
+    {
+      "search_keyword": "Intel Core i5 7600 3.5 GHz 4-Core LGA1151",
+      "socket": "LGA1700",
+      "performance_score": 82
+    },
+    {
+      "search_keyword": "Intel Core i7 10700K 3.8 GHz 8-Core LGA1200",
+      "socket": "LGA1700",
+      "performance_score": 204
+    },
+    {
+      "search_keyword": "Intel Core i7 5930K 3.5 GHz 6-Core LGA2011-3",
+      "socket": "LGA1700",
+      "performance_score": 111
+    },
+    {
+      "search_keyword": "Intel Core i9 9900 3.1 GHz 8-Core LGA1151 OEM/Tray",
+      "socket": "LGA1700",
+      "performance_score": 200
+    },
+    {
+      "search_keyword": "Intel Core i5 3340 3.1 GHz 4-Core LGA1155",
+      "socket": "LGA1700",
+      "performance_score": 66
+    },
+    {
+      "search_keyword": "Intel Core i9 13900F 2.0 GHz 24-Core LGA1700",
+      "socket": "LGA1700",
+      "performance_score": 671
+    },
+    {
+      "search_keyword": "Intel Core i5 4690 3.5 GHz 4-Core LGA1150",
+      "socket": "LGA1700",
+      "performance_score": 78
+    },
+    {
+      "search_keyword": "Intel Core i5 12600K",
+      "socket": "LGA1700",
+      "performance_score": 245
+    },
+    {
+      "search_keyword": "Intel Core i7 14700F",
+      "socket": "LGA1700",
+      "performance_score": 540
+    },
+    {
+      "search_keyword": "Intel Core i5 4440S 2.8 GHz 4-Core LGA1150",
+      "socket": "LGA1700",
+      "performance_score": 66
+    },
+    {
+      "search_keyword": "Intel Core i9 7940X 3.1 GHz 14-Core LGA2066 OEM/Tray",
+      "socket": "LGA1700",
+      "performance_score": 308
+    },
+    {
+      "search_keyword": "Intel Core i5 8400T 1.7 GHz 6-Core LGA1151 OEM/Tray",
+      "socket": "LGA1700",
+      "performance_score": 98
+    },
+    {
+      "search_keyword": "Intel Core i5 7600K 3.8 GHz 4-Core LGA1151",
+      "socket": "LGA1700",
+      "performance_score": 84
+    },
+    {
+      "search_keyword": "Intel Core i7 9700 3 GHz 8-Core LGA1151 OEM/Tray",
+      "socket": "LGA1700",
+      "performance_score": 188
+    },
+    {
+      "search_keyword": "Intel Core i5 8400 2.8 GHz 6-Core LGA1151 OEM/Tray",
+      "socket": "LGA1700",
+      "performance_score": 120
+    },
+    {
+      "search_keyword": "Intel Core i3 10325 3.9 GHz 4-Core LGA1200",
+      "socket": "LGA1700",
+      "performance_score": 94
+    },
+    {
+      "search_keyword": "Intel Core i5 11500 2.7 GHz 6-Core LGA1200",
+      "socket": "LGA1700",
+      "performance_score": 138
+    },
+    {
+      "search_keyword": "Intel Core i5 9600K 3.7 GHz 6-Core LGA1151 OEM/Tray",
+      "socket": "LGA1700",
+      "performance_score": 138
+    },
+    {
+      "search_keyword": "Intel Core i5 9600 3.1 GHz 6-Core LGA1151",
+      "socket": "LGA1700",
+      "performance_score": 138
+    },
+    {
+      "search_keyword": "Intel Core i3 10100F",
+      "socket": "LGA1700",
+      "performance_score": 86
+    },
+    {
+      "search_keyword": "Intel Core i7-7820X 3.6 GHz 8-Core",
+      "socket": "LGA1700",
+      "performance_score": 180
+    },
+    {
+      "search_keyword": "Intel Core i9 10850KA Avengers Limited Edition 3.6 GHz 10-Core LGA1200",
+      "socket": "LGA1700",
+      "performance_score": 260
+    },
+    {
+      "search_keyword": "Intel Core i5 9600 3.1 GHz 6-Core LGA1151 OEM/Tray",
+      "socket": "LGA1700",
+      "performance_score": 138
+    },
+    {
+      "search_keyword": "Intel Core i9 10920X 3.5 GHz 12-Core LGA2066",
+      "socket": "LGA1700",
+      "performance_score": 288
+    },
+    {
+      "search_keyword": "Intel Core i9-9940X X-series Processor",
+      "socket": "LGA1700",
+      "performance_score": 315
+    },
+    {
+      "search_keyword": "Intel Core i7 9700T 2 GHz 8-Core LGA1151 OEM/Tray",
+      "socket": "LGA1700",
+      "performance_score": 172
+    },
+    {
+      "search_keyword": "Intel Core i7 6700K 4 GHz 4-Core LGA1151 OEM/Tray",
+      "socket": "LGA1700",
+      "performance_score": 84
+    },
+    {
+      "search_keyword": "Intel Core i7 3770T 2.5 GHz 4-Core LGA1155",
+      "socket": "LGA1700",
+      "performance_score": 74
+    },
+    {
+      "search_keyword": "Intel Core i7 9700K 3.6 GHz 8-Core LGA1151",
+      "socket": "LGA1700",
+      "performance_score": 196
+    },
+    {
+      "search_keyword": "Intel Core i5 8500T 2.1 GHz 6-Core LGA1151",
+      "socket": "LGA1700",
+      "performance_score": 105
+    },
+    {
+      "search_keyword": "Intel Core i7 5775C 3.3 GHz 4-Core LGA1150 OEM/Tray",
+      "socket": "LGA1700",
+      "performance_score": 74
+    },
+    {
+      "search_keyword": "Intel Core i3 13100 3.4 GHz 4-Core LGA1700",
+      "socket": "LGA1700",
+      "performance_score": 90
+    },
+    {
+      "search_keyword": "Intel Core i7 5775C 3.3 GHz 4-Core LGA1150",
+      "socket": "LGA1700",
+      "performance_score": 74
+    },
+    {
+      "search_keyword": "Intel Core i5 4460 3.2 GHz 4-Core LGA1150",
+      "socket": "LGA1700",
+      "performance_score": 68
+    },
+    {
+      "search_keyword": "Intel Core i3 13100F 3.4 GHz 4-Core LGA1700",
+      "socket": "LGA1700",
+      "performance_score": 90
+    },
+    {
+      "search_keyword": "Intel Core i5 7400T 2.4 GHz 4-Core LGA1151 OEM/Tray",
+      "socket": "LGA1700",
+      "performance_score": 60
+    },
+    {
+      "search_keyword": "Intel Core i5-10500 Processor",
+      "socket": "LGA1700",
+      "performance_score": 135
+    },
+    {
+      "search_keyword": "Intel Core i7 8700K 3.7 GHz 6-Core LGA1151",
+      "socket": "LGA1700",
+      "performance_score": 141
+    },
+    {
+      "search_keyword": "Intel Core i5 14500 2.6 GHz 14-Core LGA1700",
+      "socket": "LGA1700",
+      "performance_score": 350
+    },
+    {
+      "search_keyword": "Intel Core i7 11700KF 3.6 GHz 8-Core LGA1200",
+      "socket": "LGA1700",
+      "performance_score": 200
+    },
+    {
+      "search_keyword": "Intel Core i5 10600K 4.1 GHz 6-Core LGA1200",
+      "socket": "LGA1700",
+      "performance_score": 144
+    },
+    {
+      "search_keyword": "Intel Core i5 9600T 2.3 GHz 6-Core LGA1151",
+      "socket": "LGA1700",
+      "performance_score": 117
+    },
+    {
+      "search_keyword": "Intel Core i5 11600KF 3.9 GHz 6-Core LGA1200",
+      "socket": "LGA1700",
+      "performance_score": 147
+    },
+    {
+      "search_keyword": "Intel Core i5 3330S 2.7 GHz 4-Core LGA1155 OEM/Tray",
+      "socket": "LGA1700",
+      "performance_score": 64
+    },
+    {
+      "search_keyword": "Intel Core i9 14900K 3.2 GHz 24-Core LGA1700",
+      "socket": "LGA1700",
+      "performance_score": 671
+    },
+    {
+      "search_keyword": "Intel Core i7-11700 2.5 GHz 8-Core",
+      "socket": "LGA1700",
+      "performance_score": 196
+    },
+    {
+      "search_keyword": "Intel Core i5-10600 Processor",
+      "socket": "LGA1700",
+      "performance_score": 144
+    },
+    {
+      "search_keyword": "Intel Core i9 9980XE 3 GHz 18-Core LGA2066 OEM/Tray",
+      "socket": "LGA1700",
+      "performance_score": 396
+    },
+    {
+      "search_keyword": "Intel Core i5 6402P 2.8 GHz 4-Core LGA1151",
+      "socket": "LGA1700",
+      "performance_score": 68
+    },
+    {
+      "search_keyword": "Intel Core i7 5820K 3.3 GHz 6-Core LGA2011-3 OEM/Tray",
+      "socket": "LGA1700",
+      "performance_score": 108
+    },
+    {
+      "search_keyword": "Intel Core i7 13700F 2.1 GHz 16-Core LGA1700",
+      "socket": "LGA1700",
+      "performance_score": 416
+    },
+    {
+      "search_keyword": "Intel Core i7 10700 2.9 GHz 8-Core LGA1200",
+      "socket": "LGA1700",
+      "performance_score": 192
+    },
+    {
+      "search_keyword": "Intel Core i5 8600 3.1 GHz 6-Core LGA1151",
+      "socket": "LGA1700",
+      "performance_score": 129
+    },
+    {
+      "search_keyword": "Intel Core i5 12600 3.3 GHz 6-Core LGA1700",
+      "socket": "LGA1700",
+      "performance_score": 144
+    },
+    {
+      "search_keyword": "Intel Core i5 13600K",
+      "socket": "LGA1700",
+      "performance_score": 356
+    },
+    {
+      "search_keyword": "Intel Core i9-7940X X-series Processor",
+      "socket": "LGA1700",
+      "performance_score": 308
+    },
+    {
+      "search_keyword": "Intel Core i5 4440 3.1 GHz 4-Core LGA1150",
+      "socket": "LGA1700",
+      "performance_score": 66
+    },
+    {
+      "search_keyword": "Intel Core i7 12700KF",
+      "socket": "LGA1700",
+      "performance_score": 300
+    },
+    {
+      "search_keyword": "Intel Core i5 11400F 2.6 GHz 6-Core LGA1200",
+      "socket": "LGA1700",
+      "performance_score": 132
+    },
+    {
+      "search_keyword": "Intel Core i3 10100 3.6 GHz 4-Core LGA1200",
+      "socket": "LGA1700",
+      "performance_score": 86
+    },
+    {
+      "search_keyword": "Intel Core i5 6600 3.3 GHz 4-Core LGA1151",
+      "socket": "LGA1700",
+      "performance_score": 78
+    },
+    {
+      "search_keyword": "Intel Core i5 9600KF 3.7 GHz 6-Core LGA1151 OEM/Tray",
+      "socket": "LGA1700",
+      "performance_score": 138
+    },
+    {
+      "search_keyword": "Intel Core i5 6500 3.2 GHz 4-Core LGA1151 OEM/Tray",
+      "socket": "LGA1700",
+      "performance_score": 72
+    },
+    {
+      "search_keyword": "Intel Core i5 13500 2.5 GHz 14-Core LGA1700",
+      "socket": "LGA1700",
+      "performance_score": 336
+    },
+    {
+      "search_keyword": "Intel Core i5 9400F 2.9 GHz 6-Core LGA1151",
+      "socket": "LGA1700",
+      "performance_score": 122
+    },
+    {
+      "search_keyword": "Intel Core i5 13500T 1.6 GHz 14-Core LGA1700 OEM/Tray",
+      "socket": "LGA1700",
+      "performance_score": 321
+    },
+    {
+      "search_keyword": "Intel Core i5 5675C 3.1 GHz 4-Core LGA1150",
+      "socket": "LGA1700",
+      "performance_score": 72
+    },
+    {
+      "search_keyword": "Intel Core i5 4690 3.5 GHz 4-Core LGA1150 OEM/Tray",
+      "socket": "LGA1700",
+      "performance_score": 78
+    },
+    {
+      "search_keyword": "Intel Core i7 4820K 3.7 GHz 4-Core LGA2011",
+      "socket": "LGA1700",
+      "performance_score": 78
+    },
+    {
+      "search_keyword": "Intel Core i5 12400",
+      "socket": "LGA1700",
+      "performance_score": 132
+    }
+  ],
+  "gpu": [
+    {
+      "id": "gpu_01",
+      "name": "NVIDIA GeForce RTX 4060 D6 8GB",
+      "tdp": 115,
+      "length": 240,
+      "performance_score": 65,
+      "search_keyword": "RTX 4060",
+      "fps_preset": {
+        "pubg": 140,
+        "cyberpunk": 60
+      }
+    },
+    {
+      "id": "gpu_02",
+      "name": "NVIDIA GeForce RTX 4070 SUPER 12GB",
+      "tdp": 220,
+      "length": 280,
+      "performance_score": 85,
+      "search_keyword": "RTX 4070 SUPER",
+      "fps_preset": {
+        "pubg": 200,
+        "cyberpunk": 95
+      }
+    },
+    {
+      "id": "gpu_03",
+      "name": "NVIDIA GeForce RTX 4080 SUPER 16GB",
+      "tdp": 320,
+      "length": 330,
+      "performance_score": 95,
+      "search_keyword": "RTX 4080 SUPER",
+      "fps_preset": {
+        "pubg": 240,
+        "cyberpunk": 130
+      }
+    },
+    {
+      "id": "gpu_04",
+      "name": "AMD Radeon RX 7800 XT 16GB",
+      "tdp": 263,
+      "length": 290,
+      "performance_score": 80,
+      "search_keyword": "RX 7800 XT",
+      "fps_preset": {
+        "pubg": 180,
+        "cyberpunk": 85
+      }
+    },
+    {
+      "id": "gpu_05",
+      "name": "NVIDIA GeForce RTX 4090 D6X 24GB",
+      "tdp": 450,
+      "length": 350,
+      "performance_score": 100,
+      "search_keyword": "RTX 4090",
+      "fps_preset": {
+        "pubg": 300,
+        "cyberpunk": 160
+      }
+    },
+    {
+      "id": "gpu_06",
+      "name": "NVIDIA GeForce RTX 4060 Ti 8GB",
+      "tdp": 160,
+      "length": 260,
+      "performance_score": 72,
+      "search_keyword": "RTX 4060 Ti",
+      "fps_preset": {
+        "pubg": 160,
+        "cyberpunk": 75
+      }
+    },
+    {
+      "id": "gpu_07",
+      "name": "NVIDIA GeForce RTX 5090 D6X 32GB",
+      "tdp": 600,
+      "length": 380,
+      "performance_score": 150,
+      "search_keyword": "RTX 5090",
+      "fps_preset": {
+        "pubg": 400,
+        "cyberpunk": 220
+      }
+    },
+    {
+      "id": "gpu_08",
+      "name": "NVIDIA GeForce RTX 5080 D6X 16GB",
+      "tdp": 400,
+      "length": 350,
+      "performance_score": 120,
+      "search_keyword": "RTX 5080",
+      "fps_preset": {
+        "pubg": 300,
+        "cyberpunk": 160
+      }
+    },
+    {
+      "id": "gpu_09",
+      "name": "NVIDIA GeForce RTX 5070 D6X 12GB",
+      "tdp": 250,
+      "length": 300,
+      "performance_score": 100,
+      "search_keyword": "RTX 5070",
+      "fps_preset": {
+        "pubg": 220,
+        "cyberpunk": 110
+      }
+    },
+    {
+      "search_keyword": "MSI GeForce RTX 4070 VENTUS 2X WHITE 12G OC GDDR6X",
+      "performance_score": 88
+    },
+    {
+      "search_keyword": "MSI GeForce RTX 4070 Ti VENTUS 3X E OC 12GB GDDR6X Silver / Black",
+      "performance_score": 88
+    },
+    {
+      "search_keyword": "XFX Speedster QICK 319 Core Radeon RX 6750 XT 12GB GDDR6 Black",
+      "performance_score": 50
+    },
+    {
+      "search_keyword": "Sapphire Radeon RX 7600 PULSE 8GB GDDR6 Black / Red",
+      "performance_score": 50
+    },
+    {
+      "search_keyword": "Gigabyte GAMING OC PRO Radeon RX 6600 XT 8GB GDDR6 Black / Silver",
+      "performance_score": 60
+    },
+    {
+      "search_keyword": "Gigabyte GAMING OC GeForce RTX 3060 8GB GDDR6 Black / Silver",
+      "performance_score": 65
+    },
+    {
+      "search_keyword": "PowerColor Fighter AMD Radeon RX 6800 16GB OC GDDR6",
+      "performance_score": 50
+    },
+    {
+      "search_keyword": "MSI SUPRIM X GeForce RTX 4080 16GB GDDR6X Black",
+      "performance_score": 98
+    },
+    {
+      "search_keyword": "AMD Radeon RX 6800 XT Black / Silver 16GB GDDR6",
+      "performance_score": 50
+    },
+    {
+      "search_keyword": "PNY XLR8 Gaming VERTO EPIC-X RGB GeForce RTX 4070 Ti 12GB GDDR6X Black",
+      "performance_score": 88
+    },
+    {
+      "search_keyword": "MSI GeForce RTX 3050 AERO ITX 8GB OC",
+      "performance_score": 50
+    },
+    {
+      "search_keyword": "Zotac GAMING Trinity GeForce RTX 3090 24GB GDDR6X Black",
+      "performance_score": 95
+    },
+    {
+      "search_keyword": "XFX Speedster MERC 319 Radeon RX 6900 XT 16GB GDDR6 Black",
+      "performance_score": 50
+    },
+    {
+      "search_keyword": "MSI GeForce RTX 3060 GAMING X TRIO 12GB GDDR6",
+      "performance_score": 65
+    },
+    {
+      "search_keyword": "Asus TUF GAMING OC Radeon RX 6950 XT 16GB GDDR6 Black",
+      "performance_score": 50
+    },
+    {
+      "search_keyword": "XFX SPEEDSTER MERC 310 AMD Radeon RX 7900 XTX Black Edition 24GB GDDR6",
+      "performance_score": 50
+    },
+    {
+      "search_keyword": "Asus DUAL OC Radeon RX 7900 XT 20GB GDDR6 Black",
+      "performance_score": 50
+    },
+    {
+      "search_keyword": "Asus TUF GAMING OC V2 GeForce RTX 3070 LHR 8GB GDDR6 Black",
+      "performance_score": 75
+    },
+    {
+      "search_keyword": "Asus STRIX GAMING GeForce RTX 3080 10GB GDDR6X Black",
+      "performance_score": 85
+    },
+    {
+      "search_keyword": "Zotac GeForce RTX 3080 12GB LHR GAMING Trinity OC 12GB GDDR6X Black",
+      "performance_score": 85
+    },
+    {
+      "search_keyword": "Acer Predator BiFrost OC Radeon RX 7600 8GB GDDR6 Black",
+      "performance_score": 50
+    },
+    {
+      "search_keyword": "ASUS Dual Radeon RX 7700 XT OC Edition 12GB GDDR6",
+      "performance_score": 50
+    },
+    {
+      "search_keyword": "Asus Blue / Silver Radeon RX 6800 16GB GDDR6 Blue / Silver",
+      "performance_score": 50
+    },
+    {
+      "search_keyword": "Zotac GAMING Twin Edge GeForce RTX 3060 12GB GDDR6",
+      "performance_score": 65
+    },
+    {
+      "search_keyword": "SAPPHIRE PULSE Radeon RX 6500 XT",
+      "performance_score": 50
+    },
+    {
+      "search_keyword": "Sapphire Radeon RX 6950 XT TOXIC Limited Edition 16GB GDDR6 Silver / Black",
+      "performance_score": 50
+    },
+    {
+      "search_keyword": "Gigabyte EAGLE OC Rev 2.0 GeForce RTX 3060 12GB GDDR6 Black",
+      "performance_score": 65
+    },
+    {
+      "search_keyword": "Gigabyte D6 LP Radeon RX 6400 4 GB",
+      "performance_score": 50
+    },
+    {
+      "search_keyword": "ASRock Phantom Gaming Radeon RX 6500 XT 8GB GDDR6",
+      "performance_score": 50
+    },
+    {
+      "search_keyword": "EVGA GeForce RTX 3080 XC3 ULTRA GAMING",
+      "performance_score": 85
+    },
+    {
+      "search_keyword": "XFX SPEEDSTER SWFT 210 AMD Radeon RX 7600 Core Edition 8GB GDDR6",
+      "performance_score": 50
+    },
+    {
+      "search_keyword": "Zotac GAMING SOLID GeForce RTX 4070 Ti SUPER 16GB GDDR6X Black / Gray",
+      "performance_score": 88
+    },
+    {
+      "search_keyword": "PowerColor RX 7900 XT 20G Radeon RX 7900 XT 20 GB",
+      "performance_score": 50
+    },
+    {
+      "search_keyword": "Sapphire PULSE Radeon RX 7700 XT 12GB GDDR6 Black / Red",
+      "performance_score": 50
+    },
+    {
+      "search_keyword": "Asus Phoenix GeForce RTX 3050 8GB GDDR6 Black",
+      "performance_score": 50
+    },
+    {
+      "search_keyword": "Asus TUF GAMING OC GeForce RTX 3080 12GB LHR 12GB GDDR6X Black / Silver",
+      "performance_score": 85
+    },
+    {
+      "search_keyword": "EVGA FTW3 ULTRA HYBRID GAMING iCX3 GeForce RTX 3080 Ti 12GB GDDR6X Black",
+      "performance_score": 85
+    },
+    {
+      "search_keyword": "Gainward Phoenix GeForce RTX 3090 24GB GDDR6X Silver / Black",
+      "performance_score": 95
+    },
+    {
+      "search_keyword": "MSI GeForce RTX 3050 Low Profile OC 6GB",
+      "performance_score": 50
+    },
+    {
+      "search_keyword": "EVGA XC3 ULTRA HYBRID GAMING GeForce RTX 3080 Ti 12GB GDDR6X Black",
+      "performance_score": 85
+    },
+    {
+      "search_keyword": "NVIDIA Founders Edition GeForce RTX 3070 Ti 8GB GDDR6X",
+      "performance_score": 75
+    },
+    {
+      "search_keyword": "Palit StormX GeForce RTX 3050 8GB GDDR6 Black",
+      "performance_score": 50
+    },
+    {
+      "search_keyword": "ASRock Radeon RX 7900 XTX 24GB GDDR6 Black",
+      "performance_score": 50
+    },
+    {
+      "search_keyword": "Asus Turbo GeForce RTX 3090 24GB GDDR6X Black",
+      "performance_score": 95
+    },
+    {
+      "search_keyword": "GeForce RTX 3080 10GB XLR8 Gaming REVEL EPIC-X RGB Triple Fan Edition",
+      "performance_score": 85
+    },
+    {
+      "search_keyword": "Asus Radeon RX 6750 XT ROG STRIX GAMING OC 12GB GDDR6 Black / Gray",
+      "performance_score": 50
+    },
+    {
+      "search_keyword": "ASUS Dual GeForce RTX 3050 OC Edition 6GB GDDR6",
+      "performance_score": 50
+    },
+    {
+      "search_keyword": "Gigabyte AI TOP GeForce RTX 4070 Ti SUPER 16GB GDDR6X Black",
+      "performance_score": 88
+    },
+    {
+      "search_keyword": "KFA2 SG GeForce RTX 3090 24GB GDDR6X Black",
+      "performance_score": 95
+    },
+    {
+      "search_keyword": "MSI GAMING TRIO CLASSIC Radeon RX 7900 XT 20GB GDDR6 Black / Silver",
+      "performance_score": 50
+    },
+    {
+      "search_keyword": "SAPPHIRE NITRO Radeon RX 7900 XTX 24GB GDDR6 PCI Express 4.0 x16 ATX Video Card 11322-01-40G",
+      "performance_score": 50
+    },
+    {
+      "search_keyword": "GALAX SG GeForce RTX 3080 10GB GDDR6X Black",
+      "performance_score": 85
+    },
+    {
+      "search_keyword": "Sapphire NITRO+ Radeon RX 7900 XT 20GB GDDR6 Silver / Black",
+      "performance_score": 50
+    },
+    {
+      "search_keyword": "PowerColor Radeon RX 7900 XTX Red Devil Limited Edition",
+      "performance_score": 50
+    },
+    {
+      "search_keyword": "Asus DUAL OC Radeon RX 7600 8GB GDDR6 Black",
+      "performance_score": 50
+    },
+    {
+      "search_keyword": "Palit GamingPro GeForce RTX 4080 16GB GDDR6X Silver / Black",
+      "performance_score": 98
+    },
+    {
+      "search_keyword": "ZOTAC GAMING GeForce RTX 4070 Ti AMP Extreme AIRO",
+      "performance_score": 88
+    },
+    {
+      "search_keyword": "XFX SPEEDSTER SWFT 210 AMD Radeon RX 7600 Core Edition White",
+      "performance_score": 50
+    },
+    {
+      "search_keyword": "Asus DUAL MINI OC V2 GeForce RTX 3060 Ti LHR 8GB GDDR6 Black",
+      "performance_score": 65
+    },
+    {
+      "search_keyword": "Inno3D Twin X2 GeForce RTX 3060 12GB GDDR6 Black",
+      "performance_score": 65
+    },
+    {
+      "search_keyword": "MSI Radeon RX 6750 XT MECH 2X 12G V1",
+      "performance_score": 50
+    },
+    {
+      "search_keyword": "ASUS KO GeForce RTX 3060 Ti OC Edition 8GB GDDR6",
+      "performance_score": 65
+    },
+    {
+      "search_keyword": "Sapphire PULSE Radeon RX 7900 GRE 16GB GDDR6 Black / Red",
+      "performance_score": 50
+    },
+    {
+      "search_keyword": "Gainward Panther GeForce RTX 4070 12 GB",
+      "performance_score": 88
+    },
+    {
+      "search_keyword": "GALAX (1-click OC) GeForce RTX 3060 12GB GDDR6 Black",
+      "performance_score": 65
+    },
+    {
+      "search_keyword": "Zotac GAMING Trinity OC GeForce RTX 3070 Ti 8GB GDDR6X",
+      "performance_score": 75
+    },
+    {
+      "search_keyword": "GALAX GeForce RTX 4070 Ti EX Gamer 1-Click OC V2 12GB GDDR6X Black",
+      "performance_score": 88
+    },
+    {
+      "search_keyword": "Gigabyte Vision OC GeForce RTX 3070 8GB GDDR6 Silver",
+      "performance_score": 75
+    },
+    {
+      "search_keyword": "Sapphire NITRO+ SE Radeon RX 6900 XT 16GB GDDR6 Black / White",
+      "performance_score": 50
+    },
+    {
+      "search_keyword": "GeForce RTX 4070 Ti SUPRIM 12G",
+      "performance_score": 88
+    },
+    {
+      "search_keyword": "Asus KO Gaming OC GeForce RTX 3070 8GB GDDR6 Black / Silver",
+      "performance_score": 75
+    },
+    {
+      "search_keyword": "Asus ROG STRIX GAMING OC V2 GeForce RTX 3080 LHR 10GB GDDR6X Black",
+      "performance_score": 85
+    },
+    {
+      "search_keyword": "ZOTAC GAMING GeForce RTX 4070 Ti Trinity OC 12GB GDDR6X",
+      "performance_score": 88
+    },
+    {
+      "search_keyword": "GIGABYTE GeForce RTX 3060 GAMING OC 12G (Rev. 1.0) GDDR6",
+      "performance_score": 65
+    },
+    {
+      "search_keyword": "Asus GeForce RTX 4070 Ti SUPER DUAL OC 16GB GDDR6X Black",
+      "performance_score": 88
+    },
+    {
+      "search_keyword": "Palit GamingPro OC GeForce RTX 3070 LHR 8GB GDDR6 Black / Silver",
+      "performance_score": 75
+    },
+    {
+      "search_keyword": "Gigabyte AORUS ELITE GeForce RTX 3060 12GB GDDR6 Black",
+      "performance_score": 65
+    },
+    {
+      "search_keyword": "XFX Gaming Radeon RX 7900 XTX 24GB GDDR6 PCI Express 4.0 x16 Video Card RX-79XMBABF9",
+      "performance_score": 50
+    },
+    {
+      "search_keyword": "EVGA FTW3 ULTRA GAMING GeForce RTX 3070 8GB GDDR6 Black / Silver",
+      "performance_score": 75
+    },
+    {
+      "search_keyword": "Asus ProArt OC GeForce RTX 4070 Ti SUPER 16GB GDDR6X Black / Gold",
+      "performance_score": 88
+    },
+    {
+      "search_keyword": "MSI VENTUS 3X E GeForce RTX 4080 16GB GDDR6X Silver / Black",
+      "performance_score": 98
+    },
+    {
+      "search_keyword": "Gigabyte WINDFORCE GeForce RTX 4070 Ti SUPER 16GB GDDR6X Black",
+      "performance_score": 88
+    },
+    {
+      "search_keyword": "MSI GeForce RTX 4070 GAMING X SLIM 12GB GDDR6X White",
+      "performance_score": 88
+    },
+    {
+      "search_keyword": "Asus ROG STRIX GAMING OC GeForce RTX 3080 Ti 12GB GDDR6X Black / Silver",
+      "performance_score": 85
+    },
+    {
+      "search_keyword": "ASUS TUF Gaming Radeon RX 7900 XT OC Edition 20GB GDDR6",
+      "performance_score": 50
+    },
+    {
+      "search_keyword": "MSI GeForce RTX 3090 GAMING TRIO 24G GeForce RTX 3090 24 GB",
+      "performance_score": 95
+    },
+    {
+      "search_keyword": "Inno3D iChill X3 GeForce RTX 3080 Ti 12GB GDDR6X Black / Silver",
+      "performance_score": 85
+    },
+    {
+      "search_keyword": "Gigabyte GeForce RTX 3090 EAGLE OC 24GB GDDR6X Black",
+      "performance_score": 95
+    },
+    {
+      "search_keyword": "MSI GeForce RTX 3050 VENTUS 2X 6G OC GDDR6",
+      "performance_score": 50
+    },
+    {
+      "search_keyword": "KFA2 EX Gamer GeForce RTX 4070 Ti 12GB GDDR6X White",
+      "performance_score": 88
+    },
+    {
+      "search_keyword": "Inno3D iChill X4 GeForce RTX 3080 Ti 12GB GDDR6X Black / Silver",
+      "performance_score": 85
+    },
+    {
+      "search_keyword": "MSI GeForce RTX 4080 16GB VENTUS 3X OC GDDR6X",
+      "performance_score": 98
+    },
+    {
+      "search_keyword": "Zotac GeForce RTX 4070 Ti SUPER GAMING SOLID OC 16GB GDDR6X Black / Gray",
+      "performance_score": 88
+    },
+    {
+      "search_keyword": "XFX Speedster MERC 319 AMD Radeon RX 6800 XT BLACK Gaming Graphics Card with 16GB GDDR6 AMD RDNA™ 2",
+      "performance_score": 50
+    },
+    {
+      "search_keyword": "PowerColor Red Devil AMD Radeon RX 7900 XTX 24GB GDDR6",
+      "performance_score": 50
+    },
+    {
+      "search_keyword": "ASRock Taichi OC Radeon RX 7900 XTX 24GB GDDR6 Black",
+      "performance_score": 50
+    },
+    {
+      "search_keyword": "MAXSUN iCraft OC GeForce RTX 3080 10GB GDDR6X",
+      "performance_score": 85
+    },
+    {
+      "search_keyword": "ASUS Dual GeForce RTX 3070 V2 OC Edition 8GB GDDR6",
+      "performance_score": 75
+    },
+    {
+      "search_keyword": "MSI SUPRIM GeForce RTX 3080 Ti 12GB GDDR6X Black / Silver",
+      "performance_score": 85
+    },
+    {
+      "search_keyword": "Asus TUF GAMING V2 GeForce RTX 3060 Ti LHR 8GB GDDR6 Black",
+      "performance_score": 65
+    },
+    {
+      "search_keyword": "Asus TUF GAMING OC V2 GeForce RTX 3080 10GB LHR 10GB GDDR6X Black",
+      "performance_score": 85
+    },
+    {
+      "search_keyword": "MSI GeForce RTX 4070 Ti SUPER VENTUS 2X 16GB GDDR6X Silver / Black",
+      "performance_score": 88
+    },
+    {
+      "search_keyword": "ASUS TUF Gaming GeForce RTX 3060 Ti OC Edition",
+      "performance_score": 65
+    },
+    {
+      "search_keyword": "MSI GeForce RTX 3050 LP E 6GB",
+      "performance_score": 50
+    },
+    {
+      "search_keyword": "MSI GeForce RTX 3080 VENTUS 3X PLUS 10G OC LHR GDDR6X",
+      "performance_score": 85
+    },
+    {
+      "search_keyword": "MSI GeForce RTX 4070 Ti GAMING X TRIO WHITE 12G GDDR6X",
+      "performance_score": 88
+    },
+    {
+      "search_keyword": "PNY RTX 4000 SFF Ada Generation 20GB GDDR6 Black",
+      "performance_score": 50
+    },
+    {
+      "search_keyword": "Palit GamingPro GeForce RTX 4070 Ti SUPER 16GB GDDR6X Black",
+      "performance_score": 88
+    },
+    {
+      "search_keyword": "GIGABYTE GeForce RTX 3050 Eagle OC 8G Graphics Card 2X WINDFORCE Fans 8GB 128-bit GDDR6 GV-N3050EAGLE OC-8GD Video Card",
+      "performance_score": 50
+    },
+    {
+      "search_keyword": "MSI GeForce RTX 3060 GAMING Z TRIO 12GB",
+      "performance_score": 65
+    },
+    {
+      "search_keyword": "ASUS ROG Strix GeForce RTX 3070 Ti OC Edition 8GB GDDR6X",
+      "performance_score": 75
+    },
+    {
+      "search_keyword": "MSI GeForce RTX 3050 VENTUS 2X 6G GDDR6",
+      "performance_score": 50
+    },
+    {
+      "search_keyword": "MSI VENTUS 3X OC GeForce RTX 3080 10GB LHR 10GB GDDR6X Black",
+      "performance_score": 85
+    },
+    {
+      "search_keyword": "Inno3D TWIN X2 OC GeForce RTX 4070 12GB GDDR6X White / Silver",
+      "performance_score": 88
+    },
+    {
+      "search_keyword": "MSI TWIN FAN OC GeForce RTX 3060 Ti 8GB GDDR6 Black / Silver",
+      "performance_score": 65
+    },
+    {
+      "search_keyword": "Gigabyte AORUS MASTER Radeon RX 6900 XT 16GB GDDR6 Black / Silver",
+      "performance_score": 50
+    },
+    {
+      "search_keyword": "Zotac GAMING Trinity OC GeForce RTX 3080 10GB GDDR6X Black",
+      "performance_score": 85
+    },
+    {
+      "search_keyword": "MSI GAMING X TRIO GeForce RTX 4080 16 GB",
+      "performance_score": 98
+    },
+    {
+      "search_keyword": "PNY XLR8 Gaming UPRISING EPIC-X RGB GeForce RTX 3080 10GB GDDR6X Black",
+      "performance_score": 85
+    },
+    {
+      "search_keyword": "Asus DUAL OC Radeon RX 7900 GRE 16GB GDDR6 Black",
+      "performance_score": 50
+    },
+    {
+      "search_keyword": "Gigabyte AORUS MASTER GeForce RTX 3070 Ti 8GB GDDR6X Black",
+      "performance_score": 75
+    },
+    {
+      "search_keyword": "Asus ROG STRIX GAMING OC GeForce RTX 3060 Ti 8GB GDDR6 Black / Gray",
+      "performance_score": 65
+    },
+    {
+      "search_keyword": "Gainward Phantom GS GeForce RTX 4080 16GB GDDR6X Black",
+      "performance_score": 98
+    },
+    {
+      "search_keyword": "GIGABYTE AORUS GeForce RTX 3080 Ti 12GB GDDR6X PCI Express 4.0 ATX Video Card GV-N308TAORUSX WB-12GD",
+      "performance_score": 85
+    },
+    {
+      "search_keyword": "PNY GeForce RTX 3070 XLR8 Gaming REVEL EPIC-X RGB 8GB GDDR6 Black Silver",
+      "performance_score": 75
+    },
+    {
+      "search_keyword": "Gigabyte AORUS XTREME GeForce RTX 3080 Ti 12GB GDDR6X Black",
+      "performance_score": 85
+    },
+    {
+      "search_keyword": "MSI SUPRIM GeForce RTX 3090 24GB GDDR6X Black / Silver",
+      "performance_score": 95
+    },
+    {
+      "search_keyword": "MSI Gaming X Trio Radeon RX 6750 XT 12GB GDDR6 Silver / Black",
+      "performance_score": 50
+    },
+    {
+      "search_keyword": "Asus ROG STRIX GAMING OC V2 GeForce RTX 3060 12GB 12 GB",
+      "performance_score": 65
+    },
+    {
+      "search_keyword": "Gigabyte AORUS XTREME WATERFORCE GeForce RTX 3090 Ti 24GB GDDR6X Black",
+      "performance_score": 95
+    },
+    {
+      "search_keyword": "XFX Speedster SWFT 210 AMD Radeon™ RX 6600 XT Core Gaming Graphics Card with 8GB GDDR6 AMD RDNA™ 2",
+      "performance_score": 60
+    },
+    {
+      "search_keyword": "Palit Dual OC GeForce RTX 3050 8GB 8GB GDDR6 Black",
+      "performance_score": 50
+    },
+    {
+      "search_keyword": "MSI SUPRIM X GeForce RTX 3090 24GB GDDR6X Silver",
+      "performance_score": 95
+    },
+    {
+      "search_keyword": "Zotac GAMING Trinity OC GeForce RTX 3080 Ti 12GB GDDR6X Black / Silver",
+      "performance_score": 85
+    },
+    {
+      "search_keyword": "MSI GeForce RTX 3090 VENTUS 3X 24G OC GeForce RTX 3090 24 GB",
+      "performance_score": 95
+    },
+    {
+      "search_keyword": "ZOTAC GAMING GeForce RTX 3050 Twin Edge OC 8GB GDDR6",
+      "performance_score": 50
+    },
+    {
+      "search_keyword": "MSI MECH 2X OC Radeon RX 6700 XT 12 GB",
+      "performance_score": 70
+    },
+    {
+      "search_keyword": "Inno3D iChill X4 GeForce RTX 3070 8GB GDDR6 Black",
+      "performance_score": 75
+    },
+    {
+      "search_keyword": "Palit JetStream OC GeForce RTX 3070 LHR 8GB GDDR6 Black / Silver",
+      "performance_score": 75
+    },
+    {
+      "search_keyword": "PowerColor Red Devil OC Radeon RX 7900 GRE 16GB GDDR6 Black / Red",
+      "performance_score": 50
+    },
+    {
+      "search_keyword": "MSI GeForce RTX 3060 GAMING TRIO 12GB",
+      "performance_score": 65
+    },
+    {
+      "search_keyword": "ZOTAC GeForce RTX 4080 AMP Extreme AIRO Graphics Card",
+      "performance_score": 98
+    },
+    {
+      "search_keyword": "Inno3D Twin X2 OC GeForce RTX 4070 Ti SUPER 16GB GDDR6X White / Silver",
+      "performance_score": 88
+    },
+    {
+      "search_keyword": "Asus ROG STRIX WHITE OC V2 GeForce RTX 3070 LHR 8GB GDDR6 White",
+      "performance_score": 75
+    },
+    {
+      "search_keyword": "ASRock Radeon RX 6700 XT PGD 12GB GDDR6 Silver / Black",
+      "performance_score": 70
+    },
+    {
+      "search_keyword": "Zotac GAMING Twin Edge GeForce RTX 3050 8GB GDDR6 Black / Silver",
+      "performance_score": 50
+    },
+    {
+      "search_keyword": "ASRock Radeon RX 7900 XT Black 20GB GDDR6 Black",
+      "performance_score": 50
+    },
+    {
+      "search_keyword": "MSI Radeon RX 7900 XTX GAMING TRIO CLASSIC 24G GDDR6",
+      "performance_score": 50
+    },
+    {
+      "search_keyword": "MSI GeForce RTX 3050 VENTUS 2X XS OC 8GB",
+      "performance_score": 50
+    },
+    {
+      "search_keyword": "PNY GeForce RTX 4080 XLR8 Gaming VERTO EPIC-X 16GB GDDR6X Black",
+      "performance_score": 98
+    },
+    {
+      "search_keyword": "ASRock Phantom Gaming OC Radeon RX 6950 XT 16GB GDDR6 Silver / Black",
+      "performance_score": 50
+    },
+    {
+      "search_keyword": "NVIDIA Founders Edition GeForce RTX 3080 Ti 12GB GDDR6X",
+      "performance_score": 85
+    },
+    {
+      "search_keyword": "ASUS TUF Gaming NVIDIA GeForce RTX 3080 TUF-RTX3080-10G-GAMING Video Card",
+      "performance_score": 85
+    },
+    {
+      "search_keyword": "Gigabyte AORUS MASTER GeForce RTX 3080 10GB 10 GB",
+      "performance_score": 85
+    },
+    {
+      "search_keyword": "Gigabyte AORUS Radeon RX 6750 XT ELITE 12G",
+      "performance_score": 50
+    },
+    {
+      "search_keyword": "Gigabyte GeForce RTX 4080 GAMING OC 16GB GDDR6X Black",
+      "performance_score": 98
+    },
+    {
+      "search_keyword": "Inno3D iChill X4 GeForce RTX 3080 12GB LHR 12GB GDDR6X Black / Silver",
+      "performance_score": 85
+    },
+    {
+      "search_keyword": "MSI SUPRIM X GeForce RTX 3080 10GB GDDR6X Black / Silver",
+      "performance_score": 85
+    },
+    {
+      "search_keyword": "AMD Black / Silver Radeon RX 6700 XT 12GB GDDR6",
+      "performance_score": 70
+    },
+    {
+      "search_keyword": "MSI GAMING X TRIO GeForce RTX 4080 16GB GDDR6X White",
+      "performance_score": 98
+    },
+    {
+      "search_keyword": "Gigabyte EAGLE Radeon RX 6400 4 GB",
+      "performance_score": 50
+    },
+    {
+      "search_keyword": "Gigabyte EAGLE Radeon RX 6500 XT 4GB GDDR6 Black",
+      "performance_score": 50
+    },
+    {
+      "search_keyword": "Inno3D GeForce RTX 3080 12GB LHR X3 OC 12GB GDDR6X Black",
+      "performance_score": 85
+    },
+    {
+      "search_keyword": "XFX Speedster SWFT 210 AMD Radeon™ RX 6650 XT Core Gaming Graphics Card with 8GB GDDR6 AMD RDNA™ 2",
+      "performance_score": 50
+    },
+    {
+      "search_keyword": "PowerColor Hellhound Radeon RX 7600 8GB GDDR6 Black",
+      "performance_score": 50
+    },
+    {
+      "search_keyword": "MSI GeForce RTX 3050 8GB VENTUS 2X OC",
+      "performance_score": 50
+    },
+    {
+      "search_keyword": "Asus DUAL OC Radeon RX 6700 XT 12GB GDDR6 Black / Silver",
+      "performance_score": 70
+    },
+    {
+      "search_keyword": "Asus ROG STRIX WHITE OC V2 GeForce RTX 3080 10GB LHR 10GB GDDR6X White",
+      "performance_score": 85
+    },
+    {
+      "search_keyword": "Yeston Sakura GeForce RTX 3080 10GB GDDR6X Purple / Blue",
+      "performance_score": 85
+    },
+    {
+      "search_keyword": "ASRock Challenger ITX Radeon RX 6600 8GB GDDR6 Black",
+      "performance_score": 60
+    },
+    {
+      "search_keyword": "PNY XLR8 Gaming REVEL EPIC-X RGB Dual Fan GeForce RTX 3060 12GB 12 GB",
+      "performance_score": 65
+    },
+    {
+      "search_keyword": "PowerColor Hellhound OC Radeon RX 7900 GRE 16GB GDDR6 Black",
+      "performance_score": 50
+    },
+    {
+      "search_keyword": "GALAX (1-click OC) GeForce RTX 3070 Ti 8GB GDDR6X Black",
+      "performance_score": 75
+    },
+    {
+      "search_keyword": "Zotac AMP Extreme Core Holo GeForce RTX 3090 Ti 24GB GDDR6X Black",
+      "performance_score": 95
+    },
+    {
+      "search_keyword": "ASRock Creator Radeon RX 7900 XT 20GB GDDR6 Black / Silver",
+      "performance_score": 50
+    },
+    {
+      "search_keyword": "MSI SUPRIM GeForce RTX 4070 Ti 12GB GDDR6X Black / Silver",
+      "performance_score": 88
+    },
+    {
+      "search_keyword": "ASRock Phantom Gaming D OC Radeon RX 6650 XT 8GB GDDR6 Black",
+      "performance_score": 50
+    },
+    {
+      "search_keyword": "Asus TUF GAMING OC GeForce RTX 3090 24 GB",
+      "performance_score": 95
+    },
+    {
+      "search_keyword": "EVGA FTW3 GAMING iCX3 GeForce RTX 3080 12GB LHR 12GB GDDR6X Black",
+      "performance_score": 85
+    },
+    {
+      "search_keyword": "Zotac GAMING AMP Extreme AIRO GeForce RTX 4070 Ti 12GB GDDR6X Black",
+      "performance_score": 88
+    }
+  ],
+  "motherboard": [
+    {
+      "id": "mb_01",
+      "name": "ASRock B650M PG Lightning",
+      "socket": "AM5",
+      "formFactor": "mATX",
+      "ramType": "DDR5",
+      "search_keyword": "ASRock B650M PG Lightning"
+    },
+    {
+      "id": "mb_02",
+      "name": "MSI MAG B650 토마호크 WIFI",
+      "socket": "AM5",
+      "formFactor": "ATX",
+      "ramType": "DDR5",
+      "search_keyword": "MSI B650 토마호크"
+    },
+    {
+      "id": "mb_03",
+      "name": "ASUS PRIME B760M-K",
+      "socket": "LGA1700",
+      "formFactor": "mATX",
+      "ramType": "DDR5",
+      "search_keyword": "ASUS B760M-K"
+    },
+    {
+      "id": "mb_04",
+      "name": "GIGABYTE Z790 AORUS ELITE",
+      "socket": "LGA1700",
+      "formFactor": "ATX",
+      "ramType": "DDR5",
+      "search_keyword": "GIGABYTE Z790 AORUS"
+    },
+    {
+      "id": "mb_05",
+      "name": "MSI PRO B650M-A WIFI",
+      "socket": "AM5",
+      "formFactor": "mATX",
+      "ramType": "DDR5",
+      "search_keyword": "MSI PRO B650M-A"
+    },
+    {
+      "search_keyword": "ASUS B760M-AYW WIFI D4",
+      "socket": "LGA1700",
+      "ramType": "DDR5"
+    },
+    {
+      "search_keyword": "MSI PRO B650M-P",
+      "socket": "AM5",
+      "ramType": "DDR5"
+    },
+    {
+      "search_keyword": "MSI B550-A PRO (CEC)",
+      "socket": "AM5",
+      "ramType": "DDR5"
+    },
+    {
+      "search_keyword": "Gigabyte B650M C AM5 DDR5 Micro ATX",
+      "socket": "AM5",
+      "ramType": "DDR5"
+    },
+    {
+      "search_keyword": "MAXSUN B760 iCraft B760M CROSS LGA1700 DDR5 Micro ATX",
+      "socket": "LGA1700",
+      "ramType": "DDR5"
+    },
+    {
+      "search_keyword": "ASUS TUF GAMING B650-PLUS",
+      "socket": "AM5",
+      "ramType": "DDR5"
+    },
+    {
+      "search_keyword": "Asus PRIME B650-PLUS WIFI",
+      "socket": "AM5",
+      "ramType": "DDR5"
+    },
+    {
+      "search_keyword": "Asus PRIME B650M-A II-CSM",
+      "socket": "AM5",
+      "ramType": "DDR5"
+    },
+    {
+      "search_keyword": "MSI Z790 MPG EDGE MONSTER HUNTER EDITION DDR5 ATX",
+      "socket": "LGA1700",
+      "ramType": "DDR5"
+    },
+    {
+      "search_keyword": "Gigabyte B760 DS3H AX DDR5 ATX",
+      "socket": "LGA1700",
+      "ramType": "DDR5"
+    },
+    {
+      "search_keyword": "MSI B650 GAMING PLUS WIFI DDR5 ATX",
+      "socket": "AM5",
+      "ramType": "DDR5"
+    },
+    {
+      "search_keyword": "Asus PRIME B550M-A WI-FI DDR4 Micro ATX [Delete]",
+      "socket": "AM5",
+      "ramType": "DDR4"
+    },
+    {
+      "search_keyword": "ASUS B760M-AYW WIFI II",
+      "socket": "LGA1700",
+      "ramType": "DDR5"
+    },
+    {
+      "search_keyword": "Biostar B550 MXC PRO DDR4 Micro ATX",
+      "socket": "AM5",
+      "ramType": "DDR4"
+    },
+    {
+      "search_keyword": "ASUS TUF GAMING B760M-PLUS WIFI II",
+      "socket": "LGA1700",
+      "ramType": "DDR5"
+    },
+    {
+      "search_keyword": "ASUS TUF GAMING B550M-E",
+      "socket": "AM5",
+      "ramType": "DDR5"
+    },
+    {
+      "search_keyword": "Asus TUF GAMING B650-E WIFI",
+      "socket": "AM5",
+      "ramType": "DDR5"
+    },
+    {
+      "search_keyword": "Gigabyte B650E AORUS TACHYON DDR5 ATX",
+      "socket": "AM5",
+      "ramType": "DDR5"
+    },
+    {
+      "search_keyword": "ASUS PRIME B760M-R D4-CSM",
+      "socket": "LGA1700",
+      "ramType": "DDR5"
+    },
+    {
+      "search_keyword": "MSI B650 PRO B650M-A AM5 DDR5 Micro ATX",
+      "socket": "AM5",
+      "ramType": "DDR5"
+    },
+    {
+      "search_keyword": "MSI B760M MAG MORTAR MAX WIFI DDR4 Micro ATX",
+      "socket": "LGA1700",
+      "ramType": "DDR4"
+    },
+    {
+      "search_keyword": "ASUS PRIME B650M-A AX6 II",
+      "socket": "AM5",
+      "ramType": "DDR5"
+    },
+    {
+      "search_keyword": "Gigabyte B760M GAMING WIFI DDR5 Micro ATX",
+      "socket": "LGA1700",
+      "ramType": "DDR5"
+    },
+    {
+      "search_keyword": "Gigabyte B650 AORUS ELITE AX DDR5 ATX",
+      "socket": "AM5",
+      "ramType": "DDR5"
+    },
+    {
+      "search_keyword": "ASUS PRIME B760M-F WIFI-CSM",
+      "socket": "LGA1700",
+      "ramType": "DDR5"
+    },
+    {
+      "search_keyword": "Biostar B650 MT AM5 DDR5 Micro ATX",
+      "socket": "AM5",
+      "ramType": "DDR5"
+    },
+    {
+      "search_keyword": "ASRock Z790 Nova WiFi DDR5 ATX",
+      "socket": "LGA1700",
+      "ramType": "DDR5"
+    },
+    {
+      "search_keyword": "EVGA Z790 CLASSIFIED LGA1700 DDR5 EATX",
+      "socket": "LGA1700",
+      "ramType": "DDR5"
+    },
+    {
+      "search_keyword": "Gigabyte B760M AORUS ELITE LGA1700 DDR5 Micro ATX",
+      "socket": "LGA1700",
+      "ramType": "DDR5"
+    },
+    {
+      "search_keyword": "MSI B660M MAG BAZOOKA DDR4 Micro ATX",
+      "socket": "LGA1700",
+      "ramType": "DDR4"
+    },
+    {
+      "search_keyword": "MSI Z790 GAMING WIFI DDR5 ATX",
+      "socket": "LGA1700",
+      "ramType": "DDR5"
+    },
+    {
+      "search_keyword": "Asus Z790-I ROG STRIX GAMING WIFI LGA1700 DDR5 Mini ITX",
+      "socket": "LGA1700",
+      "ramType": "DDR5"
+    },
+    {
+      "search_keyword": "MSI MEG B550 UNIFY",
+      "socket": "AM5",
+      "ramType": "DDR5"
+    },
+    {
+      "search_keyword": "MSI B550M PRO",
+      "socket": "AM5",
+      "ramType": "DDR5"
+    },
+    {
+      "search_keyword": "Gigabyte B660 DS3H LGA1700 DDR4 ATX",
+      "socket": "LGA1700",
+      "ramType": "DDR4"
+    },
+    {
+      "search_keyword": "ASRock B650 M-H/M.2+ DDR5 Micro ATX",
+      "socket": "AM5",
+      "ramType": "DDR5"
+    },
+    {
+      "search_keyword": "Gigabyte B650M GAMING WIFI6E AM5 DDR5 ATX",
+      "socket": "AM5",
+      "ramType": "DDR5"
+    },
+    {
+      "search_keyword": "ASUS TUF GAMING B760-PLUS WIFI",
+      "socket": "LGA1700",
+      "ramType": "DDR5"
+    },
+    {
+      "search_keyword": "Gigabyte B760I AORUS PRO DDR5 Mini ITX",
+      "socket": "LGA1700",
+      "ramType": "DDR5"
+    },
+    {
+      "search_keyword": "Gigabyte Z790 AORUS ELITE X DDR5 ATX",
+      "socket": "LGA1700",
+      "ramType": "DDR5"
+    },
+    {
+      "search_keyword": "ASUS PRIME B760M-A",
+      "socket": "LGA1700",
+      "ramType": "DDR5"
+    },
+    {
+      "search_keyword": "ASUS B660 ProArt CREATOR D4 DDR4 ATX",
+      "socket": "LGA1700",
+      "ramType": "DDR4"
+    },
+    {
+      "search_keyword": "ASRock B550 PG Velocita DDR4 ATX",
+      "socket": "AM5",
+      "ramType": "DDR4"
+    },
+    {
+      "search_keyword": "ASUS PRIME B650M-A AX6",
+      "socket": "AM5",
+      "ramType": "DDR5"
+    },
+    {
+      "search_keyword": "Gigabyte Z790 AORUS XTREME",
+      "socket": "LGA1700",
+      "ramType": "DDR5"
+    },
+    {
+      "search_keyword": "ASUS ROG STRIX B760-A GAMING WIFI",
+      "socket": "LGA1700",
+      "ramType": "DDR5"
+    },
+    {
+      "search_keyword": "Gigabyte Z790 GAMING PLUS AX DDR5 ATX",
+      "socket": "LGA1700",
+      "ramType": "DDR5"
+    },
+    {
+      "search_keyword": "Gigabyte Z790 AORUS ELITE X WIFI7 DDR5 ATX",
+      "socket": "LGA1700",
+      "ramType": "DDR5"
+    },
+    {
+      "search_keyword": "ASRock B760I Lightning WiFi LGA1700 DDR5 Mini ITX",
+      "socket": "LGA1700",
+      "ramType": "DDR5"
+    },
+    {
+      "search_keyword": "Colorful B760I CVN FROZEN WIFI V20 DDR4 Mini ITX",
+      "socket": "LGA1700",
+      "ramType": "DDR4"
+    },
+    {
+      "search_keyword": "Gigabyte A520M H (rev. 1.x)",
+      "socket": "AM5",
+      "ramType": "DDR5"
+    },
+    {
+      "search_keyword": "Asus A520 PRIME M-R-CSM AM4 DDR4 Micro ATX",
+      "socket": "AM5",
+      "ramType": "DDR4"
+    },
+    {
+      "search_keyword": "ASRock A520 A520M-HDVP/DASH AM4 DDR4 Micro ATX",
+      "socket": "AM5",
+      "ramType": "DDR4"
+    },
+    {
+      "search_keyword": "MSI A520 A520M PRO-VDH DDR4 Micro ATX",
+      "socket": "AM5",
+      "ramType": "DDR4"
+    },
+    {
+      "search_keyword": "Asus TUF GAMING A520M-PLUS WIFI AM4 DDR4 Micro ATX",
+      "socket": "AM5",
+      "ramType": "DDR4"
+    },
+    {
+      "search_keyword": "MSI A520M MAG VECTOR WIFI AM4 DDR4 Micro ATX",
+      "socket": "AM5",
+      "ramType": "DDR4"
+    },
+    {
+      "search_keyword": "ASRock A520M Pro4 AM4 DDR4 Micro ATX",
+      "socket": "AM5",
+      "ramType": "DDR4"
+    },
+    {
+      "search_keyword": "ASRock B760 M-H2/M.2 DDR5 Micro ATX",
+      "socket": "LGA1700",
+      "ramType": "DDR5"
+    },
+    {
+      "search_keyword": "MSI B660 PRO M-P WIFI DDR4 Micro ATX",
+      "socket": "LGA1700",
+      "ramType": "DDR4"
+    },
+    {
+      "search_keyword": "ASRock X670E Pro RS AM5 DDR5 ATX",
+      "socket": "AM5",
+      "ramType": "DDR5"
+    },
+    {
+      "search_keyword": "Gigabyte B550 AORUS PRO AX AM4 DDR4 ATX",
+      "socket": "AM5",
+      "ramType": "DDR4"
+    },
+    {
+      "search_keyword": "ASRock B550 Extreme4 DDR4 ATX",
+      "socket": "AM5",
+      "ramType": "DDR4"
+    },
+    {
+      "search_keyword": "MSI B650M GAMING PLUS WIFI DDR5 Micro ATX",
+      "socket": "AM5",
+      "ramType": "DDR5"
+    },
+    {
+      "search_keyword": "ASRock Z790 PG Lightning/D4 LGA1700 DDR4 ATX",
+      "socket": "LGA1700",
+      "ramType": "DDR4"
+    },
+    {
+      "search_keyword": "ASRock X670E Taichi Carrara",
+      "socket": "AM5",
+      "ramType": "DDR5"
+    },
+    {
+      "search_keyword": "Asus ROG STRIX B650E-F GAMING WIFI DDR5 ATX",
+      "socket": "AM5",
+      "ramType": "DDR5"
+    },
+    {
+      "search_keyword": "Gigabyte B550 AORUS MASTER DDR4 ATX",
+      "socket": "AM5",
+      "ramType": "DDR4"
+    },
+    {
+      "search_keyword": "Asus X670E PRIME PRO WIFI-CSM AM5 DDR5 ATX",
+      "socket": "AM5",
+      "ramType": "DDR5"
+    },
+    {
+      "search_keyword": "Biostar B650M X3D PRO+ AM5 DDR5 Micro ATX",
+      "socket": "AM5",
+      "ramType": "DDR5"
+    },
+    {
+      "search_keyword": "Asus ROG STRIX Z790-F GAMING WIFI DDR5 ATX",
+      "socket": "LGA1700",
+      "ramType": "DDR5"
+    },
+    {
+      "search_keyword": "ASUS TUF GAMING B550M-PLUS WIFI II",
+      "socket": "AM5",
+      "ramType": "DDR5"
+    },
+    {
+      "search_keyword": "MSI B650 GAMING PLUS AM5 DDR5 ATX",
+      "socket": "AM5",
+      "ramType": "DDR5"
+    },
+    {
+      "search_keyword": "Gigabyte B550 UD AC DDR4 ATX",
+      "socket": "AM5",
+      "ramType": "DDR4"
+    },
+    {
+      "search_keyword": "MSI B760M GAMING PLUS WIFI DDR4 Micro ATX",
+      "socket": "LGA1700",
+      "ramType": "DDR4"
+    },
+    {
+      "search_keyword": "Gigabyte B550 VISION D AM4 DDR4 ATX",
+      "socket": "AM5",
+      "ramType": "DDR4"
+    },
+    {
+      "search_keyword": "Gigabyte Z790 D LGA1700 DDR5 ATX",
+      "socket": "LGA1700",
+      "ramType": "DDR5"
+    },
+    {
+      "search_keyword": "MSI B650M PROJECT ZERO AM5 DDR5 Micro ATX",
+      "socket": "AM5",
+      "ramType": "DDR5"
+    },
+    {
+      "search_keyword": "Gigabyte Z790 GAMING X DDR5 ATX",
+      "socket": "LGA1700",
+      "ramType": "DDR5"
+    },
+    {
+      "search_keyword": "ASUS TUF GAMING B760M-PLUS WIFI",
+      "socket": "LGA1700",
+      "ramType": "DDR5"
+    },
+    {
+      "search_keyword": "MSI Z790 MPG CARBON MAX WIFI LGA1700 DDR5 ATX",
+      "socket": "LGA1700",
+      "ramType": "DDR5"
+    },
+    {
+      "search_keyword": "Gigabyte B650 M D2HP (rev. 1.2) AM5 DDR5 Micro ATX",
+      "socket": "AM5",
+      "ramType": "DDR5"
+    },
+    {
+      "search_keyword": "ASUS TUF GAMING B550M-PLUS (WI-FI)",
+      "socket": "AM5",
+      "ramType": "DDR5"
+    },
+    {
+      "search_keyword": "ASUS PRIME B760-PLUS D4",
+      "socket": "LGA1700",
+      "ramType": "DDR5"
+    },
+    {
+      "search_keyword": "ASUS PRIME B650M-F-CSM",
+      "socket": "AM5",
+      "ramType": "DDR5"
+    },
+    {
+      "search_keyword": "Gigabyte B760M DS3H AX DDR4 Micro ATX",
+      "socket": "LGA1700",
+      "ramType": "DDR4"
+    },
+    {
+      "search_keyword": "Gigabyte B650 M D2H AM5 DDR5 Micro ATX",
+      "socket": "AM5",
+      "ramType": "DDR5"
+    },
+    {
+      "search_keyword": "MSI Z790-S01",
+      "socket": "LGA1700",
+      "ramType": "DDR5"
+    },
+    {
+      "search_keyword": "Gigabyte B550 GAMING X V2 DDR4 ATX",
+      "socket": "AM5",
+      "ramType": "DDR4"
+    },
+    {
+      "search_keyword": "ASUS ROG STRIX B550-XE GAMING WIFI",
+      "socket": "AM5",
+      "ramType": "DDR5"
+    },
+    {
+      "search_keyword": "ASRock B550M HVS SE AM4 DDR4 Micro ATX",
+      "socket": "AM5",
+      "ramType": "DDR4"
+    },
+    {
+      "search_keyword": "Gigabyte B660 DS3H AX DDR4 ATX LGA1700",
+      "socket": "LGA1700",
+      "ramType": "DDR4"
+    },
+    {
+      "search_keyword": "Gigabyte Z790 AERO G DDR5 ATX",
+      "socket": "LGA1700",
+      "ramType": "DDR5"
+    },
+    {
+      "search_keyword": "MSI B760 PRO VC WIFI II DDR5 ATX",
+      "socket": "LGA1700",
+      "ramType": "DDR5"
+    },
+    {
+      "search_keyword": "GIGABYTE B650E AORUS MASTER",
+      "socket": "AM5",
+      "ramType": "DDR5"
+    },
+    {
+      "search_keyword": "MSI MAG B760M MORTAR WIFI DDR5 Micro ATX",
+      "socket": "LGA1700",
+      "ramType": "DDR5"
+    },
+    {
+      "search_keyword": "Gigabyte B760 GAMING X DDR5 ATX",
+      "socket": "LGA1700",
+      "ramType": "DDR5"
+    },
+    {
+      "search_keyword": "MSI Z790 MPG EDGE WIFI DDR4 ATX",
+      "socket": "LGA1700",
+      "ramType": "DDR4"
+    },
+    {
+      "search_keyword": "MSI AMD B650 PRO B650-VC WIFI AM5 DDR5 ATX",
+      "socket": "AM5",
+      "ramType": "DDR5"
+    },
+    {
+      "search_keyword": "MSI B760 MAG B760M MORTAR DDR5 Micro ATX",
+      "socket": "LGA1700",
+      "ramType": "DDR5"
+    },
+    {
+      "search_keyword": "Gigabyte B550 VISION D-P AM4 DDR4 ATX",
+      "socket": "AM5",
+      "ramType": "DDR4"
+    },
+    {
+      "search_keyword": "Gigabyte X670E AORUS XTREME (rev. 1.0) AM5 DDR5 EATX",
+      "socket": "AM5",
+      "ramType": "DDR5"
+    },
+    {
+      "search_keyword": "ASUS ProArt B760-CREATOR D4",
+      "socket": "LGA1700",
+      "ramType": "DDR5"
+    },
+    {
+      "search_keyword": "Asus ROG STRIX B650E-I GAMING WIFI",
+      "socket": "AM5",
+      "ramType": "DDR5"
+    },
+    {
+      "search_keyword": "Gigabyte B650 AORUS ELITE AX ICE DDR5 ATX",
+      "socket": "AM5",
+      "ramType": "DDR5"
+    },
+    {
+      "search_keyword": "Gigabyte B760M AORUS ELITE X AX DDR5 Micro ATX",
+      "socket": "LGA1700",
+      "ramType": "DDR5"
+    },
+    {
+      "search_keyword": "ASUS PRIME B760M-F D4-CSM",
+      "socket": "LGA1700",
+      "ramType": "DDR5"
+    },
+    {
+      "search_keyword": "Asus PRIME B650M-A",
+      "socket": "AM5",
+      "ramType": "DDR5"
+    },
+    {
+      "search_keyword": "Asus PRIME B650-PLUS-CSM",
+      "socket": "AM5",
+      "ramType": "DDR5"
+    },
+    {
+      "search_keyword": "Gigabyte B760M DS3H DDR5 Micro ATX",
+      "socket": "LGA1700",
+      "ramType": "DDR5"
+    },
+    {
+      "search_keyword": "ASUS B650EM MAX GAMING WIFI",
+      "socket": "AM5",
+      "ramType": "DDR5"
+    },
+    {
+      "search_keyword": "Gigabyte B660 AORUS Master LGA1700 DDR5 ATX",
+      "socket": "LGA1700",
+      "ramType": "DDR5"
+    },
+    {
+      "search_keyword": "Gigabyte B760M H DDR4 Micro ATX",
+      "socket": "LGA1700",
+      "ramType": "DDR4"
+    },
+    {
+      "search_keyword": "ASRock B650 LiveMixer AM5 DDR5 ATX",
+      "socket": "AM5",
+      "ramType": "DDR5"
+    },
+    {
+      "search_keyword": "ASUS PRIME Z790-P WIFI D4-CSM",
+      "socket": "LGA1700",
+      "ramType": "DDR5"
+    },
+    {
+      "search_keyword": "Gigabyte Z790 AORUS ELITE DDR5 ATX",
+      "socket": "LGA1700",
+      "ramType": "DDR5"
+    },
+    {
+      "search_keyword": "Gigabyte AMD A520 AORUS ELITE DDR4 ATX",
+      "socket": "AM5",
+      "ramType": "DDR4"
+    },
+    {
+      "search_keyword": "ASUS EX-B650EM-V7 PLUS-CSM",
+      "socket": "AM5",
+      "ramType": "DDR5"
+    },
+    {
+      "search_keyword": "Gigabyte B760M GAMING X AX DDR4 Micro ATX",
+      "socket": "LGA1700",
+      "ramType": "DDR4"
+    },
+    {
+      "search_keyword": "ASRock Z790 PRO RS WIFI DDR5 ATX",
+      "socket": "LGA1700",
+      "ramType": "DDR5"
+    },
+    {
+      "search_keyword": "MSI PRO B660 M VC WIFI DDR4 Micro ATX",
+      "socket": "LGA1700",
+      "ramType": "DDR4"
+    },
+    {
+      "search_keyword": "GIGABYTE B760M D3H",
+      "socket": "LGA1700",
+      "ramType": "DDR5"
+    },
+    {
+      "search_keyword": "Gigabyte B550 AORUS PRO V2 DDR4 ATX",
+      "socket": "AM5",
+      "ramType": "DDR4"
+    },
+    {
+      "search_keyword": "Biostar B650 MXC PRO DDR5 Micro ATX AM5",
+      "socket": "AM5",
+      "ramType": "DDR5"
+    },
+    {
+      "search_keyword": "Biostar B650 MS2 AM5 DDR5 Micro ATX",
+      "socket": "AM5",
+      "ramType": "DDR5"
+    },
+    {
+      "search_keyword": "Gigabyte B760M D3H DDR4 Micro ATX",
+      "socket": "LGA1700",
+      "ramType": "DDR4"
+    },
+    {
+      "search_keyword": "Asus B660 PRIME B660M-A D4 LGA1700 DDR4 Micro ATX",
+      "socket": "LGA1700",
+      "ramType": "DDR4"
+    },
+    {
+      "search_keyword": "MSI B760M MPG EDGE TI WIFI DDR5 Micro ATX",
+      "socket": "LGA1700",
+      "ramType": "DDR5"
+    },
+    {
+      "search_keyword": "MSI B760I MPG EDGE WIFI DDR5 Mini ITX",
+      "socket": "LGA1700",
+      "ramType": "DDR5"
+    },
+    {
+      "search_keyword": "MAXSUN Z790 iCraft Z790ITX WIFI DDR5 Mini ITX",
+      "socket": "LGA1700",
+      "ramType": "DDR5"
+    },
+    {
+      "search_keyword": "Asus ROG STRIX Z790-E GAMING WIFI II DDR5 ATX",
+      "socket": "LGA1700",
+      "ramType": "DDR5"
+    }
+  ],
+  "case": [
+    {
+      "id": "case_01",
+      "name": "앱코 G40 시그니처",
+      "max_gpu_length": 340,
+      "max_cooler_height": 175,
+      "formFactor": "ATX",
+      "search_keyword": "앱코 G40 시그니처"
+    },
+    {
+      "id": "case_02",
+      "name": "darkFlash DLX21 RGB MESH",
+      "max_gpu_length": 400,
+      "max_cooler_height": 180,
+      "formFactor": "ATX",
+      "search_keyword": "DLX21 RGB MESH"
+    },
+    {
+      "id": "case_03",
+      "name": "아이구주 VENTI C60",
+      "max_gpu_length": 320,
+      "max_cooler_height": 163,
+      "formFactor": "mATX",
+      "search_keyword": "아이구주 VENTI C60"
+    },
+    {
+      "id": "case_04",
+      "name": "HYTE Y60 (어항형)",
+      "max_gpu_length": 375,
+      "max_cooler_height": 160,
+      "formFactor": "ATX",
+      "search_keyword": "HYTE Y60"
+    },
+    {
+      "id": "case_05",
+      "name": "리안리 PC-O11 Dynamic EVO",
+      "max_gpu_length": 420,
+      "max_cooler_height": 167,
+      "formFactor": "ATX",
+      "search_keyword": "O11 Dynamic EVO"
+    },
+    {
+      "search_keyword": "Fractal Design Meshify C ATX Mid Tower Black"
+    },
+    {
+      "search_keyword": "Deepcool CH510 MESH DIGITAL ATX Mid Tower Black Tempered Glass"
+    },
+    {
+      "search_keyword": "Thermaltake View 380 XL WS ARGB Mid Tower Chassis Wood Edition Snow"
+    },
+    {
+      "search_keyword": "Silverstone Sugo SG11 Micro ATX Mini Tower Black"
+    },
+    {
+      "search_keyword": "Lian Li LANCOOL 216 EATX Mid Tower White Tempered Glass RGB w/Controller"
+    },
+    {
+      "search_keyword": "Cougar DarkBlader-G ATX Full Tower Black / Silver with Tempered Glass Side Panel and USB 3.2 Gen 1 Type-A Front Panel"
+    },
+    {
+      "search_keyword": "HYTE Y40 ATX Mid Tower Red / Black with Tempered Glass Side Panel and USB 3.2 Gen 2 Type-C USB 3.2 Gen 1 Type-A"
+    },
+    {
+      "search_keyword": "Fractal Design Define R4 ATX Mid Tower Black / Gray with Acrylic Side Panel and USB 3.2 Gen 1 Type-A USB 2.0 Type-A"
+    },
+    {
+      "search_keyword": "Antec AX67 ARGB ATX Mid Tower Tempered Glass"
+    },
+    {
+      "search_keyword": "Chieftec Chieftronic M2 MicroATX Mid Tower Tempered Glass Side Panel Front USB 3.2 Gen 1 Type-A & USB 2.0 Type-A"
+    },
+    {
+      "search_keyword": "Silverstone Lucid 04 Micro ATX Mid Tower White Tempered Glass Side Panel USB 3.2 Gen 2 Type-C USB 3.2 Gen 1 Type-A"
+    },
+    {
+      "search_keyword": "NZXT H7 Flow RGB (2024) ATX Mid Tower White Tempered Glass USB 3.2 Gen 2x2 Type-C USB 3.2 Gen 1 Type-A"
+    },
+    {
+      "search_keyword": "Corsair 6500X ATX Mid Tower Black Tempered Glass Side Panel"
+    },
+    {
+      "search_keyword": "Fractal Design Focus 2 ATX Mid Tower Black"
+    },
+    {
+      "search_keyword": "Rosewill R379-M Micro ATX Slim Black / Silver w/300 W Power Supply"
+    },
+    {
+      "search_keyword": "Corsair Carbide Series Air 240 Micro ATX Mid Tower White Acrylic Side Panel USB 3.2 Gen 1 Type-A"
+    },
+    {
+      "search_keyword": "Silverstone RVZ03W-ARGB Mini-ITX Desktop White"
+    },
+    {
+      "search_keyword": "be quiet! Silent Base 601 ATX Mid Tower Black / Silver with Tempered Glass Side Panel and USB 3.2 Gen 1 Type-A USB 2.0 Type-A"
+    },
+    {
+      "search_keyword": "Corsair 2000D RGB AIRFLOW Mini-ITX Tower Black Mesh Side Panel USB 3.2 Gen 2 Type-C USB 3.2 Gen 1 Type-A"
+    },
+    {
+      "search_keyword": "Vetroo AL700 ATX Mid Tower Black with Tempered Glass Side Panel and Front Panel USB 3.2 Gen 2 Type-C USB 3.2 Gen 1 Type-A USB 2.0 Type-A"
+    },
+    {
+      "search_keyword": "Rosewill BLACKHAWK-ULTRA ATX Full Tower Black with USB 3.2 Gen 1 Type-A and USB 2.0 Type-A"
+    },
+    {
+      "search_keyword": "In Win D-Frame 2.0 ATX Full Tower White / Blue Tempered Glass Side Panel w/1065 W Power Supply"
+    },
+    {
+      "search_keyword": "GameMax White Diamond ARGB ATX Mid Tower White / Black with Tempered Glass Side Panel and USB 3.2 Gen 1 Type-A USB 2.0 Type-A"
+    },
+    {
+      "search_keyword": "Corsair Carbide Series SPEC-06 ATX Mid Tower Black with Tempered Glass Side Panel and USB 3.2 Gen 1 Type-A Front Panel"
+    },
+    {
+      "search_keyword": "DIYPC ARGB-Q8-BK Micro ATX Mid Tower Black Tempered Glass Side Panel"
+    },
+    {
+      "search_keyword": "Azza Spectra ATX Mid Tower White with Tempered Glass Side Panel and Front Panel USB 3.2 Gen 1 Type-A USB 2.0 Type-A"
+    },
+    {
+      "search_keyword": "Apevia X-FIT-100 Mini-ITX Tower Case Black with 250 W Power Supply"
+    },
+    {
+      "search_keyword": "APNX V1 ATX Mid Tower White / Brown Tempered Glass Side Panel"
+    },
+    {
+      "search_keyword": "Montech AIR 903 MAX ATX Mid Tower Black Tempered Glass Side Panel"
+    },
+    {
+      "search_keyword": "Cooler Master MasterCase Maker 5 ATX Mid Tower Black with Acrylic Side Panel and Front Panel: USB 3.2 Gen 2 Type-C USB 3.2 Gen 1 Type-A USB 2.0 Type-A"
+    },
+    {
+      "search_keyword": "RAIJINTEK PAN Slim Mini-ITX Desktop"
+    },
+    {
+      "search_keyword": "be quiet! Pure Base 600 ATX Mid Tower Black / Orange Tempered Glass Side Panel"
+    },
+    {
+      "search_keyword": "Zalman Z10 DUO ATX Mid Tower Black with Tempered Glass Side Panel and USB 3.2 Gen 2 Type-C / USB 3.2 Gen 1 Type-A"
+    },
+    {
+      "search_keyword": "Fractal Design Epoch RGB ATX Mid Tower White Tempered Glass Side Panel"
+    },
+    {
+      "search_keyword": "Fractal Design Meshify 2 Compact TG Dark Tint ATX Mid Tower Black Tinted Tempered Glass"
+    },
+    {
+      "search_keyword": "CiT Master ATX Mid Tower Black Tempered Glass Side Panel USB 3.2 Gen 1 & USB 2.0 Front USB"
+    },
+    {
+      "search_keyword": "Corsair Obsidian Series 350D Micro ATX Mid Tower Black Window"
+    },
+    {
+      "search_keyword": "Fractal Design Meshify 2 Compact ATX Mid Tower White TG Clear Tint Tempered Glass"
+    },
+    {
+      "search_keyword": "HAVN BF 360 Flow White"
+    },
+    {
+      "search_keyword": "Corsair Obsidian Series 450D ATX Mid Tower Black Acrylic Side Panel"
+    },
+    {
+      "search_keyword": "Rosewill FBM-X1 Micro ATX Mini Tower Black with Acrylic Side Panel and USB 3.2 Gen 1 Type-A USB 2.0 Type-A Front Panel"
+    },
+    {
+      "search_keyword": "Jonsbo BO 100 Mini-ITX Desktop Silver with Tempered Glass Side Panel and USB 3.2 Gen 2 Type-C USB 3.2 Gen 1 Type-A"
+    },
+    {
+      "search_keyword": "FSP Group CUT593P ATX Full Tower White with Tempered Glass Side Panel USB 3.2 Gen 2 Type-C USB 3.2 Gen 1 Type-A and Dimensions 500 x 230 x 544"
+    },
+    {
+      "search_keyword": "Cougar Purity MicroATX Mini Tower Black"
+    },
+    {
+      "search_keyword": "NZXT H700 ATX Mid Tower White Tempered Glass Side Panel"
+    },
+    {
+      "search_keyword": "GameMax Master M905 ATX Full Tower Black Tempered Glass Side Panel"
+    },
+    {
+      "search_keyword": "NZXT H7 Flow (2024) ATX Mid Tower Black with Tempered Glass Side Panel and USB 3.2 Gen 2x2 Type-C USB 3.2 Gen 1 Type-A"
+    },
+    {
+      "search_keyword": "Corsair Vengeance C70 ATX Mid Tower Green Acrylic Side Panel"
+    },
+    {
+      "search_keyword": "Lian Li O11 Dynamic Mini ATX Mid Tower Snow Edition Tempered Glass Side Panel"
+    },
+    {
+      "search_keyword": "Phanteks Enthoo EVOLV ITX TG Mini-ITX Desktop Black / Red Tinted Tempered Glass Side Panel"
+    },
+    {
+      "search_keyword": "HYTE Y40 ATX Mid Tower Red / Black with Tempered Glass Side Panel and USB 3.2 Gen 2 Type-C USB 3.2 Gen 1 Type-A"
+    },
+    {
+      "search_keyword": "Fractal Design Define R4 ATX Mid Tower Black / Gray with Acrylic Side Panel and USB 3.2 Gen 1 Type-A USB 2.0 Type-A"
+    },
+    {
+      "search_keyword": "Chieftec Chieftronic M2 MicroATX Mid Tower Tempered Glass Side Panel Front USB 3.2 Gen 1 Type-A & USB 2.0 Type-A"
+    },
+    {
+      "search_keyword": "Silverstone Lucid 04 Micro ATX Mid Tower White Tempered Glass Side Panel USB 3.2 Gen 2 Type-C USB 3.2 Gen 1 Type-A"
+    },
+    {
+      "search_keyword": "NZXT H7 Flow RGB (2024) ATX Mid Tower White Tempered Glass USB 3.2 Gen 2x2 Type-C USB 3.2 Gen 1 Type-A"
+    },
+    {
+      "search_keyword": "Corsair Carbide Series Air 240 Micro ATX Mid Tower White Acrylic Side Panel USB 3.2 Gen 1 Type-A"
+    },
+    {
+      "search_keyword": "Corsair 2000D RGB AIRFLOW Mini-ITX Tower Black Mesh Side Panel USB 3.2 Gen 2 Type-C USB 3.2 Gen 1 Type-A"
+    },
+    {
+      "search_keyword": "Vetroo AL700 ATX Mid Tower Black with Tempered Glass Side Panel and Front Panel USB 3.2 Gen 2 Type-C USB 3.2 Gen 1 Type-A USB 2.0 Type-A"
+    },
+    {
+      "search_keyword": "GameMax White Diamond ARGB ATX Mid Tower White / Black with Tempered Glass Side Panel and USB 3.2 Gen 1 Type-A USB 2.0 Type-A"
+    },
+    {
+      "search_keyword": "Azza Spectra ATX Mid Tower White with Tempered Glass Side Panel and Front Panel USB 3.2 Gen 1 Type-A USB 2.0 Type-A"
+    },
+    {
+      "search_keyword": "Cooler Master MasterCase Maker 5 ATX Mid Tower Black with Acrylic Side Panel and Front Panel: USB 3.2 Gen 2 Type-C USB 3.2 Gen 1 Type-A USB 2.0 Type-A"
+    },
+    {
+      "search_keyword": "CiT Master ATX Mid Tower Black Tempered Glass Side Panel USB 3.2 Gen 1 & USB 2.0 Front USB"
+    },
+    {
+      "search_keyword": "Rosewill FBM-X1 Micro ATX Mini Tower Black with Acrylic Side Panel and USB 3.2 Gen 1 Type-A USB 2.0 Type-A Front Panel"
+    },
+    {
+      "search_keyword": "Jonsbo BO 100 Mini-ITX Desktop Silver with Tempered Glass Side Panel and USB 3.2 Gen 2 Type-C USB 3.2 Gen 1 Type-A"
+    },
+    {
+      "search_keyword": "FSP Group CUT593P ATX Full Tower White with Tempered Glass Side Panel USB 3.2 Gen 2 Type-C USB 3.2 Gen 1 Type-A and Dimensions 500 x 230 x 544"
+    },
+    {
+      "search_keyword": "Thermaltake Versa N26 ATX Mid Tower Black Acrylic Side Panel"
+    },
+    {
+      "search_keyword": "SHARKOON Elite Shark CA200G ATX Mid Tower Black Tempered Glass USB 3.2 Gen 1 Type-A USB 2.0 Type-A"
+    },
+    {
+      "search_keyword": "Cooler Master MasterBox TD500 Mesh ATX Mid Tower White w/o Controller"
+    },
+    {
+      "search_keyword": "Deepcool CK560 ATX Mid Tower White/Black Tempered Glass Side Panel"
+    },
+    {
+      "search_keyword": "Lian Li Q58 Mini-ITX Desktop Black Tempered Glass Side Panel PCIe 4.0"
+    },
+    {
+      "search_keyword": "Jonsbo D40 ATX Mid Tower Black Tempered Glass Side Panel"
+    },
+    {
+      "search_keyword": "NZXT H710i ATX Mid Tower Black with Tempered Glass Side Panel and USB 3.2 Gen 2 Type-C USB 3.2 Gen 1 Type-A"
+    },
+    {
+      "search_keyword": "NZXT H7 Flow 2024 - Mid-Tower ATX Airflow Case - Includes Pre-Installed 3 x 120mm Fans - CM-H72FB-01 - Supports Bottom Fans for Dedicated GPU Cooling - Cable Management - Black"
+    },
+    {
+      "search_keyword": "Corsair Carbide Series 678C ATX Mid Tower White / Black with Tempered Glass Side Panel and USB 3.2 Gen 2 Type-C USB 3.2 Gen 1 Type-A"
+    },
+    {
+      "search_keyword": "NZXT H500 ATX Mid Tower White with Tempered Glass Side Panel and USB 3.2 Gen 1 Type-A"
+    },
+    {
+      "search_keyword": "Cougar MX340 ATX Mid Tower Black with Tempered Glass Side Panel and USB 3.2 Gen 1 Type-A USB 2.0 Type-A Front Panel"
+    },
+    {
+      "search_keyword": "SAMA IM01 Pro Micro ATX Mini Tower Black Tempered Glass Front USB: USB 3.2 Gen2 Type-C & USB 3.2 Gen1 Type-A"
+    },
+    {
+      "search_keyword": "Fractal Design Define S2 Vision RGB ATX Mid Tower Black with Tinted Tempered Glass Side Panel"
+    },
+    {
+      "search_keyword": "Apevia Guardian-M ATX Mid Tower Black Tempered Glass Side Panel"
+    },
+    {
+      "search_keyword": "MUSETEX Y4 ATX Mid Tower Black with Tempered Glass Side Panel and USB 3.2 Gen 2 Type-C USB 3.2 Gen 1 Type-A"
+    },
+    {
+      "search_keyword": "MSI MPG GUNGNIR 300R AIRFLOW ATX Mid Tower White with Tempered Glass Side Panel and USB 3.2 Gen 2x2 Type-C / USB 3.2 Gen 1 Type-A"
+    },
+    {
+      "search_keyword": "Phanteks NV5 ATX Mid Tower Black Tempered Glass Side Panel"
+    },
+    {
+      "search_keyword": "Fractal Design Define C ATX Mid Tower Black Tempered Glass"
+    },
+    {
+      "search_keyword": "Maingear Vybe Mk. V ATX Mid Tower Red / Black Tempered Glass Side Panel"
+    },
+    {
+      "search_keyword": "be quiet! Pure Base 501 DX ATX Mid Tower White Tempered Glass"
+    },
+    {
+      "search_keyword": "Jonsbo N10 Mini-ITX Tower Silver with Mesh Side Panel and USB 3.2 Gen 2 Type-C Front Panel"
+    },
+    {
+      "search_keyword": "Fractal Design Arc XL ATX Full Tower Black with Acrylic Side Panel and USB 3.2 Gen 1 Type-A USB 2.0 Type-A"
+    },
+    {
+      "search_keyword": "Thermaltake Versa H17 Micro ATX Mini Tower Black"
+    },
+    {
+      "search_keyword": "Fractal Design Era ITX Mini Tower Case (Carbon with Tempered Glass)"
+    },
+    {
+      "search_keyword": "Thermaltake Ceres 300 ATX Mid Tower Green Tempered Glass ARGB"
+    },
+    {
+      "search_keyword": "KOLINK Unity Cascade ARGB ATX Mid Tower Black Tempered Glass USB 3.2 Gen 1 Type-A"
+    },
+    {
+      "search_keyword": "In Win Explorer Mini-ITX Desktop White Tempered Glass Side Panel"
+    },
+    {
+      "search_keyword": "DIYPC DIY-mATX06-Wood Micro ATX Mini Tower Black / Brown with Tempered Glass Side Panel and USB 3.2 Gen 2 Type-C USB 3.2 Gen 1 Type-A"
+    },
+    {
+      "search_keyword": "HYTE Y40 ATX Mid Tower White / Black with Tempered Glass Side Panel and USB 3.2 Gen 2 Type-C USB 3.2 Gen 1 Type-A"
+    },
+    {
+      "search_keyword": "GameMax Vista M Micro ATX Mini Tower White Tempered Glass Side Panel"
+    },
+    {
+      "search_keyword": "JONSBO D30 BLACK Mini Micro ATX Computer Case Aluminum/Steel/Tempered Glass-1 Side Simple High Compatibility MATX Case Support 240 Water & 168mm Air Cooling 355mm GPU SupportInterchangeable Side"
+    },
+    {
+      "search_keyword": "Thermaltake Versa N21 ATX Mid Tower Black Acrylic Side Panel USB 3.2 Gen 1 Type-A USB 2.0 Type-A"
+    },
+    {
+      "search_keyword": "Thermaltake View 21 ATX Mid Tower Black Tempered Glass Side Panel"
+    },
+    {
+      "search_keyword": "Thermaltake Commander C34 ATX Mid Tower White / Black Tempered Glass Side Panel ARGB"
+    },
+    {
+      "search_keyword": "HYTE Y70 Silver Wolf ATX Mid Tower Black / Purple with Tempered Glass Side Panel and USB 3.2 Gen 2 Type-C USB 3.2 Gen 1 Type-A"
+    },
+    {
+      "search_keyword": "HAVN BF360 Flow Black"
+    },
+    {
+      "search_keyword": "Raidmax Viper GX ATX Mid Tower Black / Green USB 3.2 Gen 1 Type-A"
+    },
+    {
+      "search_keyword": "In Win Chopin MAX Mini-ITX Desktop Gray with Mesh Side Panel USB 3.2 Gen 2x2 Type-C USB 3.2 Gen 1 Type-A and 200 W Power Supply"
+    },
+    {
+      "search_keyword": "Deepcool D-Shield V2 ATX Mid Tower Black Acrylic Side Panel"
+    },
+    {
+      "search_keyword": "Lian Li O11 Dynamic Mini V2 ATX Mini Tower White Tempered Glass USB 3.2 Gen 2 Type-C USB 3.2 Gen 1 Type-A"
+    },
+    {
+      "search_keyword": "MSI MAG FORGE 112R ATX Mid Tower Black Tempered Glass Side Panel USB 3.2 Gen 1 Type-A Front Panel"
+    },
+    {
+      "search_keyword": "Fractal Design Meshify 2 RGB ATX Mid Tower Black Tempered Glass Side Panel"
+    },
+    {
+      "search_keyword": "Deepcool MACUBE 110 Micro ATX Mini Tower Black Tempered Glass Side Panel"
+    },
+    {
+      "search_keyword": "In Win A5 ATX Mid Tower Black Tempered Glass Side Panel USB 3.2 Gen 2x2 Type-C USB 3.2 Gen 1 Type-A"
+    },
+    {
+      "search_keyword": "Mars Gaming MCZ MicroATX Mid Tower Black Tempered Glass Side Panel"
+    },
+    {
+      "search_keyword": "Deepcool Dukase ATX Mid Tower Black Acrylic Side Panel"
+    },
+    {
+      "search_keyword": "Asus Prime AP201 Micro ATX Mini Tower White Mesh Side Panel"
+    },
+    {
+      "search_keyword": "Silverstone PS13 ATX Mid Tower Black"
+    },
+    {
+      "search_keyword": "NOX Hummer ASTRA ATX Mid Tower Black with Tempered Glass Side Panel and USB 3.2 Gen 1 Type-C and USB 3.2 Gen 1 Type-A"
+    },
+    {
+      "search_keyword": "HYTE Y70 ATX Mid Tower Taro Milk Purple Tempered Glass Side Panel"
+    },
+    {
+      "search_keyword": "Asus TUF Gaming GT502 ATX Mid Tower White Tempered Glass Side Panel"
+    },
+    {
+      "search_keyword": "SSUPD Meshlicious Mini-ITX Tower White with Mesh Side Panel and USB 3.2 Gen 2 Type-C USB 3.2 Gen 1 Type-A"
+    },
+    {
+      "search_keyword": "Geometric Future Model 5 Fanless ATX Mid Tower White Tempered Glass Side Panel"
+    },
+    {
+      "search_keyword": "Lian Li PC-TU200 Mini-ITX Tower Black"
+    },
+    {
+      "search_keyword": "Aerocool Tor Pro ATX Full Tower Black with Tempered Glass Side Panel and USB 3.2 Gen 1 Type-A USB 2.0 Type-A"
+    },
+    {
+      "search_keyword": "Lian Li LANCOOL III ATX Mid Tower Black RGB Tempered Glass Side Panel"
+    },
+    {
+      "search_keyword": "Fractal Design Define R4 ATX Mid Tower White Acrylic Side Panel"
+    },
+    {
+      "search_keyword": "NZXT H510 Elite ATX Mid Tower Black with Tempered Glass Side Panel and Front I/O: USB 3.2 Gen 2 Type-C USB 3.2 Gen 1 Type-A"
+    },
+    {
+      "search_keyword": "Fractal Design North Momentum Edition ATX Mid Tower Black Tempered Glass Side Panel"
+    },
+    {
+      "search_keyword": "Deepcool CH510 ATX Mid Tower Black Tempered Glass Side Panel"
+    },
+    {
+      "search_keyword": "Jonsbo D300 Micro ATX Mid Tower Black 4PCS Tempered Glass Side Panel"
+    },
+    {
+      "search_keyword": "In Win BK623.BH300TB3 Micro ATX Mini Tower Case Black / Silver w/300 W Power Supply"
+    },
+    {
+      "search_keyword": "be quiet! Light Base 500 LX Black"
+    },
+    {
+      "search_keyword": "Deepcool Matrexx 55 V3 ATX Mid Tower Black with Tempered Glass Side Panel and USB 3.2 Gen 1 Type-A USB 2.0 Type-A Front Panel"
+    },
+    {
+      "search_keyword": "Deepcool MATREXX 40 3FS Micro ATX Mini Tower Black with Tempered Glass Side Panel and USB 3.2 Gen 1 Type-A USB 2.0 Type-A"
+    }
+  ],
+  "cooler": [
+    {
+      "id": "clr_01",
+      "name": "PCCOOLER PALADIN 400",
+      "type": "Air",
+      "height": 157,
+      "socket": [
+        "AM4",
+        "AM5",
+        "LGA1700"
+      ],
+      "search_keyword": "팔라딘 400"
+    },
+    {
+      "id": "clr_02",
+      "name": "3RSYS Socoool RC1800 LITE",
+      "type": "Air",
+      "height": 160,
+      "socket": [
+        "AM4",
+        "AM5",
+        "LGA1700"
+      ],
+      "search_keyword": "RC1800 LITE"
+    },
+    {
+      "id": "clr_03",
+      "name": "NZXT KRAKEN 360",
+      "type": "Liquid",
+      "radiator": 360,
+      "socket": [
+        "AM4",
+        "AM5",
+        "LGA1700"
+      ],
+      "search_keyword": "NZXT KRAKEN 360"
+    },
+    {
+      "id": "clr_04",
+      "name": "Deepcool AG620",
+      "type": "Air",
+      "height": 157,
+      "socket": [
+        "AM4",
+        "AM5",
+        "LGA1700"
+      ],
+      "search_keyword": "Deepcool AG620"
+    },
+    {
+      "search_keyword": "Gelid Solutions Liquid 240 Water 240mm Black"
+    },
+    {
+      "search_keyword": "Thermaltake UX 210 Air ARGB Black / Silver"
+    },
+    {
+      "search_keyword": "Alphacool Eisbaer Aurora Water 240mm 61.5 CFM Black"
+    },
+    {
+      "search_keyword": "ID-COOLING IS-30 40 CFM Air 30mm"
+    },
+    {
+      "search_keyword": "Thermalright Frozen Warframe PRO Water 360mm Black"
+    },
+    {
+      "search_keyword": "Jonsbo CR-3000 Standard 59.48 CFM Air 160mm Black / Silver"
+    },
+    {
+      "search_keyword": "Lian Li Hydroshift II LCD-C CL 72 CFM Water 360mm Black"
+    },
+    {
+      "search_keyword": "Deepcool AK400 Air 155mm Black / Silver"
+    },
+    {
+      "search_keyword": "ARCTIC Alpine 11 GT Rev. 2 Air 64mm 28.6 CFM"
+    },
+    {
+      "search_keyword": "MSI MAG CORELIQUID C240 Water 240mm EVA e-PROJECT Black"
+    },
+    {
+      "search_keyword": "Alpenföhn Brocken 2 Air 165mm 64.15 CFM"
+    },
+    {
+      "search_keyword": "Deepcool CAPTAIN Water 240mm 91.12 CFM"
+    },
+    {
+      "search_keyword": "ASUS ROG RYUO IV 360 ARGB White"
+    },
+    {
+      "search_keyword": "Deepcool LQ240 Water 240mm Black"
+    },
+    {
+      "search_keyword": "Thermaltake TH240 V2 ARGB Black"
+    },
+    {
+      "search_keyword": "Thermaltake MAGFloe 360 Ultra ARGB Sync 57.11 CFM Water 360mm Black"
+    },
+    {
+      "search_keyword": "be quiet! Silent Loop 2 Water 240mm Black"
+    },
+    {
+      "search_keyword": "Cooler Master CHD-00008-01-GP Air 30.67 CFM Rifle Bearing"
+    },
+    {
+      "search_keyword": "Cooler Master Hyper 212 LED Air 160mm 66.3 CFM Rifle Bearing"
+    },
+    {
+      "search_keyword": "MSI MAG CORELIQUID R Water 78.73 CFM 360mm Black"
+    },
+    {
+      "search_keyword": "NZXT Kraken X73 Water 360mm RGB 52.44 CFM Black"
+    },
+    {
+      "search_keyword": "NZXT Kraken Water 240mm RGB White"
+    },
+    {
+      "search_keyword": "GAMDIAS CHIONE M2 Water 240mm Black"
+    },
+    {
+      "search_keyword": "Thermalright Le Grand Macho Air 159mm Fanless"
+    },
+    {
+      "search_keyword": "GameMax Twin 600 88.2 CFM Air 155mm Black"
+    },
+    {
+      "search_keyword": "Corsair iCUE LINK TITAN 240 RX Water 240mm RGB 73.5 CFM White"
+    },
+    {
+      "search_keyword": "Silverstone NovaPeak 360 Water 360mm 69.8 CFM Black"
+    },
+    {
+      "search_keyword": "Thermalright Burst Assassin Air 154mm Gray / Black"
+    },
+    {
+      "search_keyword": "ID-COOLING FROSTFLOW X LITE Water 240mm White"
+    },
+    {
+      "search_keyword": "ID-COOLING IS-55 Air ARGB 55mm Black"
+    },
+    {
+      "search_keyword": "Corsair iCUE LINK H100i Water 240mm RGB Black"
+    },
+    {
+      "search_keyword": "Cooler Master X Dream I117 Air 60mm 36.5 CFM"
+    },
+    {
+      "search_keyword": "iTek Hydro Cube 65.54 CFM Water 240mm White"
+    },
+    {
+      "search_keyword": "ARCTIC Liquid Freezer III Water 280 A-RGB 69.9 CFM White"
+    },
+    {
+      "search_keyword": "Asus ROG STRIX LC II 80.95 CFM Water 360mm Black"
+    },
+    {
+      "search_keyword": "Thermalright Peerless Assassin 140 SE Black/Silver"
+    },
+    {
+      "search_keyword": "Iceberg Thermal IceSLEET G6 Stealth 85 CFM Air 160mm Black / Blue"
+    },
+    {
+      "search_keyword": "Iceberg Thermal IceSLEET X6 76 CFM Air 159mm Teal / Silver"
+    },
+    {
+      "search_keyword": "MSI MPG CORELIQUID P13 360 White"
+    },
+    {
+      "search_keyword": "Valkyrie SYN 80 CFM Water 240mm White / Blue"
+    },
+    {
+      "search_keyword": "upHere AC12BE Air 154mm Black"
+    },
+    {
+      "search_keyword": "Asus ROG Ryujin 240 RGB AIO Water 240mm 121.8 CFM Black"
+    },
+    {
+      "search_keyword": "EVGA CLCx Water 280mm 85.13 CFM Black"
+    },
+    {
+      "search_keyword": "FSP Group MP7 76 CFM Air 153mm Black"
+    },
+    {
+      "search_keyword": "Rosewill RCX-ZAIO-92 54.8 CFM Sleeve Bearing Air 138mm"
+    },
+    {
+      "search_keyword": "ARCTIC Alpine 11 Plus Air 70mm Fluid Dynamic Bearing"
+    },
+    {
+      "search_keyword": "Cooler Master MasterLiquid ML240R RGB Water 240mm"
+    },
+    {
+      "search_keyword": "Deepcool Gammaxx L360 V2 Water 360mm Black / White"
+    },
+    {
+      "search_keyword": "Enermax LIQMAX III RGB Water 240mm 72.1 CFM Black"
+    },
+    {
+      "search_keyword": "MSI MAG CORELIQUID I360 70.7 CFM Water 360mm White"
+    },
+    {
+      "search_keyword": "Deepcool CASTLE 240EX Water 240mm RGB 60.6 CFM Black"
+    },
+    {
+      "search_keyword": "Ocypus Iota Water 360mm 77 CFM White"
+    },
+    {
+      "search_keyword": "Geometric Future Eskimo Junior 36 69.11 CFM Water 360mm Black"
+    },
+    {
+      "search_keyword": "Deepcool LE320 Water 120mm 85.85 CFM White"
+    },
+    {
+      "search_keyword": "Deepcool ICE BLADE PRO V2.0 Air 161mm 60.29 CFM"
+    },
+    {
+      "search_keyword": "NZXT Kraken Z53 73.11 CFM Water 240mm Black"
+    },
+    {
+      "search_keyword": "ARCTIC Alpine 12 CO Air 77mm Black / Gray"
+    },
+    {
+      "search_keyword": "NZXT Kraken X52 Rev 2 Water 240mm 73.11 CFM"
+    },
+    {
+      "search_keyword": "StarTech FAN775E Air 49.37 CFM"
+    },
+    {
+      "search_keyword": "Cooler Master Masterliquid 240 Atmos Water 240mm White"
+    },
+    {
+      "search_keyword": "CRYORIG R1 Ultimate Air 76 CFM 169mm"
+    },
+    {
+      "search_keyword": "BitFenix Cube ARGB 60 CFM Water 240mm ARGB 60 CFM Black"
+    },
+    {
+      "search_keyword": "DarkFlash Shadow PWM CPU Cooler"
+    },
+    {
+      "search_keyword": "iBuypower AW4 Water 360mm 65 CFM White"
+    },
+    {
+      "search_keyword": "Cooler Master Hyper 212X Air 158mm"
+    },
+    {
+      "search_keyword": "Vetroo V240 Water 240mm 52 CFM Pink"
+    },
+    {
+      "search_keyword": "Xilence LQ360G.W.ARGB Water 360mm 68.2 CFM White"
+    },
+    {
+      "search_keyword": "Lian Li Hydroshift LCD Water 360mm White"
+    },
+    {
+      "search_keyword": "NZXT Kraken X63 Water 280mm Black"
+    },
+    {
+      "search_keyword": "Jonsbo HX6250 90.2 CFM Air 162mm Black"
+    },
+    {
+      "search_keyword": "EVGA CLCx 360 Water 360mm 73.15 CFM Black"
+    },
+    {
+      "search_keyword": "Thermaltake UX200 SE Air 156mm ARGB Black"
+    },
+    {
+      "search_keyword": "Noctua NH-L12S Air 70mm"
+    },
+    {
+      "search_keyword": "Thermalright Frozen Notte Water 240mm ARGB Black"
+    },
+    {
+      "search_keyword": "ASUS ROG RYUJIN III 240 ARGB White Edition"
+    },
+    {
+      "search_keyword": "NZXT Kraken X52 Water 240mm"
+    },
+    {
+      "search_keyword": "ARCTIC Liquid Freezer II 280 Water 280mm RGB 68.9 CFM Black"
+    },
+    {
+      "search_keyword": "Deepcool AG500 Air ARGB 67.88 CFM 155mm White"
+    },
+    {
+      "search_keyword": "Deepcool GAMERSTORM CAPTAIN 240X Water 240mm 64.4 CFM White / Black"
+    },
+    {
+      "search_keyword": "Thermaltake TH420 Water 420mm ARGB Sync 84.32 CFM White"
+    },
+    {
+      "search_keyword": "Silverstone NovaPeak Water 240mm 69.8 CFM Black"
+    },
+    {
+      "search_keyword": "Silverstone NT06-PRO-V2 Air 82mm Silver / Black"
+    },
+    {
+      "search_keyword": "ARCTIC Liquid Freezer II Water 420mm Black"
+    },
+    {
+      "search_keyword": "Xilence LQ240 ARGB 68.2 CFM Water 240mm Black"
+    },
+    {
+      "search_keyword": "Fractal Design Kelvin T12 Water 120mm 62.4 CFM"
+    },
+    {
+      "search_keyword": "Vetroo R360 Water 360mm White"
+    },
+    {
+      "search_keyword": "ARCTIC Freezer i30 Air 74 CFM 161mm"
+    },
+    {
+      "search_keyword": "ARCTIC Alpine 23 Air 65mm White / Black"
+    },
+    {
+      "search_keyword": "Thermalright AQUA ELITE ARGB V4 66.17 CFM Water 240mm Black"
+    },
+    {
+      "search_keyword": "NZXT Kraken Elite 280 RGB White (2024)"
+    },
+    {
+      "search_keyword": "Asus Prime LC 360 ARGB LCD Water 360mm ARGB LCD 77.22 CFM White"
+    },
+    {
+      "search_keyword": "NZXT Kraken Plus 240mm RGB White (2025)"
+    },
+    {
+      "search_keyword": "Phanteks PH-TC14PE_BK Air 171mm 78.1 CFM Black"
+    },
+    {
+      "search_keyword": "Valkyrie DRAGONFANG 80 CFM Water 360mm Black"
+    },
+    {
+      "search_keyword": "GAMDIAS BOREAS M2-51D 72.94 CFM Air 159mm Black"
+    },
+    {
+      "search_keyword": "Noctua NH-U9S Air 124mm"
+    },
+    {
+      "search_keyword": "Thermalright Grand Vision 240 ARGB BLACK"
+    },
+    {
+      "search_keyword": "Enermax Liqmax III Water 120mm HF 90.1 CFM Black"
+    },
+    {
+      "search_keyword": "Deepcool CASTLE 360EX Water 360mm 64.4 CFM White / Black"
+    },
+    {
+      "search_keyword": "ID-COOLING SE-902 Air 38.5 CFM"
+    },
+    {
+      "search_keyword": "NZXT T120 RGB Air 159mm White"
+    },
+    {
+      "search_keyword": "Thermalright Frozen Warframe Water 240mm ARGB White"
+    },
+    {
+      "search_keyword": "Asus TUF Gaming LC III ARGB LCD Water 360mm 90.78 CFM Black"
+    },
+    {
+      "search_keyword": "ID-COOLING SPACE LCD Water 240mm 76.16 CFM White"
+    },
+    {
+      "search_keyword": "Gigabyte GAMING 360 61.61 CFM Water 360mm 61.61 CFM Black"
+    },
+    {
+      "search_keyword": "Deepcool GAMMAXX 200 Air 143mm 37.18 CFM"
+    },
+    {
+      "search_keyword": "ID-COOLING FROZN A410 DK Air 152mm Black"
+    },
+    {
+      "search_keyword": "Deepcool LS720S ZERO DARK Water 360mm Black"
+    },
+    {
+      "search_keyword": "Thermalright Frozen Notte ARGB Water 360mm Black"
+    },
+    {
+      "search_keyword": "Deepcool AK400 AirCooler ZERO DARK PLUS Black"
+    },
+    {
+      "search_keyword": "MSI MAG Coreliquid A12 240 - AIO ARGB CPU Liquid Cooler - 240mm Radiator"
+    },
+    {
+      "search_keyword": "upHere P5K CPU Air Cooler 230w TDP 6mm x 5 Copper Heat Pipes CPU Cooler with 120mm Fan PWM 1800RPM 77.93CFM for Intel LGA 2011/2066 (Mainboard X79/X99)/1700/1200/1150/1121/1155/1156/1366/AMD AM5/AM4"
+    },
+    {
+      "search_keyword": "ARCTIC Freezer 11 LP Air Fluid Dynamic Bearing 53mm"
+    },
+    {
+      "search_keyword": "Gigabyte AORUS WATERFORCE Water 280mm Black"
+    },
+    {
+      "search_keyword": "Asus ROG STRIX LC II ARGB 80.95 CFM Liquid CPU Cooler"
+    },
+    {
+      "search_keyword": "In Win SR36 PRO 101.5 CFM Water 360mm Black"
+    },
+    {
+      "search_keyword": "Cooler Master Nepton 140XL Water 140mm 122.5 CFM"
+    },
+    {
+      "search_keyword": "ARCTIC Freezer 34 CO Air 157mm Black / Silver"
+    },
+    {
+      "search_keyword": "Asus ROG STRIX LC III Water 360mm ARGB 70.38 CFM Black"
+    },
+    {
+      "search_keyword": "Jonsbo HX4170D Air 45mm Black"
+    }
+  ],
+  "ram": [
+    {
+      "id": "ram_01",
+      "name": "삼성전자 DDR5-5600 (16GB)",
+      "type": "DDR5",
+      "search_keyword": "삼성 DDR5 5600 16GB"
+    },
+    {
+      "id": "ram_02",
+      "name": "TeamGroup T-Force DDR5-6000 CL30 Delta RGB",
+      "type": "DDR5",
+      "search_keyword": "팀그룹 DDR5 6000 Delta RGB"
+    },
+    {
+      "id": "ram_03",
+      "name": "SK하이닉스 DDR5-5600 (16GB)",
+      "type": "DDR5",
+      "search_keyword": "SK하이닉스 DDR5 5600 16GB"
+    },
+    {
+      "search_keyword": "TEAMGROUP T-Create Expert Black / Gold DDR5-6400 CL32 48GB (2x24GB)"
+    },
+    {
+      "search_keyword": "TEAMGROUP T-Force Xtreem Pink DDR5-6800 CL34 48GB (2x24GB)"
+    },
+    {
+      "search_keyword": "Crucial CP2K64G56C46U5 Black DDR5-5600 CL46 128GB (2x64GB)"
+    },
+    {
+      "search_keyword": "TEAMGROUP T-Force Delta RGB DDR4 16GB (1x16GB) 2666MHz CL16 WHITE"
+    },
+    {
+      "search_keyword": "Silicon Power XPOWER Storm RGB Black DDR5-7600 CL36 32GB (1x32GB)"
+    },
+    {
+      "search_keyword": "Lexar Hades OC Gray / Black DDR4-3200 CL18 16GB (1x16GB)"
+    },
+    {
+      "search_keyword": "ADATA XPG LANCER RGB ROG CERTIFIED Black DDR5-7200 CL34 48GB (2x24GB)"
+    },
+    {
+      "search_keyword": "TEAMGROUP T-Force Delta RGB Black DDR4-3200 CL16 32GB (2x16GB)"
+    },
+    {
+      "search_keyword": "TEAMGROUP T-Create Expert Gray DDR4-3200 CL16 16GB (2x8GB)"
+    },
+    {
+      "search_keyword": "Crucial Ballistix Sport Gray / Silver DDR4-2400 CL16 8GB (1x8GB)"
+    },
+    {
+      "search_keyword": "ADATA XPG LANCER RGB Black 32GB (2x16GB) DDR5 5200 CL38"
+    },
+    {
+      "search_keyword": "G.Skill Ripjaws S5 Black DDR5-6000 CL40 48GB (2x24GB)"
+    },
+    {
+      "search_keyword": "TEAMGROUP T-Create Expert Black DDR5-7200 CL34 32GB (2x16GB)"
+    },
+    {
+      "search_keyword": "G.Skill Trident Z White / Black DDR5-5600 CL30 64GB (2x32GB)"
+    },
+    {
+      "search_keyword": "G.Skill Trident Z5 RGB Black DDR5-6000 CL36 32GB (2x16GB)"
+    },
+    {
+      "search_keyword": "GeIL EVO V RGB Black DDR5-6800 CL36 96GB (2x48GB)"
+    },
+    {
+      "search_keyword": "Timetec PINNACLE Konduit RGB DDR4-3600 CL18 16GB (1x16GB)"
+    },
+    {
+      "search_keyword": "TEAMGROUP Elite Plus Silver DDR5-5600 CL40 16GB (1x16GB)"
+    },
+    {
+      "search_keyword": "Corsair Dominator Platinum RGB Gray / Black DDR5-6000 CL30 32GB (2x16GB)"
+    },
+    {
+      "search_keyword": "Corsair Vengeance RGB Black / Gray DDR5-6600 CL32 64GB (4x16GB)"
+    },
+    {
+      "search_keyword": "Klevv CRAS X RGB Black DDR4-3200 CL16 8GB (1x8GB)"
+    },
+    {
+      "search_keyword": "Kingston FURY Renegade Pro Registered Black DDR5-6400 CL32 128GB (4x32GB)"
+    },
+    {
+      "search_keyword": "Kingston FURY White DDR5-5600 CL40 64GB (2x32GB)"
+    },
+    {
+      "search_keyword": "Kingston FURY Beast Black DDR5-6000 CL30 32GB (1x32GB)"
+    },
+    {
+      "search_keyword": "Corsair Vengeance Black / Silver DDR5-6200 CL32 32GB (2x16GB)"
+    },
+    {
+      "search_keyword": "Corsair Dominator Platinum RGB Black DDR4-3600 CL18 16GB (2x8GB)"
+    },
+    {
+      "search_keyword": "Crucial CT2K16G52C42U5 Black DDR5-5200 CL42 32GB (2x16GB)"
+    },
+    {
+      "search_keyword": "G.Skill Trident Z5 Silver / Black DDR5-5600 CL36 32GB (2x16GB)"
+    },
+    {
+      "search_keyword": "Kingston HyperX Fury Black DDR4-2666 CL16 8GB (1x8GB)"
+    },
+    {
+      "search_keyword": "Crucial CT24G56C46S5 Black SODIMM DDR5-5600 CL46 24GB (1x24GB)"
+    },
+    {
+      "search_keyword": "ADATA AD3U1600W8G11-R Black / Green DDR3-1600 CL11 8GB (1x8GB)"
+    },
+    {
+      "search_keyword": "VisionTek 901513 DDR5-4800 CL40 32GB (1x32GB)"
+    },
+    {
+      "search_keyword": "Corsair Vengeance LPX Black DDR4-4000 CL18 64GB (2x32GB)"
+    },
+    {
+      "search_keyword": "TEAMGROUP T-Force Delta RGB Black DDR5-6000 CL38 16GB (1x16GB)"
+    },
+    {
+      "search_keyword": "G.Skill Trident Z Royal Silver DDR4-3200 CL14 256GB (8x32GB)"
+    },
+    {
+      "search_keyword": "TEAMGROUP T-Force Delta RGB Black DDR5-7200 CL34 48GB (2x24GB)"
+    },
+    {
+      "search_keyword": "Kingston HyperX Fury Black DDR4-2666 CL16 16GB (2x8GB)"
+    },
+    {
+      "search_keyword": "GOODRAM IRDM Black DDR5-6400 CL32 32GB (2x16GB)"
+    },
+    {
+      "search_keyword": "Kingston FURY Renegade Pro Registered Black DDR5-4800 CL36 32GB (1x32GB)"
+    },
+    {
+      "search_keyword": "Corsair Vengeance LPX Black / Yellow DDR4-4000 CL19 32GB (4x8GB)"
+    },
+    {
+      "search_keyword": "Patriot Viper Xtreme 5 RGB Black DDR5-7600 CL36 32GB (2x16GB)"
+    },
+    {
+      "search_keyword": "G.Skill Trident Z Black DDR5-6400 CL32 32GB (2x16GB)"
+    },
+    {
+      "search_keyword": "G.Skill Ripjaws V Black DDR4-3600 CL14 32GB (2x16GB)"
+    },
+    {
+      "search_keyword": "Silicon Power XPOWER Zenith RGB Gaming White DDR5-6400 CL40 32GB (2x16GB)"
+    },
+    {
+      "search_keyword": "G.Skill Flare X Black DDR4-2400 CL15 16GB (2x8GB)"
+    },
+    {
+      "search_keyword": "Kingston FURY Beast RGB Black DDR5-5600 CL36 128GB (2x64GB)"
+    },
+    {
+      "search_keyword": "Corsair Dominator Platinum RGB White DDR5-5200 CL38 32GB (2x16GB)"
+    },
+    {
+      "search_keyword": "Silicon Power XPOWER Storm RGB White DDR5-8000 CL38 32GB (1x32GB)"
+    },
+    {
+      "search_keyword": "GeIL ORION V Red DDR5-5200 CL42 16GB (1x16GB)"
+    },
+    {
+      "search_keyword": "Kingston FURY Renegade White / Silver DDR5-6000 CL32 64GB (2x32GB)"
+    },
+    {
+      "search_keyword": "Crucial Ballistix Black DDR4-3600 CL16 32GB (2x16GB)"
+    },
+    {
+      "search_keyword": "Kingston FURY Renegade Black DDR4-3200 CL16 16GB (2x8GB)"
+    },
+    {
+      "search_keyword": "TEAMGROUP Xtreem Black DDR5-6000 CL30 32GB (2x16GB)"
+    },
+    {
+      "search_keyword": "Patriot Viper Venom RGB Black / White DDR5-6000 CL30 32GB (1x32GB)"
+    },
+    {
+      "search_keyword": "IBM 00D4968 Registered Black / Green DDR3-1600 CL11 16GB (1x16GB)"
+    },
+    {
+      "search_keyword": "Corsair Dominator Platinum RGB Black DDR5-6800 CL40 64GB (2x32GB)"
+    },
+    {
+      "search_keyword": "G.Skill Trident Z White / Black DDR5-6000 CL36 32GB (2x16GB)"
+    },
+    {
+      "search_keyword": "Mushkin Redline Lumina White DDR4-3600 CL16 32GB (2x16GB)"
+    },
+    {
+      "search_keyword": "G.Skill Trident Z5 RGB Royal Neo Gold DDR5-6000 CL28 32GB (2x16GB)"
+    },
+    {
+      "search_keyword": "TEAMGROUP T-Force Delta RGB White DDR5-6400 CL32 32GB (2x16GB)"
+    },
+    {
+      "search_keyword": "Kingston FURY Beast RGB DDR5-6400 CL32 64GB (2x32GB)"
+    },
+    {
+      "search_keyword": "G.Skill Ripjaws M5 RGB DDR5-6000 CL36 32GB (2x16GB)"
+    },
+    {
+      "search_keyword": "G.Skill RipJaws S5 Series (Intel XMP) 32GB (2 x 16GB) 288-Pin SDRAM DDR5 5600 CL30-36-36-89 1.25V Dual Channel Desktop Memory F5-5600J3036D16GA2-RS5K"
+    },
+    {
+      "search_keyword": "Corsair Vengeance LPX Black / Yellow DDR4-4000 CL19 128GB (8x16GB)"
+    },
+    {
+      "search_keyword": "Corsair Dominator Platinum RGB Black DDR5-5600 CL40 64GB (2x32GB)"
+    },
+    {
+      "search_keyword": "Corsair Vengeance RGB Black DDR5-5200 CL40 32GB (2x16GB)"
+    },
+    {
+      "search_keyword": "Klevv CRAS X RGB Black DDR4-3200 CL16 32GB (2x16GB)"
+    },
+    {
+      "search_keyword": "Patriot Viper Steel Silver / Black DDR4-3600 CL17 16GB (2x8GB)"
+    },
+    {
+      "search_keyword": "G.Skill Ripjaws Red DDR4-2133 CL15 32GB (4x8GB)"
+    },
+    {
+      "search_keyword": "Silicon Power XPOWER Zenith Gaming Black DDR5-6000 CL30 16GB (1x16GB)"
+    },
+    {
+      "search_keyword": "Patriot Viper Elite 5 RGB DDR5-6000 CL42 32GB (1x32GB)"
+    },
+    {
+      "search_keyword": "CORSAIR Dominator Titanium RGB 64GB (2 x 32GB) DDR5 6600 (PC5 52800) Desktop Memory Model CMP64GX5M2X6600C32W"
+    },
+    {
+      "search_keyword": "Patriot Signature Premium Black DDR4-2666 CL19 16GB (2x8GB)"
+    },
+    {
+      "search_keyword": "Kingston FURY Beast RGB Black DDR5-6000 CL30 32GB (2x16GB)"
+    },
+    {
+      "search_keyword": "Mushkin Redline Lumina Black DDR4-4133 CL19 32GB (2x16GB)"
+    },
+    {
+      "search_keyword": "G.Skill Trident Z Red / Silver DDR4-3200 CL16 32GB (2x16GB)"
+    },
+    {
+      "search_keyword": "Corsair Vengeance RGB Pro SL White DDR4-3200 CL16 64GB (4x16GB)"
+    },
+    {
+      "search_keyword": "ADATA XPG Lancer Blade Black DDR5-6000 CL30 64GB (2x32GB)"
+    },
+    {
+      "search_keyword": "Crucial CT32G56C46U5 Black DDR5-5600 CL46 32GB (1x32GB)"
+    },
+    {
+      "search_keyword": "Corsair Vengeance RGB Black DDR5-6200 CL36 32GB (2x16GB)"
+    },
+    {
+      "search_keyword": "Mushkin Redline Lumina Black DDR5-6800 CL32 32GB (2x16GB)"
+    },
+    {
+      "search_keyword": "Silicon Power DDR5 32GB (2x16GB) Zenith RGB 6000MHz CL40 WHITE"
+    },
+    {
+      "search_keyword": "GeIL EVO X II AMD Black DDR4-3200 CL16 16GB (2x8GB)"
+    },
+    {
+      "search_keyword": "Kingston FURY Beast Black / Silver DDR5-6000 CL40 32GB (1x32GB)"
+    },
+    {
+      "search_keyword": "TEAMGROUP Elite Plus Red / Black DDR4-2400 CL16 16GB (2x8GB)"
+    },
+    {
+      "search_keyword": "Crucial Pro Black / Green DDR4-3200 CL22 64GB (2x32GB)"
+    },
+    {
+      "search_keyword": "G.Skill NT Black DDR4-2133 CL15 16GB (2x8GB)"
+    },
+    {
+      "search_keyword": "Kingston FURY Beast RGB White 128GB (4x32GB) 5600MT/s CL40 DDR5 XMP DIMM | Overclocking | Plug N Play | Intel XMP 3.0 | Kit of 4 | KF556C40BWAK4-128"
+    },
+    {
+      "search_keyword": "TEAMGROUP Elite Black DDR5-6400 CL52 16GB (1x16GB)"
+    },
+    {
+      "search_keyword": "Klevv FIT V White DDR5-6000 CL32 16GB (1x16GB)"
+    },
+    {
+      "search_keyword": "Kingston FURY Beast RGB Black DDR5-6000 CL40 16GB (2x8GB)"
+    },
+    {
+      "search_keyword": "TEAMGROUP T-Force Vulcan Black DDR5-5600 CL32 16GB (1x16GB)"
+    },
+    {
+      "search_keyword": "Corsair Vengeance LPX White DDR4-3000 CL15 16GB (2x8GB)"
+    },
+    {
+      "search_keyword": "Corsair Vengeance LPX Black DDR4-3600 CL18 64GB (2x32GB)"
+    },
+    {
+      "search_keyword": "Silicon Power XPOWER Storm RGB DDR5-8000 CL38 64GB (2x32GB)"
+    },
+    {
+      "search_keyword": "Corsair Vengeance RGB Pro Black DDR4-3600 CL18 32GB (4x8GB)"
+    },
+    {
+      "search_keyword": "G.Skill Trident Z5 Neo RGB Black DDR5-5600 CL28 32GB (2x16GB)"
+    },
+    {
+      "search_keyword": "G.Skill Ripjaws S5 Black DDR5-6000 CL30 64GB (2x32GB)"
+    },
+    {
+      "search_keyword": "Gigabyte AORUS RGB DDR4-3200 CL16 16GB (2x8GB)"
+    },
+    {
+      "search_keyword": "Kingston HyperX Predator Black / Silver DDR4-3200 CL16 16GB (2x8GB)"
+    },
+    {
+      "search_keyword": "Thermaltake TOUGHRAM XG RGB Black / Silver DDR4-4400 CL19 16GB (2x8GB)"
+    },
+    {
+      "search_keyword": "OLOy Blade RGB Black DDR5-5600 CL40 16GB (2x8GB)"
+    },
+    {
+      "search_keyword": "Apacer Panther Silver / Black DDR5-6400 CL32 32GB (2x16GB)"
+    },
+    {
+      "search_keyword": "Corsair Vengeance LPX Black / Yellow DDR4-4600 CL18 32GB (4x8GB)"
+    },
+    {
+      "search_keyword": "TEAMGROUP T-Force DELTAα RGB Black DDR5-6400 CL40 16GB (2x8GB)"
+    },
+    {
+      "search_keyword": "Silicon Power XPOWER Zenith Gaming White DDR5-6000 CL30 16GB (1x16GB)"
+    },
+    {
+      "search_keyword": "ADATA XPG GAMMIX D10 Black DDR4-3600 CL18 16GB (2x8GB)"
+    },
+    {
+      "search_keyword": "Acer Predator Pallas II Black DDR5-6400 CL32 32GB (2x16GB)"
+    },
+    {
+      "search_keyword": "TEAMGROUP T-Force Vulcan Eco Silver DDR5-6000 CL30 32GB (2x16GB)"
+    },
+    {
+      "search_keyword": "G.Skill Trident Z5 RGB Black DDR5-5600 CL30 32GB (2x16GB)"
+    },
+    {
+      "search_keyword": "Avexir Core Black / Red DDR4-2400 CL16 16GB (2x8GB)"
+    },
+    {
+      "search_keyword": "Kingston Fury Renegade RGB DDR5-8000 CL38 16GB (1x16GB)"
+    },
+    {
+      "search_keyword": "Corsair Dominator Platinum RGB DDR5-6400 CL32 64GB (4x16GB)"
+    },
+    {
+      "search_keyword": "TEAMGROUP T-Force Delta TUF Gaming Alliance RGB Black DDR5-5200 CL40 32GB (2x16GB)"
+    },
+    {
+      "search_keyword": "G.Skill Trident Z5 RGB Black / Silver DDR5-6800 CL34 32GB (2x16GB)"
+    },
+    {
+      "search_keyword": "Corsair Vengeance LED Black / Red DDR4-3200 CL16 32GB (2x16GB)"
+    },
+    {
+      "search_keyword": "TEAMGROUP T-Force Xtreem ARGB Black DDR4-4000 CL18 16GB (2x8GB)"
+    },
+    {
+      "search_keyword": "Kingston Fury Renegade RGB DDR5-8000 CL38 32GB (2x16GB)"
+    },
+    {
+      "search_keyword": "Corsair Vengeance Black DDR5-5600 CL36 32GB (2x16GB)"
+    },
+    {
+      "search_keyword": "ADATA XPG LANCER RGB White 32GB (2x16GB) DDR5 6000 CL40"
+    }
+  ],
+  "psu": [
+    {
+      "id": "psu_01",
+      "name": "마이크로닉스 Classic II 풀체인지 700W 80PLUS 브론즈",
+      "wattage": 700,
+      "search_keyword": "마이크로닉스 700W 풀체인지"
+    },
+    {
+      "id": "psu_02",
+      "name": "SuperFlower SF-850F14HG LEADEX III GOLD",
+      "wattage": 850,
+      "search_keyword": "슈퍼플라워 850W GOLD"
+    },
+    {
+      "id": "psu_03",
+      "name": "FSP HYDRO G PRO 850W 80PLUS Gold Full Modular",
+      "wattage": 850,
+      "search_keyword": "FSP HYDRO G PRO 850W"
+    },
+    {
+      "search_keyword": "Cougar GEX X2 Black 1000W Fully Modular 80+ Gold Certified"
+    },
+    {
+      "search_keyword": "SeaSonic ATX3-FOCUS-GX White 850W Fully Modular 80+ Gold"
+    },
+    {
+      "search_keyword": "Corsair VS600 ATX 600W Non-Modular 80+ Certified"
+    },
+    {
+      "search_keyword": "PowerSpec PSX Black 850W Fully Modular 80+ Gold Certified"
+    },
+    {
+      "search_keyword": "SeaSonic PRIME TX-1600 Noctua Edition Brown / Black 1600W Fully Modular 80+ Titanium Certified"
+    },
+    {
+      "search_keyword": "Rosewill SMG850 Black ATX 850W Fully Modular 80+ Gold Certified"
+    },
+    {
+      "search_keyword": "Corsair SF1000L Black SFX 1000W Fully Modular 80+ Gold"
+    },
+    {
+      "search_keyword": "Silverstone DA700 ATX 700W Fully Modular"
+    },
+    {
+      "search_keyword": "CoolMax ZX-600 ATX 600W Non-Modular 80+ Certified"
+    },
+    {
+      "search_keyword": "NZXT C850 (2024) Black 850W Fully Modular 80+ Gold Certified"
+    },
+    {
+      "search_keyword": "Thermaltake Toughpower GX2 Black 600W Non-Modular 80+ Gold"
+    },
+    {
+      "search_keyword": "EVGA 600 W3 80+ WHITE 600W 3 Year Warranty Power Supply"
+    },
+    {
+      "search_keyword": "be quiet! Straight Power 11 Black 850W Fully Modular 80+ Platinum Certified"
+    },
+    {
+      "search_keyword": "Cooler Master V White SFX ATX 3.0 850W Fully Modular 80+ Gold Certified"
+    },
+    {
+      "search_keyword": "Lian Li EDGE White 850W Fully Modular 80+ Gold"
+    },
+    {
+      "search_keyword": "be quiet! Pure Power 11 600W Non-Modular 80+ Gold Certified"
+    },
+    {
+      "search_keyword": "FSP Group Dagger Black SFX 600W Fully Modular 80+ Gold Certified"
+    },
+    {
+      "search_keyword": "HEC XPOWER780 ATX 600W Non-Modular"
+    },
+    {
+      "search_keyword": "Antec Signature Black 1000W Fully Modular 80+ Platinum Certified"
+    },
+    {
+      "search_keyword": "Asus ROG THOR 850P Black / Red 850W Fully Modular 80+ Platinum"
+    },
+    {
+      "search_keyword": "Cougar COUGAR-GX700 ATX 700W Fully Modular 80+ Gold Certified"
+    },
+    {
+      "search_keyword": "OCZ Fatal1ty 1000W Semi-Modular 80+ Gold Certified"
+    },
+    {
+      "search_keyword": "Zalman TX ATX 700W Non-Modular"
+    },
+    {
+      "search_keyword": "Thermaltake Toughpower GF A3 - TT Premium Edition ATX 850W Fully Modular 80+ Gold Certified"
+    },
+    {
+      "search_keyword": "EVGA 600 W1 600W Non-Modular 80+ Certified"
+    },
+    {
+      "search_keyword": "Cooler Master 700W MasterWatt Lite 230V ATX 700W Non-Modular 80+ Certified"
+    },
+    {
+      "search_keyword": "OCZ ModXStream Pro 600W Semi-Modular 80+"
+    },
+    {
+      "search_keyword": "Antec High Current Gamer Extreme 1000W Fully Modular 80+ Gold Certified"
+    },
+    {
+      "search_keyword": "XFX PRO Black Edition 850W 80+ Gold Fully Modular"
+    },
+    {
+      "search_keyword": "Enermax Revolution D.F. 12 Black 850W Fully Modular 80+ Gold"
+    },
+    {
+      "search_keyword": "Rosewill HERCULES-1600S ATX 1600W Semi-Modular 80+ Gold Certified"
+    },
+    {
+      "search_keyword": "Thermalright TPFX850 White SFX 850W Fully Modular 80+ Platinum Certified"
+    },
+    {
+      "search_keyword": "Asus ROG Strix White 850W Fully Modular 80+ Gold"
+    },
+    {
+      "search_keyword": "SeaSonic B12 BC 850W Non-Modular 80+ Bronze Certified"
+    },
+    {
+      "search_keyword": "Thermaltake Toughpower PF1 TT Premium Edition Black 850W Fully Modular 80+ Platinum"
+    },
+    {
+      "search_keyword": "be quiet! Dark Power Pro 13 1600W Fully Modular 80+ Titanium Certified"
+    },
+    {
+      "search_keyword": "KOLINK Modular Power Black ATX 700W Semi-Modular 80+ Bronze Certified"
+    },
+    {
+      "search_keyword": "be quiet! Dark Power Pro 10 850W Semi-Modular 80+ Platinum Certified"
+    },
+    {
+      "search_keyword": "G.Skill PS850P Black 850W Fully Modular 80+ Platinum Certified"
+    },
+    {
+      "search_keyword": "In Win Commander III 700W Semi-Modular 80+ Gold Certified"
+    },
+    {
+      "search_keyword": "Zalman TeraMax II ATX 1200W Fully Modular 80+ Gold Certified"
+    },
+    {
+      "search_keyword": "EVGA 600 W3 80+ WHITE 600W 3 Year Warranty Power Supply"
+    },
+    {
+      "search_keyword": "EVGA SuperNOVA 1200 P3 1200W 80+ Platinum Certified Fully Modular"
+    },
+    {
+      "search_keyword": "be quiet! System Power 9 500 CM Black 500W Semi-Modular 80+ Bronze Certified"
+    },
+    {
+      "search_keyword": "Apevia ATX-CW500WP4 ATX 500W Non-Modular"
+    },
+    {
+      "search_keyword": "Apevia ATX-AS500W-BK ATX 500W Non-Modular"
+    },
+    {
+      "search_keyword": "Antec VP ATX 500W Non-Modular"
+    },
+    {
+      "search_keyword": "Seasonic PRIME Gold 1200W Fully Modular 80+ Gold"
+    },
+    {
+      "search_keyword": "Cougar CougarA500 ATX 500W Non-Modular 80+ Bronze Certified"
+    },
+    {
+      "search_keyword": "FSP Group Hydro White 1200W 80+ Platinum Fully Modular"
+    },
+    {
+      "search_keyword": "Rosewill PHOTON-1200 1200W Fully Modular 80+ Gold Certified ATX"
+    },
+    {
+      "search_keyword": "Xigmatek NRP-MC1002 1000W 80+ Bronze Certified Fully Modular ATX"
+    },
+    {
+      "search_keyword": "MSI MAG A850GL PCIE5 White 850W Fully Modular 80+ Gold ATX"
+    },
+    {
+      "search_keyword": "Corsair RM1200x SHIFT Side Interface 1200W Fully Modular 80+ Gold"
+    },
+    {
+      "search_keyword": "Silverstone DA850R-GMA White 850W Fully Modular 80+ Gold Certified"
+    },
+    {
+      "search_keyword": "Enermax REVOLUTION DUO 700W Non-Modular 80+ Gold Certified"
+    },
+    {
+      "search_keyword": "1STPLAYER NGDP ATX 3.0 1000W Fully Modular 80+ Platinum Certified"
+    },
+    {
+      "search_keyword": "PC Power & Cooling Silencer MK III 600W 80+ Bronze Certified Semi-Modular"
+    },
+    {
+      "search_keyword": "Fractal Design Newton R3 ATX 600W Semi-Modular 80+ Platinum Certified"
+    },
+    {
+      "search_keyword": "Lian Li SP Platinum 1000W Black SP1000P"
+    },
+    {
+      "search_keyword": "Apevia ATX-JP1000W 1000W Non-Modular 80+ Bronze Certified ATX"
+    },
+    {
+      "search_keyword": "Phanteks AMP ATX 850W Fully Modular 80+ Gold Certified"
+    },
+    {
+      "search_keyword": "Super Flower LEADEX Special Edition 1000W Fully Modular 80+ Platinum Certified"
+    },
+    {
+      "search_keyword": "SeaSonic PRIME Fanless Black 700W Fully Modular 80+ Titanium Certified"
+    },
+    {
+      "search_keyword": "Thermaltake Toughpower ATX 1500W Semi-Modular 80+ Silver Certified"
+    },
+    {
+      "search_keyword": "be quiet! Dark Power Pro 11 1200W 80+ Platinum Certified Semi-Modular"
+    },
+    {
+      "search_keyword": "GameMax Rampage ATX 500W Non-Modular 80+ Bronze Certified"
+    },
+    {
+      "search_keyword": "Cooler Master Silent Pro Hybrid 850W Fully Modular 80+ Gold"
+    },
+    {
+      "search_keyword": "Thermaltake Litepower 600W Non-Modular"
+    },
+    {
+      "search_keyword": "Thermalright TG ATX 850W Fully Modular 80+ Gold Certified"
+    },
+    {
+      "search_keyword": "NZXT HALE90 V2 ATX 850W Fully Modular 80+ Gold Certified"
+    },
+    {
+      "search_keyword": "GameMax GM ATX 500W Semi-Modular 80+ Bronze Certified"
+    },
+    {
+      "search_keyword": "MSI MEG Ai-T PCIE5 Black / Gold 1600W Fully Modular 80+ Titanium Certified"
+    },
+    {
+      "search_keyword": "MSI MAG A500DN Black ATX 500W Non-Modular 80+"
+    },
+    {
+      "search_keyword": "SeaSonic FOCUS Plus Black 1000W Fully Modular 80+ Gold Certified ATX"
+    },
+    {
+      "search_keyword": "Super Flower Leadex V Pro White 1000W Fully Modular 80+ Gold Certified"
+    },
+    {
+      "search_keyword": "Segotep GP700G Black ATX 700W Non-Modular 80+ Gold Certified"
+    },
+    {
+      "search_keyword": "SeaSonic S12III Black 500W Non-Modular 80+ Bronze Certified"
+    },
+    {
+      "search_keyword": "Enermax ERV1000EWT-G 1000W 80+ Gold Certified Semi-Modular"
+    },
+    {
+      "search_keyword": "Rosewill CMG 850W 80+ Gold Full Modular FDB Fan with Auto Speed Control ECO Mode Japanese Capacitors 140mm Size Power Supply - CMG850"
+    },
+    {
+      "search_keyword": "Corsair HX850i ATX 850W 80+ Platinum Certified Fully Modular"
+    },
+    {
+      "search_keyword": "ADATA XPG CORE Reactor 850 Black 850W Fully Modular 80+ Gold"
+    },
+    {
+      "search_keyword": "Phanteks AMP White 1000W 80+ Gold Fully Modular"
+    },
+    {
+      "search_keyword": "FSP Group PT1000FM 1000W Fully Modular 80+ Platinum"
+    },
+    {
+      "search_keyword": "Enhance ENP-7660 Flex ATX 600W Non-Modular 80+ Platinum Certified"
+    },
+    {
+      "search_keyword": "SeaSonic Platinum ATX 1000W Fully Modular 80+ Platinum Certified"
+    },
+    {
+      "search_keyword": "Phanteks AMP White 850W Fully Modular 80+ Gold"
+    },
+    {
+      "search_keyword": "Corsair HX1500i (2025) Black 1500W Fully Modular 80+ Platinum"
+    },
+    {
+      "search_keyword": "Thermaltake Toughpower Grand RGB 850W Fully Modular 80+ Gold"
+    },
+    {
+      "search_keyword": "SeaSonic CORE GC-500 500W Non-Modular 80+ Gold Certified ATX"
+    },
+    {
+      "search_keyword": "Thermaltake TR2 600W Non-Modular 80+ Gold"
+    },
+    {
+      "search_keyword": "FSP Group HEXA 85+ PRO Black 850W Non-Modular 80+ Bronze Certified ATX"
+    },
+    {
+      "search_keyword": "SeaSonic PRIME TX 1600W Fully Modular 80+ Titanium Certified ATX"
+    },
+    {
+      "search_keyword": "Sparkle GW-EPS1000DA ATX 1000W Semi-Modular 80+ Gold Certified"
+    },
+    {
+      "search_keyword": "ADATA XPG Core Reactor II VE 850W Fully Modular 80+ Gold Certified"
+    },
+    {
+      "search_keyword": "EVGA SuperNOVA 850 B2 850W 80+ Bronze Certified Semi-Modular"
+    },
+    {
+      "search_keyword": "GameMax VP RGB 800W Semi-Modular 80+ Bronze Certified"
+    },
+    {
+      "search_keyword": "Corsair RM1000e (2025) Black ATX 1000W Fully Modular"
+    },
+    {
+      "search_keyword": "GALAX PGO1AGPFNAFB0 Black ATX 1000W Fully Modular 80+ Gold Certified"
+    },
+    {
+      "search_keyword": "Deepcool DA700N Black ATX 700W Non-Modular 80+ Bronze Certified"
+    },
+    {
+      "search_keyword": "Apevia Prestige Black ATX 600W Non-Modular 80+ Gold Certified"
+    },
+    {
+      "search_keyword": "Inter-Tech SAMA XPH-1200A Black 1200W Fully Modular 80+ Platinum"
+    },
+    {
+      "search_keyword": "Thermaltake TR2 600W Non-Modular"
+    },
+    {
+      "search_keyword": "Aerocool Integrator Black ATX 600W Non-Modular 80+ Bronze Certified"
+    },
+    {
+      "search_keyword": "Cooler Master V850 Black 850W Fully Modular 80+ Gold Certified ATX"
+    },
+    {
+      "search_keyword": "Seasonic 850FX White 850W Fully Modular 80+ Gold Certified"
+    },
+    {
+      "search_keyword": "Enermax EPG500AWT 500W Non-Modular 80+ Gold Certified"
+    },
+    {
+      "search_keyword": "be quiet! Pure Power 12 Black 850W Non-Modular 80+ Gold Certified"
+    },
+    {
+      "search_keyword": "Cooler Master i500 Certified ATX 500W Non-Modular 80+ Bronze"
+    },
+    {
+      "search_keyword": "Rosewill CMG1000 Black 1000W 80+ Gold Fully Modular"
+    },
+    {
+      "search_keyword": "Antec SF850X SFX 850W Fully Modular 80+ Gold Certified"
+    },
+    {
+      "search_keyword": "KOLINK ENCLAVE Black 600W Fully Modular 80+ Gold"
+    },
+    {
+      "search_keyword": "Raidmax Cobra 500W Non-Modular 80+ Gold Certified ATX"
+    },
+    {
+      "search_keyword": "Gigabyte AORUS P GM 850W Fully Modular 80+ Gold"
+    },
+    {
+      "search_keyword": "be quiet! System Power 8 600W Non-Modular 80+ Certified"
+    },
+    {
+      "search_keyword": "Asus ROG STRIX 1000G Black ATX 1000W Fully Modular 80+ Gold Certified"
+    },
+    {
+      "search_keyword": "Asus ROG THOR 1600T2 Gaming Silver / Black 1600W Fully Modular 80+ Titanium Certified"
+    },
+    {
+      "search_keyword": "KOLINK Regulator ATX 1000W Fully Modular 80+ Gold Certified"
+    },
+    {
+      "search_keyword": "Xigmatek NRP-PC702 ATX 700W Non-Modular 80+ Bronze Certified"
+    },
+    {
+      "search_keyword": "ADATA XPG KYBER Black 850W Non-Modular 80+ Gold Certified"
+    }
+  ],
+  "storage": [
+    {
+      "id": "ssd_01",
+      "name": "삼성전자 980 PRO M.2 NVMe (1TB)",
+      "search_keyword": "삼성 980 PRO 1TB"
+    },
+    {
+      "id": "ssd_02",
+      "name": "SK하이닉스 Gold P31 M.2 NVMe (1TB)",
+      "search_keyword": "SK하이닉스 P31 1TB"
+    },
+    {
+      "id": "ssd_03",
+      "name": "삼성전자 990 PRO M.2 NVMe (1TB)",
+      "search_keyword": "삼성 990 PRO 1TB"
+    },
+    {
+      "search_keyword": "MSI SPATIUM M480 HS 1TB SSD M.2-2280 PCIe 4.0 X4 NVMe"
+    },
+    {
+      "search_keyword": "Seagate Barracuda Compute 2TB 3.5\" HDD 5400RPM SATA 6.0 Gb/s"
+    },
+    {
+      "search_keyword": "Crucial T705 1TB PCIe Gen5 NVMe M.2 SSD with Heatsink"
+    },
+    {
+      "search_keyword": "FFF Smart Life Connected G-Storategy NV470 w/Heatsink 2TB SSD M.2-2280 PCIe 4.0 X4 NVMe"
+    },
+    {
+      "search_keyword": "Western Digital Purple Pro 12TB HDD 3.5\" SATA"
+    },
+    {
+      "search_keyword": "PNY CS2140 2TB SSD M.2-2280 PCIe 4.0 x4 NVMe"
+    },
+    {
+      "search_keyword": "Crucial P310 1TB SSD M.2 PCIe 4.0 NVMe"
+    },
+    {
+      "search_keyword": "ADATA LEGEND 970 2TB SSD M.2-2280 PCIe 5.0 X4 NVMe"
+    },
+    {
+      "search_keyword": "TEAMGROUP Cardea A440 2TB M.2-2280 SSD PCIe 4.0 X4 NVMe"
+    },
+    {
+      "search_keyword": "Kingston NV1 1TB M.2-2280 SSD PCIe 3.0 x4 NVMe"
+    },
+    {
+      "search_keyword": "ADATA XPG GAMMIX S70 1TB SSD M.2-2280 PCIe 4.0 X4 NVMe"
+    },
+    {
+      "search_keyword": "Mushkin MKNSSDED500GB-D8 500GB M.2-2280 SSD PCIe 4.0 x4 NVMe"
+    },
+    {
+      "search_keyword": "Samsung 970 Evo 500 GB M.2-2280 SSD PCIe 3.0 X4 NVMe"
+    },
+    {
+      "search_keyword": "Corsair MP600 Force Series Gen4 1TB M.2-2280 SSD NVMe PCIe 3.0 X4"
+    },
+    {
+      "search_keyword": "Timetec 35TTQNM2SATA 1TB SSD M.2-2280 SATA"
+    },
+    {
+      "search_keyword": "Mushkin Vortex Redline 2TB SSD M.2 PCIe 4.0 NVMe"
+    },
+    {
+      "search_keyword": "Kingston NV3 PCIe 4.0 NVMe SSD 2280 1TB"
+    },
+    {
+      "search_keyword": "Corsair MP600 ELITE PS5 1TB M.2 SSD PCIe 4.0 NVMe"
+    },
+    {
+      "search_keyword": "Addlink G55H 2TB SSD M.2 PCIe 5.0 NVMe"
+    },
+    {
+      "search_keyword": "Seagate Exos X18 12TB 3.5\" HDD 7200RPM SATA 6.0 Gb/s"
+    },
+    {
+      "search_keyword": "Western Digital WD_BLACK SN8100 w/Heatsink 1TB SSD M.2-2280 PCIe 5.0 x4 NVMe"
+    },
+    {
+      "search_keyword": "Silicon Power A58 1TB SSD 2.5\" SATA 6.0 Gb/s"
+    },
+    {
+      "search_keyword": "Samsung 860 Pro 512GB SSD 2.5\" SATA"
+    },
+    {
+      "search_keyword": "Intel 750 1.2TB SSD PCIe NVMe"
+    },
+    {
+      "search_keyword": "Timetec 30TTQNS3SATA-2TB 2TB SSD 2.5\" SATA 6.0 Gb/s"
+    },
+    {
+      "search_keyword": "Western Digital WD_BLACK SN8100 2TB M.2-2280 SSD PCIe 5.0 X4 NVME"
+    },
+    {
+      "search_keyword": "Seagate Constellation.2 1TB HDD 7200RPM 2.5\" SAS"
+    },
+    {
+      "search_keyword": "Samsung 870 Evo 2TB SSD 2.5\" SATA 6.0 Gb/s"
+    },
+    {
+      "search_keyword": "Seagate BarraCuda 500GB HDD 3.5\" 7200RPM SATA"
+    },
+    {
+      "search_keyword": "Western Digital WD Green 120GB SSD M.2-2280 SATA"
+    },
+    {
+      "search_keyword": "Western Digital Red Pro 2TB HDD 7200RPM 3.5\" SATA"
+    },
+    {
+      "search_keyword": "Lexar NM710 1TB SSD M.2-2280 PCIe 4.0 x4 NVMe"
+    },
+    {
+      "search_keyword": "Seagate Momentus 5400.6 500GB 5400 RPM HDD 2.5\" SATA"
+    },
+    {
+      "search_keyword": "Corsair MP600 PRO NH 1TB M.2 SSD PCIe 4.0 NVMe"
+    },
+    {
+      "search_keyword": "Addlink S20 1TB SSD 2.5\" SATA"
+    },
+    {
+      "search_keyword": "Samsung 990 Pro w/Heatsink 2TB SSD M.2-2280 PCIe 4.0 NVMe"
+    },
+    {
+      "search_keyword": "Crucial P5 2TB M.2-2280 SSD PCIe 3.0 x4 NVMe"
+    },
+    {
+      "search_keyword": "ADATA Swordfish 1TB SSD M.2-2280 PCIe 3.0 X4 NVMe"
+    },
+    {
+      "search_keyword": "Samsung SM951 128GB M.2-2280 SSD PCIe 3.0 x4 NVMe"
+    },
+    {
+      "search_keyword": "Western Digital WD Blue 250 GB SSD 2.5\" SATA 6.0 Gb/s"
+    },
+    {
+      "search_keyword": "Hitachi 7K1000.C 500GB HDD 3.5\" 7200RPM SATA 3.0 Gb/s Internal"
+    },
+    {
+      "search_keyword": "Silicon Power US70 1TB M.2 SSD PCIe 4.0 NVMe"
+    },
+    {
+      "search_keyword": "Lexar Professional NM800PRO w/Heatsink 2TB SSD M.2-2280 PCIe 4.0 x4 NVMe"
+    },
+    {
+      "search_keyword": "Apacer AS2280P4U Pro 2TB SSD M.2-2280 PCIe 3.0 x4 NVMe"
+    },
+    {
+      "search_keyword": "Inland TN450 1TB M.2-2280 SSD PCIe 4.0 X4 NVMe"
+    },
+    {
+      "search_keyword": "Intel Pro 7600p 1TB SSD M.2-2280 PCIe 3.0 x4 NVMe"
+    },
+    {
+      "search_keyword": "Toshiba MG04ACA200E 2TB HDD 7200RPM 3.5\" SATA"
+    },
+    {
+      "search_keyword": "Seagate FireCuda 120 500GB SSD 2.5\" SATA 6.0 Gb/s"
+    },
+    {
+      "search_keyword": "Crucial P310 2TB M.2 SSD PCIe 4.0 NVMe"
+    },
+    {
+      "search_keyword": "Samsung 850 Pro 128GB SSD 2.5\" SATA"
+    },
+    {
+      "search_keyword": "PNY CS2230 1TB SSD M.2-2280 PCIe 3.0 X4 NVMe"
+    },
+    {
+      "search_keyword": "Crucial P1 2TB M.2-2280 SSD PCIe 3.0 X4 NVMe"
+    },
+    {
+      "search_keyword": "Samsung PM893 240 GB SSD 2.5\" SATA 6.0 Gb/s"
+    },
+    {
+      "search_keyword": "ADATA LEGEND 800 GOLD 2TB M.2 SSD PCIe 4.0 NVMe"
+    },
+    {
+      "search_keyword": "Silicon Power US70 2TB M.2-2280 SSD PCIe 4.0 x4 NVMe"
+    },
+    {
+      "search_keyword": "Seagate FireCuda Compute 2TB Hybrid 2.5\" 5400 RPM SATA"
+    },
+    {
+      "search_keyword": "Crucial MX200 500GB SSD M.2-2260 SATA"
+    },
+    {
+      "search_keyword": "OCZ Colossus 1TB SSD 3.5\" SATA"
+    },
+    {
+      "search_keyword": "Gigabyte Gen3 2500E 1TB SSD M.2-2280 PCIe 3.0 X4 NVMe"
+    },
+    {
+      "search_keyword": "Fantom Drives VENOM7 1TB M.2-2280 SSD PCIe 4.0 x4 NVMe"
+    }
+  ]
+}

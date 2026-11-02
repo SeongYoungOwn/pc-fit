@@ -1,0 +1,117 @@
+/* ═══════════════════════════════════════════════
+   NEON TOKYO THEME — custom-dark.css
+   Primary: Pink #ff0080 | Secondary: Blue #00d9ff
+   ═══════════════════════════════════════════════ */
+
+:root {
+  /* ── Neon Tokyo Palette ── */
+  --neon-pink: #ff0080;
+  --neon-blue: #00d9ff;
+  --neon-green: #00ff9d;
+  --neon-red: #ff0055;
+  --neon-yellow: #ffe600;
+
+  /* Backward-compatible aliases (기존 코드 호환) */
+  --neon-cyan: var(--neon-pink);
+  --neon-purple: var(--neon-blue);
+
+  /* ── Glass ── */
+  --glass-bg: rgba(255, 255, 255, 0.03);
+  --glass-border: rgba(255, 255, 255, 0.08);
+  --glass-blur: 16px;
+
+  /* ── Neon Shadows ── */
+  --shadow-neon-pink: 0 0 15px rgba(255, 0, 128, 0.4), 0 0 40px rgba(255, 0, 128, 0.1);
+  --shadow-neon-blue: 0 0 15px rgba(0, 217, 255, 0.4), 0 0 40px rgba(0, 217, 255, 0.1);
+  --shadow-neon-red: 0 0 15px rgba(255, 0, 85, 0.4), 0 0 40px rgba(255, 0, 85, 0.1);
+
+  /* Backward-compatible shadow aliases */
+  --shadow-neon-cyan: var(--shadow-neon-pink);
+  --shadow-neon-purple: var(--shadow-neon-blue);
+
+  /* ── Typography ── */
+  --font-main: 'Pretendard Variable', 'Pretendard', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-mono: 'JetBrains Mono', 'Fira Code', monospace;
+  --font-display: 'Orbitron', 'Inter', sans-serif;
+
+  /* ── Background ── */
+  --bg-color: #0a0e27;
+  --bg-color-end: #1a1a2e;
+  --bg-surface: #141832;
+}
+
+body {
+  font-family: var(--font-main);
+  background-color: var(--bg-color);
+  color: #ffffff;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+.font-mono {
+  font-family: var(--font-mono) !important;
+}
+
+.font-display {
+  font-family: var(--font-display) !important;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+/* Premium Mesh + Grid Background (Modified for Particle Background) */
+.v-application {
+  background: transparent !important;
+}
+
+.v-application__wrap {
+  background: 
+    linear-gradient(rgba(255, 0, 128, 0.015) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0, 217, 255, 0.015) 1px, transparent 1px),
+    radial-gradient(circle at 0% 0%, rgba(255, 0, 128, 0.06) 0%, transparent 40%),
+    radial-gradient(circle at 100% 0%, rgba(0, 217, 255, 0.06) 0%, transparent 40%) !important;
+  background-size: 50px 50px, 50px 50px, 100% 100%, 100% 100% !important;
+}
+
+/* Vuetify v-card Glassmorphism (GPU-friendly high-contrast dark glass) */
+.v-card.glass-card {
+  background: linear-gradient(145deg, rgba(18, 24, 42, 0.88), rgba(11, 15, 29, 0.92)) !important;
+  border: 1px solid rgba(255, 255, 255, 0.09);
+  box-shadow: 0 8px 24px 0 rgba(0, 0, 0, 0.45), inset 0 1px 0 rgba(255, 255, 255, 0.06);
+  transition: transform 0.25s ease, border-color 0.25s ease, background-color 0.25s ease;
+}
+
+/* 초고대비 정보 카드 (다중 backdrop-filter 제거로 스크롤/마우스 렉 원천 차단) */
+.glass-card-strong {
+  background: linear-gradient(160deg, rgba(12, 16, 30, 0.94), rgba(6, 9, 19, 0.96)) !important;
+  border: 1px solid rgba(255, 255, 255, 0.14) !important;
+  box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.65), inset 0 1px 0 rgba(255, 255, 255, 0.08);
+}
+
+.text-high-contrast {
+  color: #ffffff !important;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.v-card.glass-card:hover {
+  border-color: rgba(255, 0, 128, 0.3);
+  background: linear-gradient(145deg, rgba(24, 31, 54, 0.92), rgba(15, 20, 38, 0.95)) !important;
+  transform: translateY(-4px);
+}
+
+/* Global Transitions */
+.page-enter-active, .page-leave-active {
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+.page-enter-from, .page-leave-to {
+  opacity: 0;
+  transform: translateY(10px);
+}
+
+/* Custom Scrollbar — Pink → Blue Gradient */
+::-webkit-scrollbar { width: 8px; }
+::-webkit-scrollbar-track { background: var(--bg-color); }
+::-webkit-scrollbar-thumb { 
+  background: linear-gradient(to bottom, var(--neon-pink), var(--neon-blue)); 
+  border-radius: 4px; 
+}
+::-webkit-scrollbar-thumb:hover { background: var(--neon-pink); }

@@ -1,0 +1,62 @@
+[
+  {
+    "id": "golden_gaming_100",
+    "usage": "Gaming",
+    "budget_range": [800000, 1100000],
+    "title": "100만원대 가성비 게이밍 표준",
+    "reference_parts": {
+      "cpu": "AMD 라이젠5 7500F",
+      "gpu": "NVIDIA RTX 4060",
+      "ram": "DDR5 16GB",
+      "motherboard": "A620M"
+    }
+  },
+  {
+    "id": "golden_gaming_150",
+    "usage": "Gaming",
+    "budget_range": [1400000, 1700000],
+    "title": "150만원대 고성능 게이밍 표준 (국룰)",
+    "reference_parts": {
+      "cpu": "AMD 라이젠5 7500F",
+      "gpu": "NVIDIA RTX 4060 Ti",
+      "ram": "DDR5 32GB",
+      "motherboard": "B650M"
+    }
+  },
+  {
+    "id": "golden_gaming_200",
+    "usage": "Gaming",
+    "budget_range": [1900000, 2300000],
+    "title": "200만원대 QHD 게이밍 표준",
+    "reference_parts": {
+      "cpu": "AMD 라이젠7 7800X3D",
+      "gpu": "NVIDIA RTX 4070 SUPER",
+      "ram": "DDR5 32GB",
+      "motherboard": "B650M"
+    }
+  },
+  {
+    "id": "golden_pro_250",
+    "usage": "Professional",
+    "budget_range": [2300000, 2800000],
+    "title": "250만원대 영상/3D 작업용 표준",
+    "reference_parts": {
+      "cpu": "인텔 i7-14700K",
+      "gpu": "NVIDIA RTX 4070 Ti SUPER (VRAM 16GB)",
+      "ram": "DDR5 64GB",
+      "motherboard": "Z790"
+    }
+  },
+  {
+    "id": "golden_office_50",
+    "usage": "Office",
+    "budget_range": [0, 600000],
+    "title": "50만원대 사무용/가정용 표준",
+    "reference_parts": {
+      "cpu": "AMD 라이젠5 5600G (내장그래픽)",
+      "gpu": "None",
+      "ram": "DDR4 16GB",
+      "motherboard": "A520M"
+    }
+  }
+]
