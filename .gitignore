@@ -3,6 +3,7 @@ temp_buildcores_db/
 
 # Dependency directories
 node_modules/
+back/.local/
 back/node_modules/
 front/node_modules/
 

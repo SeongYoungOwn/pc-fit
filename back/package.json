@@ -2,8 +2,15 @@
   "name": "pc-fit-back",
   "version": "1.0.0",
   "scripts": {
+    "test": "node --test",
     "dev": "nodemon ./bin/www",
-    "start": "node ./bin/www"
+    "start": "node ./bin/www",
+    "test:devices": "node --test test/deviceCatalog.test.js",
+    "sync:devices": "node scripts/syncDevices.js",
+    "sync:parts": "powershell -NoProfile -File scripts/downloadParts.ps1 && node scripts/importParts.js",
+    "import:parts": "node scripts/importParts.js",
+    "test:parts": "node --test test/partsCatalog.test.js",
+    "test:build": "node --test test/buildFlow.test.js"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.107.0",
@@ -11,6 +18,7 @@
     "bcryptjs": "^2.4.3",
     "cookie-parser": "^1.4.7",
     "cors": "^2.8.5",
+    "danawa-cli": "3.0.0",
     "dotenv": "^16.4.0",
     "express": "^4.21.0",
     "express-rate-limit": "^7.4.0",

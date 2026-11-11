@@ -28,6 +28,10 @@
         </div>
       </div>
 
+      <v-alert type="info" variant="tonal" class="mb-6">부품 사양은 제품 DB를 사용합니다. 추천 견적의 금액·성능 수치는 기존 알고리즘의 추정값이며, 국내 실판매가·실측 벤치마크는 아직 연결되지 않았습니다. 가격 미확인 부품은 합계에서 제외됩니다.</v-alert>
+      <v-alert v-if="hasUnknownPrices" type="warning" variant="tonal" class="mb-6">가격 미확인 부품이 있어 아래 합계는 일부 부품의 예상 금액입니다. 전체 예산 충족 여부는 판단할 수 없습니다.</v-alert>
+      <v-alert v-if="budget && totalPrice>budget" type="warning" variant="tonal" class="mb-6">예상 합계가 목표 예산보다 {{ formatPrice(totalPrice-budget) }} 높습니다. 부품을 변경하거나 예산을 조정해 주세요.</v-alert>
+
       <!-- AI Overall Summary Panel -->
       <v-row class="mb-8 fade-in-up delay-1">
         <v-col cols="12">
@@ -62,11 +66,11 @@
               </div>
 
               <!-- AI Error State (무한로딩 방지) -->
-              <div v-else-if="!overall_summary && reviewError" class="ai-error-container d-flex flex-column flex-sm-row align-center justify-space-between pa-5 mb-4 rounded bg-dark-soft border-opacity-25 border-error">
+              <div v-else-if="!overall_summary && reviewError" class="ai-error-container d-flex flex-column flex-sm-row align-center justify-space-between pa-5 mb-4 rounded bg-dark-soft border-opacity-25" :class="{ 'border-error': !reviewNoticeOnly }">
                 <div class="d-flex align-center mb-3 mb-sm-0">
-                  <v-icon color="error" size="28" class="mr-3">mdi-alert-circle-outline</v-icon>
+                  <v-icon :color="reviewNoticeOnly ? 'info' : 'error'" size="28" class="mr-3">{{ reviewNoticeOnly ? 'mdi-information-outline' : 'mdi-alert-circle-outline' }}</v-icon>
                   <div>
-                    <div class="text-subtitle-2 font-weight-black text-error">AI 전문가 분석 리포트를 불러오지 못했습니다</div>
+                    <div class="text-subtitle-2 font-weight-black" :class="reviewNoticeOnly ? 'text-secondary' : 'text-error'">{{ reviewNoticeOnly ? 'AI 분석을 요청할 수 있습니다' : 'AI 전문가 분석 리포트를 불러오지 못했습니다' }}</div>
                     <div class="text-caption text-secondary">{{ reviewError }}</div>
                   </div>
                 </div>
@@ -126,7 +130,7 @@
       <!-- AI 부품 비교 & 가성비 어드바이저 섹션 -->
       <v-row class="mb-2 fade-in-up delay-1">
         <v-col cols="12">
-          <PartAdvisorCard
+          <PartAdvisorCard v-if="!hasUnknownPrices"
             :parts="parts"
             :total-price="totalPrice"
             :budget="budget"
@@ -135,6 +139,7 @@
             :advisor-questions="advisor_questions"
             :ai-model="selectedModel || aiModel"
           />
+          <v-alert v-else type="info" variant="tonal">가격 미확인 부품이 있어 금액 차이·여유 예산 비교를 제공하지 않습니다.</v-alert>
         </v-col>
       </v-row>
 
@@ -158,6 +163,7 @@
               :part-review="part_reviews?.[type]"
               :has-error="errorParts.includes(type)"
               @replace-part="handleReplacePart"
+              @choose-part="openPartSelector"
             />
           </div>
           
@@ -172,7 +178,7 @@
           <div class="analytics-sidebar d-flex flex-column gap-6">
             <!-- Performance Section (New) -->
             <div class="stagger-item">
-               <PerformanceChart 
+               <PerformanceChart v-if="hasPerformanceData"
                  :score="performance_metrics?.build_score || 0"
                  :game-fps="performance_metrics?.game_fps || {}"
                  :bottleneck="performance_metrics?.bottleneck"
@@ -180,6 +186,7 @@
                  :parts="parts"
                  @optimize="handleAutoOptimizeBottleneck"
                />
+               <v-alert v-else type="info" variant="tonal">부품이 변경되어 이전 예상 성능 분석을 숨겼습니다.</v-alert>
             </div>
 
             <!-- Synergy & Insights Section (New) -->
@@ -257,7 +264,7 @@
                 <v-card-text class="pa-8">
                   <div class="d-flex justify-space-between align-center mb-8">
                     <div>
-                      <div class="text-caption text-secondary font-weight-bold mb-1">TOTAL ESTIMATED PRICE</div>
+                      <div class="text-caption text-secondary font-weight-bold mb-1">{{ hasUnknownPrices ? '부분 예상 합계' : '전체 예상 합계' }}</div>
                       <div class="text-h3 font-weight-black neon-text-cyan font-mono tracking-tighter">
                         {{ formatPrice(totalPrice) }}
                       </div>
@@ -296,6 +303,7 @@
           </div>
         </v-col>
       </v-row>
+      <PartSelector :is-open="selectorOpen" :part-type="selectedPartType" @close="selectorOpen=false" @select="handleManualPart" />
     </v-container>
   </div>
 </template>
@@ -304,6 +312,7 @@
 import { mapState, mapGetters, mapActions } from 'vuex';
 import api from '@/services/api';
 import PartCard from '@/components/domain/PartCard.vue';
+import PartSelector from '@/components/domain/PartSelector.vue';
 import PartAdvisorCard from '@/components/domain/PartAdvisorCard.vue';
 import CompatibilityAlert from '@/components/domain/CompatibilityAlert.vue';
 import WattageGauge from '@/components/domain/WattageGauge.vue';
@@ -314,14 +323,15 @@ import { formatPrice } from '@/utils/formatPrice';
 
 export default {
   name: 'BuilderResultPage',
-  components: { PartCard, PartAdvisorCard, CompatibilityAlert, WattageGauge, YoutubePanel, PerformanceChart },
+  components: { PartCard, PartSelector, PartAdvisorCard, CompatibilityAlert, WattageGauge, YoutubePanel, PerformanceChart },
   data() {
     return {
       partTypes: ['cpu', 'gpu', 'ram', 'motherboard', 'storage', 'psu', 'cooler', 'case'],
       saving: false,
       showDetailedReview: false,
       chatInput: '',
-      isSwapping: false
+      isSwapping: false,
+      selectorOpen: false, selectedPartType: 'cpu'
     };
   },
   computed: {
@@ -330,7 +340,7 @@ export default {
       'reviewLoading', 'reviewError', 'parts', 'part_reviews',
       'totalPrice', 'totalWattage', 'budget', 'usage', 'program',
       'recommendedPsu', 'compatibility', 'saved', 'performance_metrics',
-      'combo_metrics', 'aiModel', 'selectedModel', 'prompt'
+      'combo_metrics', 'aiModel', 'selectedModel', 'prompt', 'analysisStale'
     ]),
     ...mapState('auth', ['isAuthenticated', 'user']),
     ...mapGetters('build', ['isComplete', 'isReadyToTakeoff', 'errorParts']),
@@ -341,6 +351,15 @@ export default {
     },
     is3DReady() {
       return Object.values(this.parts).every(p => p && p.is_3d_ready);
+    },
+    hasPerformanceData() {
+      return Boolean(this.performance_metrics?.build_score || Object.keys(this.performance_metrics?.game_fps || {}).length);
+    },
+    hasUnknownPrices() {
+      return Object.values(this.parts || {}).some(part=>part && (part.price==null || part.priceStatus==='unavailable'));
+    },
+    reviewNoticeOnly() {
+      return !this.reviewLoading && (this.reviewError?.startsWith('AI 리뷰 없이') || this.reviewError?.startsWith('부품이 변경되어'));
     }
   },
   created() {
@@ -352,6 +371,10 @@ export default {
     }
   },
   mounted() {
+    if (this.$route.query.review==='skip' || this.analysisStale) {
+      this.$store.commit('build/SET_REVIEW_ERROR',this.analysisStale ? '부품이 변경되어 이전 AI 리뷰를 숨겼습니다. 필요하면 다시 요청해 주세요.' : 'AI 리뷰 없이 견적을 표시했습니다. 필요하면 리뷰를 요청해 주세요.');
+      return;
+    }
     // If we have parts but no summary, trigger AI review fetch
     if (this.parts && this.parts.cpu && !this.overall_summary && !this.reviewLoading) {
        this.$store.dispatch('build/fetchAiReview');
@@ -360,6 +383,13 @@ export default {
   methods: {
     formatPrice,
     ...mapActions('build', ['saveBuild', 'updatePart', 'generateBuild']),
+    openPartSelector(type) { this.selectedPartType=type; this.selectorOpen=true; },
+    async handleManualPart(partData) {
+      try {
+        await this.updatePart({partType:this.selectedPartType,partData});
+        this.$store.dispatch('ui/showSuccess','부품을 변경하고 호환성을 다시 확인했습니다.');
+      } catch (error) { this.$store.dispatch('ui/showError',error.response?.data?.error || '부품 변경 후 호환성을 확인하지 못했습니다.'); }
+    },
     retryAiReview() {
       this.$store.dispatch('build/fetchAiReview');
     },

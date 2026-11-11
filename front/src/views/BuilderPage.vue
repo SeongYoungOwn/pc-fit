@@ -123,11 +123,12 @@
               size="x-large" 
               height="72" 
               class="generate-btn text-h5 font-weight-black px-12 w-100 w-sm-auto" 
-              @click="submitBuildRequest"
+              @click="submitBuildRequest(true)"
             >
               <v-icon left size="32" class="mr-3">mdi-rocket-launch</v-icon>
               견적 이륙하기
             </v-btn>
+            <v-btn variant="text" color="secondary" class="mt-4" block @click="submitBuildRequest(false)">AI 리뷰 없이 견적만 보기</v-btn>
           </v-window-item>
         </v-window>
 
@@ -154,19 +155,19 @@
                 <v-icon size="small" :color="loadingStep >= 1 ? 'success' : 'grey'" class="mr-2">
                   {{ loadingStep >= 1 ? 'mdi-check-circle' : 'mdi-circle-outline' }}
                 </v-icon>
-                <span class="text-caption font-weight-bold" :class="{'text-success': loadingStep >= 1}">[1/3] Supabase DB &amp; V-Combo 부품 매칭</span>
+                <span class="text-caption font-weight-bold" :class="{'text-success': loadingStep >= 1}">[1/3] 제품 DB에서 부품 매칭</span>
               </div>
               <div class="d-flex align-center mb-2 opacity-80">
                 <v-icon size="small" :color="loadingStep >= 2 ? 'success' : (loadingStep === 1 ? 'primary' : 'grey')" class="mr-2" :class="{ spinner: loadingStep === 1 }">
                   {{ loadingStep >= 2 ? 'mdi-check-circle' : (loadingStep === 1 ? 'mdi-loading' : 'mdi-circle-outline') }}
                 </v-icon>
-                <span class="text-caption font-weight-bold" :class="{'text-primary': loadingStep === 1, 'text-success': loadingStep >= 2}">[2/3] 네이버 이미지 &amp; 가격비교 링크 연동 중...</span>
+                <span class="text-caption font-weight-bold" :class="{'text-primary': loadingStep === 1, 'text-success': loadingStep >= 2}">[2/3] 부품 이미지와 구매 검색 링크 준비 중...</span>
               </div>
               <div class="d-flex align-center opacity-80">
                 <v-icon size="small" :color="loadingStep >= 3 ? 'success' : (loadingStep === 2 ? 'primary' : 'grey')" class="mr-2" :class="{ spinner: loadingStep === 2 }">
                   {{ loadingStep >= 3 ? 'mdi-check-circle' : (loadingStep === 2 ? 'mdi-loading' : 'mdi-circle-outline') }}
                 </v-icon>
-                <span class="text-caption font-weight-bold" :class="{'text-primary': loadingStep === 2, 'text-success': loadingStep >= 3}">[3/3] 소켓·전력 호환성 및 예상 성능 산출 완료</span>
+                <span class="text-caption font-weight-bold" :class="{'text-primary': loadingStep === 2, 'text-success': loadingStep >= 3}">[3/3] 소켓·전력 호환성과 예상 성능 확인 중...</span>
               </div>
             </div>
           </v-card-text>
@@ -227,7 +228,7 @@ export default {
     nextStep() {
       if (this.step < 5) this.step++;
     },
-    async submitBuildRequest() {
+    async submitBuildRequest(withReview=true) {
       const payload = {
         budget: this.selection.budget * 10000,
         usage: this.selection.purpose,
@@ -238,7 +239,7 @@ export default {
       
       try {
         await this.generateBuild(payload);
-        this.$router.push('/builder/result');
+        this.$router.push({path:'/builder/result',query:withReview ? {} : {review:'skip'}});
       } catch (err) {
         console.error('Build generation failed:', err);
         // 에러가 났더라도 계속 로딩 다이얼로그가 떠있는 것을 방지하기 위해 처리가 필요할 수 있음.

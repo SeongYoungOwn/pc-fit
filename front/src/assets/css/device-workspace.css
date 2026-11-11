@@ -1,0 +1,36 @@
+/* Route-scoped: the home page and existing builder keep their original theme. */
+.v-application.device-workspace { background: #f5f6f8 !important; color: #182334 !important; --text-primary: #182334; --text-secondary: #647085; }
+.device-workspace .v-application__wrap { background: #f5f6f8 !important; }
+.device-workspace h1, .device-workspace h2, .device-workspace h3, .device-workspace h4 { color: #182334 !important; text-shadow: none !important; }
+.device-workspace p { color: #647085 !important; }
+.v-overlay .v-theme--catalog h2, .v-overlay .v-theme--catalog h3 { color: #182334 !important; }
+.v-overlay .v-theme--catalog p { color: #647085 !important; }
+.v-overlay .v-theme--catalog .spec-table th { color: #647085 !important; }
+.device-workspace .v-main { min-height: 80vh; }
+html:has(.device-workspace), body:has(.device-workspace) { background: #f5f6f8; }
+html:has(.device-workspace) ::-webkit-scrollbar-track { background: #f5f6f8; }
+html:has(.device-workspace) ::-webkit-scrollbar-thumb { background: #c5cedb; }
+html:has(.device-workspace)::-webkit-scrollbar-track { background: #f5f6f8; }
+html:has(.device-workspace)::-webkit-scrollbar-thumb { background: #c5cedb; }
+.device-workspace .v-container { max-width: 1244px; padding-left: 32px; padding-right: 32px; }
+.device-workspace .v-card.glass-card, .device-workspace .v-card.glass-card:hover, .device-workspace div.glass-card { background: #fff !important; border: 1px solid #e3e8ef !important; box-shadow: none !important; transform: none; }
+.device-workspace .v-btn { box-shadow: none !important; letter-spacing: 0 !important; transition: background .18s, transform .18s; }
+.device-workspace .v-btn:hover { transform: translateY(-1px); }.device-workspace .v-btn:active { transform: translateY(0); }
+.device-workspace .v-field { border-radius: 10px; background: #fff; }
+.device-workspace .v-field__outline { --v-field-border-opacity: .2; }
+.device-workspace .v-card { border-radius: 16px !important; }
+.device-workspace .text-overline { letter-spacing: .12em !important; font-size: 10px !important; color: #758298 !important; font-weight: 700; }
+.device-workspace h1 { font-size: clamp(27px, 3vw, 38px) !important; line-height: 1.25 !important; letter-spacing: -.045em !important; }
+.device-workspace a { text-underline-offset: 4px; }
+.device-workspace :focus-visible { outline: 3px solid #2459d3 !important; outline-offset: 4px; }
+.device-workspace .device-footer { max-width: 1180px; width: calc(100% - 64px); margin: 40px auto 0; padding: 32px 0 44px; border-top: 1px solid #dce2ea; display: flex; align-items: center; justify-content: space-between; gap: 20px; }
+.device-footer strong { font-size: 14px; }.device-footer strong span { color: #b8c3d3; margin: 0 12px; }.device-footer p { font-size: 12px; margin-top: 8px; }.device-footer a { color: #526178; text-decoration: none; font-size: 13px; }
+.device-skip { position: fixed; z-index: 9999; top: -100px; left: 20px; padding: 14px 20px; background: #fff; color: #2459d3; }.device-skip:focus { top: 10px; }
+.device-eyebrow { display: flex; align-items: center; gap: 8px; font-size: 11px; font-weight: 700; letter-spacing: .13em; color: #6b7b91; margin-bottom: 14px; }
+.device-eyebrow::before { content: ''; width: 6px; height: 6px; border-radius: 50%; background: #2459d3; }
+.device-heading { margin-bottom: 30px; }.device-heading p { font-size: 15px; margin-top: 12px; }
+.device-workspace .section-kicker { font-size: 11px; color: #7b889b; letter-spacing: .08em; font-weight: 700; }
+.device-workspace .empty-state { padding: 48px 24px; text-align: center; }.device-workspace .empty-state h2 { font-size: 18px; margin: 16px 0 10px; }
+.device-workspace .device-note { font-size: 12px; color: #6b7b91; line-height: 1.7; }
+@media(max-width: 700px) { .device-workspace .v-container { padding-left: 20px; padding-right: 20px; }.device-workspace .device-footer { width: calc(100% - 40px); flex-direction: column; align-items: flex-start; }.device-heading p { font-size: 13px; } }
+@media(prefers-reduced-motion: reduce) { .device-workspace *, .v-overlay * { animation: none !important; transition: none !important; scroll-behavior: auto !important; } }

@@ -1,5 +1,6 @@
 const supabase = require('../config/supabase');
 const coreLibrary = require('../data/corePartsLibrary.json');
+const { caseFitsParts, airCoolerFits } = require('./physicalPartFit');
 
 // 헬퍼: 소켓/타입 추론 (기존 엔진 로직 재사용)
 function inferSocketFromName(name) {
@@ -66,8 +67,8 @@ function inferRamTypeFromName(name) {
 
 // 헬퍼: 더미 데이터 생성기 (DB에 가격이 없을 때를 대비한 임시 가격 및 성능 점수)
 function enrichPartData(part) {
-    const enriched = { ...part };
-    if (!enriched.specs) enriched.specs = {};
+    const enriched = { ...part, specs: structuredClone(part.specs || {}) };
+    delete enriched.alternatives;
     
     // 코어 라이브러리와 매칭 시도
     const categoryLower = part.category.toLowerCase().replace('pc', '').replace('cpu', '');
@@ -242,7 +243,9 @@ let lastCacheTime = 0;
 async function generateDeterministicBuild(totalBudget, usage, brand = '상관없음') {
   // 1. 전체 부품 데이터 가져오기 (메모리 캐싱 도입)
   if (!cachedAllParts || Date.now() - lastCacheTime > 60000) {
-      const { data, error } = await supabase.from('parts').select('id, name, category, specs, manufacturer');
+      const { data, error } = supabase
+        ? await supabase.from('parts').select('id, name, category, specs, manufacturer')
+        : { data: require('./partsCatalogRepository').getPartsRepository().recommendationParts(), error: null };
       if (error || !data) throw new Error('부품 데이터를 불러오지 못했습니다.');
       cachedAllParts = data;
       lastCacheTime = Date.now();
@@ -301,8 +304,7 @@ async function generateDeterministicBuild(totalBudget, usage, brand = '상관없
           // 1단계: 강성 예산 필터 (110% 초과 조합 무조건 평가 제외)
           if (budgetUsage > 110) continue;
           
-          // 고예산(200만 이상) 사무용 내장그래픽 차단 (예산 낭비 견적 방지)
-          if (usage === 'office' && gpu.id === 'dummy_gpu' && totalBudget >= 2000000) continue;
+          // Office builds may use integrated graphics at any budget.
           
           const cpuPerf = cpu.specs?.performance_score || 50;
           const gpuPerf = gpu.specs?.performance_score || 50;
@@ -440,7 +442,7 @@ async function generateDeterministicBuild(totalBudget, usage, brand = '상관없
       const mbSocket = mb.specs?.Socket || inferSocketFromName(mb.name);
       return mbSocket === cpuSocket || !mbSocket;
   });
-  build.motherboard = selectBestPart(compatibleMBs, mbBudget);
+  build.motherboard = selectBestPart(compatibleMBs, mbBudget) || selectBestPart(compatibleMBs,mbBudget,true);
   if (!build.motherboard) throw new Error('호환 가능한 실제 메인보드를 찾지 못했습니다.');
 
   const ramType = build.motherboard?.specs?.memory_type || inferRamTypeFromName(build.motherboard?.name) || (cpuSocket === 'AM5' ? 'DDR5' : 'DDR4');
@@ -449,7 +451,7 @@ async function generateDeterministicBuild(totalBudget, usage, brand = '상관없
       const rType = ram.specs?.type || inferRamTypeFromName(ram.name);
       return rType === ramType || !rType;
   });
-  build.ram = selectBestPart(compatibleRams, ramBudget);
+  build.ram = selectBestPart(compatibleRams, ramBudget) || selectBestPart(compatibleRams,ramBudget,true);
   if (!build.ram) throw new Error('호환 가능한 실제 RAM을 찾지 못했습니다.');
 
   const cpuTdp = build.cpu.specs?.tdp || 65;
@@ -468,15 +470,14 @@ async function generateDeterministicBuild(totalBudget, usage, brand = '상관없
   build.storage = selectBestPart(partsMap.Storage, remainingBudget * (budgetRatio.storage / remainRatioTotal)) || selectBestPart(partsMap.Storage, remainingBudget * (budgetRatio.storage / remainRatioTotal), true);
   if (!build.storage) throw new Error('실제 스토리지(SSD/HDD)를 찾지 못했습니다.');
 
-  build.case = selectBestPart(partsMap.Case, remainingBudget * (budgetRatio.case / remainRatioTotal)) || selectBestPart(partsMap.Case, remainingBudget * (budgetRatio.case / remainRatioTotal), true);
+  const fittingCases = partsMap.Case.filter(p => caseFitsParts(p,build.motherboard,build.gpu));
+  build.case = selectBestPart(fittingCases, remainingBudget * (budgetRatio.case / remainRatioTotal)) || selectBestPart(fittingCases, remainingBudget * (budgetRatio.case / remainRatioTotal), true);
   if (!build.case) throw new Error('실제 PC 케이스를 찾지 못했습니다.');
 
-  if (budgetRatio.cooler > 0) {
-      build.cooler = selectBestPart(partsMap.Cooler, remainingBudget * (budgetRatio.cooler / remainRatioTotal));
-      if (!build.cooler) throw new Error('실제 쿨러를 찾지 못했습니다.');
-  } else {
-      build.cooler = { id: 'dummy_cooler_stock', name: '기본 공랭 쿨러 (CPU 번들)', category: 'Cooler', specs: { estimatedPrice: 0, Price: 0 } };
-  }
+  const fittingCoolers = partsMap.Cooler.filter(p => airCoolerFits(p,build.cpu,build.case));
+  const coolerBudget = Math.max(30000,remainingBudget * (budgetRatio.cooler / remainRatioTotal));
+  build.cooler = selectBestPart(fittingCoolers,coolerBudget) || selectBestPart(fittingCoolers,coolerBudget,true);
+  if (!build.cooler) throw new Error('CPU 소켓과 케이스 높이에 맞는 실제 공랭 쿨러를 찾지 못했습니다.');
 
   // 대안(Alternatives) 추가
   if (build.cpu) {
@@ -523,7 +524,11 @@ function selectBestPart(partList, targetBudget, isFallback = false) {
     }
 
     // 완전히 없으면 fallback(themes 제외)으로 맡김
-    if (candidates.length === 0) return null; 
+    if (candidates.length === 0 && isFallback) {
+        candidates=availableParts.filter(p=>(p.specs?.estimatedPrice || p.specs?.Price || 0)>0)
+          .sort((a,b)=>(a.specs?.estimatedPrice || a.specs?.Price)-(b.specs?.estimatedPrice || b.specs?.Price)).slice(0,1);
+    }
+    if (candidates.length === 0) return null;
 
     // 메인 부품 선택 알고리즘
     const mainPart = candidates.reduce((prev, curr) => {

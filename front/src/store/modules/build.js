@@ -28,7 +28,9 @@ export default {
     isUpgradeMode: false,
     trackA: null,
     trackB: null,
-    selectedModel: 'gemini'
+    selectedModel: 'gemini',
+    buildRevision: 0,
+    analysisStale: false
   }),
   mutations: {
     SET_PROMPT(state, val) { state.prompt = val; },
@@ -37,6 +39,8 @@ export default {
     SET_REVIEW_LOADING(state, val) { state.reviewLoading = val; },
     SET_REVIEW_ERROR(state, val) { state.reviewError = val; },
     SET_BUILD(state, data) {
+      if (data.parts) { state.buildRevision++; state.analysisStale=false; }
+      if (data.analysisStale!==undefined) state.analysisStale=data.analysisStale;
       if (data.is_upgrade_mode) {
         state.isUpgradeMode = true;
         state.trackA = data.track_a;
@@ -91,7 +95,8 @@ export default {
           compatibility: state.compatibility,
           performance_metrics: state.performance_metrics,
           combo_metrics: state.combo_metrics,
-          selectedModel: state.selectedModel
+          selectedModel: state.selectedModel,
+          analysisStale: state.analysisStale
         }));
       } catch (_) {
         // Ignore sessionStorage quota errors
@@ -119,6 +124,7 @@ export default {
           state.performance_metrics = saved.performance_metrics || { game_fps: {}, build_score: 0, synergy: [] };
           state.combo_metrics = saved.combo_metrics || { grade: 'C', reasoning: [], finalScore: 0 };
           state.selectedModel = saved.selectedModel || 'claude';
+          state.analysisStale=Boolean(saved.analysisStale);
         }
       } catch (_) {
         // Ignore parse errors
@@ -137,8 +143,17 @@ export default {
     },
     SET_PART(state, { partType, partData }) { 
       state.parts[partType] = partData; 
+      state.buildRevision++;
       state.saved = false;
       state.savedBuildId = null;
+    },
+    INVALIDATE_ANALYSIS(state) {
+      state.analysisStale=true;
+      state.overall_summary=''; state.detailed_review=''; state.part_reviews={}; state.advisor_questions=[];
+      state.performance_metrics={game_fps:{},build_score:0,synergy:[]};
+      state.combo_metrics={grade:'',reasoning:[],finalScore:0};
+      state.reviewLoading=false;
+      state.reviewError='부품이 변경되어 이전 AI 리뷰를 숨겼습니다. 필요하면 다시 요청해 주세요.';
     },
     SET_TOTAL_PRICE(state, val) { state.totalPrice = val; },
     SET_COMPATIBILITY(state, val) { state.compatibility = val; },
@@ -153,6 +168,8 @@ export default {
       state.savedBuildId = buildData.id;
     },
     RESET(state) {
+      state.buildRevision++;
+      state.analysisStale=false;
       state.prompt = ''; state.aiModel = 'claude'; state.title = ''; state.overall_summary = ''; state.detailed_review = ''; state.totalPrice = 0; state.part_reviews = {};
       state.advisor_questions = []; state.reviewLoading = false; state.reviewError = null;
       state.parts = { cpu: null, gpu: null, ram: null, motherboard: null, storage: null, psu: null, cooler: null, case: null };
@@ -165,8 +182,8 @@ export default {
   actions: {
     async generateBuild({ commit, dispatch, state }, payload) {
       // payload: { budget, usage, program, brand, model }
-      commit('SET_LOADING', true);
       commit('RESET');
+      commit('SET_LOADING', true);
       if (payload.model) commit('SET_MODEL', payload.model);
       state.budget = payload.budget;
       state.usage = payload.usage;
@@ -185,6 +202,7 @@ export default {
       }
     },
     async fetchAiReview({ commit, state }) {
+      const revision=state.buildRevision;
       commit('SET_REVIEW_LOADING', true);
       commit('SET_REVIEW_ERROR', null);
       try {
@@ -196,19 +214,34 @@ export default {
           model: state.selectedModel
         };
         const res = await api.post('recommend/ai-review', payload);
-        commit('SET_BUILD', { ...state, ...res.data.data }); // Merge AI review data
+        if (revision===state.buildRevision) commit('SET_BUILD',{...res.data.data,analysisStale:false});
       } catch (err) {
         console.error('AI Review generation failed:', err);
-        commit('SET_REVIEW_ERROR', err.response?.data?.error || 'AI 전문가 리뷰를 불러오지 못했습니다. 다시 시도해 주세요.');
+        if (revision===state.buildRevision) commit('SET_REVIEW_ERROR', err.response?.data?.error || 'AI 전문가 리뷰를 불러오지 못했습니다. 다시 시도해 주세요.');
       } finally {
-        commit('SET_REVIEW_LOADING', false);
+        if (revision===state.buildRevision) commit('SET_REVIEW_LOADING', false);
       }
     },
     async updatePart({ commit, state }, { partType, partData }) {
+      if (!Object.hasOwn(state.parts,partType)) throw new Error('지원하지 않는 부품 종류입니다.');
       commit('SET_PART', { partType, partData });
+      const revision=state.buildRevision;
+      commit('INVALIDATE_ANALYSIS');
+      commit('SET_COMPATIBILITY',{isCompatible:false,warnings:[{type:'check_pending',severity:'warning',message:'변경한 부품의 호환성을 확인하고 있습니다.',affectedParts:[]}]});
       // 부품 변경 후 총액 재계산
-      const newTotal = Object.values(state.parts).reduce((sum, p) => sum + (p?.price || p?.specs?.estimatedPrice || p?.specs?.Price || 0), 0);
+      const newTotal = Object.values(state.parts).reduce((sum,p)=>sum + (p?.priceStatus==='unavailable' ? 0 : Number(p?.price ?? p?.specs?.estimatedPrice ?? p?.specs?.Price ?? 0)),0);
       commit('SET_TOTAL_PRICE', newTotal);
+      try {
+        const response=await api.post('compatibility/check',{parts:state.parts});
+        if (revision!==state.buildRevision) return;
+        const result=response.data.data;
+        commit('SET_BUILD',{compatibility:{isCompatible:result.isCompatible,warnings:result.warnings},
+          totalWattage:result.totalWattage,recommendedPsu:result.recommendedPsu});
+      } catch (error) {
+        if (revision!==state.buildRevision) return;
+        commit('SET_BUILD',{compatibility:{isCompatible:false,warnings:[{type:'check_failed',severity:'error',message:'호환성 재검증에 실패했습니다. 다시 확인해 주세요.',affectedParts:[]}]}});
+        throw error;
+      }
     },
     async saveBuild({ state, rootState, dispatch, commit }) {
       if (!rootState.auth.isAuthenticated) return null;

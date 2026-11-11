@@ -36,13 +36,18 @@ exports.modifyBuild = async (req, res, next) => {
     if (msg.includes('ssd') || msg.includes('스토리지') || msg.includes('저장') || msg.includes('storage') || msg.includes('하드') || msg.includes('hdd')) categoriesToFetch.push('storage');
 
     // 카테고리 유추 실패 시 전체 카탈로그 가져오기
-    let partsQuery = supabase.from('parts').select('name, category, specs, manufacturer');
-    if (categoriesToFetch.length > 0) {
-      partsQuery = partsQuery.in('category', categoriesToFetch);
+    let catalog;
+    if (supabase) {
+      let partsQuery = supabase.from('parts').select('name, category, specs, manufacturer');
+      if (categoriesToFetch.length > 0) partsQuery = partsQuery.in('category', categoriesToFetch);
+      const {data,error}=await partsQuery.limit(30);
+      if (error) throw error;
+      catalog=data || [];
+    } else {
+      const repo=require('../services/partsCatalogRepository').getPartsRepository();
+      const types=categoriesToFetch.length ? categoriesToFetch : ['cpu','gpu','ram','motherboard','storage','psu','cooler','case'];
+      catalog=types.flatMap(type=>repo.builderList({type,size:Math.max(3,Math.floor(30/types.length))}).items).slice(0,30);
     }
-    // 토큰 폭발 방지를 위해 최대 20개의 가장 관련성 높은 부품만 로드
-    const { data: catalog, error: dbError } = await partsQuery.limit(30);
-    if (dbError) throw dbError;
 
     // 카탈로그 텍스트 구성 (최소화)
     const catalogString = catalog.map(p => `[${p.category}] ${p.name} - ${p.specs?.estimatedPrice || p.specs?.Price || '가격미상'}원`).join('\n');

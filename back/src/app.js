@@ -53,6 +53,7 @@ app.get('/api/health', (req, res) => {
 
 const notificationRoutes = require('./routes/notificationRoutes');
 const adminRoutes = require('./routes/adminRoutes');
+const deviceRoutes = require('./routes/deviceRoutes').defaultRouter();
 
 ['/api/v1', '/api'].forEach((prefix) => {
   app.use(`${prefix}/auth`, authRoutes);
@@ -64,6 +65,7 @@ const adminRoutes = require('./routes/adminRoutes');
   app.use(`${prefix}/youtube`, youtubeRoutes);
   app.use(`${prefix}/notifications`, notificationRoutes);
   app.use(`${prefix}/admin`, adminRoutes);
+  app.use(`${prefix}/devices`, deviceRoutes);
 });
 
 // Seed admin account

@@ -21,7 +21,7 @@ api.interceptors.response.use(
       store.dispatch('ui/showError', '인터넷 연결을 확인해주세요.');
     } else if (error.response.status === 401) {
       // /auth/me (세션 체크) 요청 시 401은 정상적인 상황(미로그인)이므로 경고를 띄우지 않음
-      if (!error.config.url.includes('/auth/me')) {
+      if (!/(?:^|\/)auth\/me(?:[?#]|$)/.test(error.config?.url || '')) {
         store.dispatch('ui/showWarning', '로그인이 필요합니다.');
       }
       store.commit('auth/SET_USER', null);

@@ -39,7 +39,8 @@
               {{ partData?.name || '부품을 선택해주세요' }}
             </div>
             <div class="text-h6 font-weight-bold neon-text-cyan font-mono tracking-tighter">
-              {{ formatPrice(partData?.price) }}
+              {{ partData?.price == null ? '가격 미확인' : formatPrice(partData.price) }}
+              <span v-if="partData?.priceStatus === 'estimated'" class="text-caption text-secondary ml-2">예상 금액</span>
             </div>
           </div>
         </div>
@@ -74,6 +75,7 @@
         </div>
 
         <div v-if="!readonly" class="d-flex justify-end gap-2 mt-4">
+          <v-btn variant="outlined" color="secondary" size="small" :aria-label="`${partTitleMap[partType]} 직접 검색`" @click="$emit('choose-part',partType)">부품 변경</v-btn>
           <v-btn 
             v-if="partData?.name"
             variant="tonal" 

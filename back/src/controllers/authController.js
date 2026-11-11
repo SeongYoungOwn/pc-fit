@@ -3,6 +3,7 @@ const bcrypt = require('bcryptjs');
 
 exports.checkUsername = async (req, res, next) => {
   try {
+    if (!supabase) return res.status(503).json({success:false,code:'AUTH_DB_NOT_CONFIGURED',error:'회원 기능용 Supabase DB가 아직 연결되지 않았습니다.'});
     const { username } = req.query;
     if (!username) return res.status(400).json({ success: false, error: '아이디를 입력하세요' });
     
@@ -13,6 +14,7 @@ exports.checkUsername = async (req, res, next) => {
 
 exports.checkNickname = async (req, res, next) => {
   try {
+    if (!supabase) return res.status(503).json({success:false,code:'AUTH_DB_NOT_CONFIGURED',error:'회원 기능용 Supabase DB가 아직 연결되지 않았습니다.'});
     const { nickname } = req.query;
     if (!nickname) return res.status(400).json({ success: false, error: '닉네임을 입력하세요' });
     
@@ -23,7 +25,7 @@ exports.checkNickname = async (req, res, next) => {
 
 exports.signup = async (req, res, next) => {
   try {
-    if (!supabase) return res.status(500).json({ success: false, error: 'Supabase 설정이 필요합니다.' });
+    if (!supabase) return res.status(503).json({ success: false, code:'AUTH_DB_NOT_CONFIGURED',error: '회원 기능용 Supabase DB가 아직 연결되지 않았습니다.' });
     
     const { username, password, nickname, my_pc, user_level } = req.body;
     
@@ -80,7 +82,7 @@ exports.signup = async (req, res, next) => {
 
 exports.login = async (req, res, next) => {
   try {
-    if (!supabase) return res.status(500).json({ success: false, error: 'Supabase 설정이 필요합니다.' });
+    if (!supabase) return res.status(503).json({ success: false, code:'AUTH_DB_NOT_CONFIGURED',error: '회원 기능용 Supabase DB가 아직 연결되지 않았습니다.' });
 
     const { username, password } = req.body;
     const { data: user, error } = await supabase.from('users').select('*').eq('username', username).single();
@@ -109,7 +111,7 @@ exports.logout = (req, res) => {
 
 exports.me = async (req, res, next) => {
   try {
-    if (!supabase) return res.status(500).json({ success: false, error: 'Supabase 설정이 필요합니다.' });
+    if (!supabase) return res.status(503).json({ success: false, code:'AUTH_DB_NOT_CONFIGURED',error: '회원 기능용 Supabase DB가 아직 연결되지 않았습니다.' });
     if (!req.session.userId) return res.status(401).json({ success: false, error: '세션이 없습니다.' });
 
     const { data: user, error } = await supabase.from('users').select('id, username, nickname, profile_image, my_pc, user_level, role').eq('id', req.session.userId).single();
@@ -121,7 +123,7 @@ exports.me = async (req, res, next) => {
 
 exports.updateMyPc = async (req, res, next) => {
   try {
-    if (!supabase) return res.status(500).json({ success: false, error: 'Supabase 설정이 필요합니다.' });
+    if (!supabase) return res.status(503).json({ success: false, code:'AUTH_DB_NOT_CONFIGURED',error: '회원 기능용 Supabase DB가 아직 연결되지 않았습니다.' });
     if (!req.session.userId) return res.status(401).json({ success: false, error: '세션이 없습니다.' });
 
     const userId = req.session.userId;

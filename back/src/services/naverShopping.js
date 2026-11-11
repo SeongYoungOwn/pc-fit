@@ -308,6 +308,14 @@ function estimateDbPrice(partName, partType, specs = {}) {
 
 async function lookupDbPartPriceAndSpecs(partName, partType) {
   const typeKey = String(partType || '').toLowerCase();
+  const localParts = require('./partsCatalogRepository').getPartsRepository();
+  if (localParts.status().total > 0) {
+    const match = localParts.builderList({type:typeKey,query:String(partName || ''),size:20}).items
+      .find(p=>p.name.toLowerCase()===String(partName || '').toLowerCase());
+    if (match) return match;
+    const error=new Error('원본 부품 DB에서 정확히 일치하는 제품을 찾지 못했습니다.');
+    error.status=404; throw error;
+  }
 
   // 1. 코어 라이브러리 확인
   const coreLib = getCoreLibrary();

@@ -1,0 +1,2790 @@
+[
+  {
+    "id": "official_apple_125091",
+    "brand": "Apple",
+    "category": "Smartphones",
+    "name": "iPhone 17 Pro Max",
+    "model": "iPhone 17 Pro Max",
+    "version": null,
+    "region": "한국 공식 지원 문서",
+    "releaseDate": "2025년 (연도 기준)",
+    "releaseStart": "2025-01-01",
+    "releaseEnd": "2025-12-31",
+    "releasePrecision": "year",
+    "imageUrl": "https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/iphone-17-pro-17-pro-max-hero.png",
+    "specs": {
+      "Inside": {
+        "Processor": {
+          "CPU": "A19 Pro"
+        },
+        "RAM": {
+          "Capacity": null
+        },
+        "Storage": {
+          "Capacity": "256GB / 512GB / 1TB / 2TB"
+        },
+        "Software": {
+          "OS": "iOS"
+        },
+        "Battery": {
+          "Energy (Wh)": null,
+          "Video playback": "동영상 재생: 최대 37시간",
+          "Typical usage": null
+        },
+        "Wireless": {
+          "Bluetooth Version": "Bluetooth 6"
+        }
+      },
+      "Display": {
+        "Type": "Super Retina XDR",
+        "Resolution (H x W)": "2868 x 1320",
+        "Diagonal (cm)": "17.4cm",
+        "Refresh Rate": "최대 120Hz"
+      },
+      "Camera": {
+        "Back Camera": {
+          "Resolution": "48MP"
+        },
+        "Front Camera": {
+          "Resolution": "18MP"
+        }
+      },
+      "Design": {
+        "Body": {
+          "Weight": "231g",
+          "Thickness": "두께: 8.75mm",
+          "IP Rating": "IP68"
+        }
+      },
+      "_provenance": {
+        "provider": "manufacturer",
+        "source": "Apple 공식 사양",
+        "sourceUrl": "https://support.apple.com/ko-kr/125091",
+        "checkedOn": "2026-11-10",
+        "releasePrecision": "year"
+      }
+    },
+    "domesticVerified": true,
+    "sourceUrl": "https://support.apple.com/ko-kr/125091"
+  },
+  {
+    "id": "official_apple_125090",
+    "brand": "Apple",
+    "category": "Smartphones",
+    "name": "iPhone 17 Pro",
+    "model": "iPhone 17 Pro",
+    "version": null,
+    "region": "한국 공식 지원 문서",
+    "releaseDate": "2025년 (연도 기준)",
+    "releaseStart": "2025-01-01",
+    "releaseEnd": "2025-12-31",
+    "releasePrecision": "year",
+    "imageUrl": "https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/iphone-17-pro-17-pro-max-hero.png",
+    "specs": {
+      "Inside": {
+        "Processor": {
+          "CPU": "A19 Pro"
+        },
+        "RAM": {
+          "Capacity": null
+        },
+        "Storage": {
+          "Capacity": "256GB / 512GB / 1TB"
+        },
+        "Software": {
+          "OS": "iOS"
+        },
+        "Battery": {
+          "Energy (Wh)": null,
+          "Video playback": "동영상 재생: 최대 31시간",
+          "Typical usage": null
+        },
+        "Wireless": {
+          "Bluetooth Version": "Bluetooth 6"
+        }
+      },
+      "Display": {
+        "Type": "Super Retina XDR",
+        "Resolution (H x W)": "2622 x 1206",
+        "Diagonal (cm)": "15.9cm",
+        "Refresh Rate": "최대 120Hz"
+      },
+      "Camera": {
+        "Back Camera": {
+          "Resolution": "48MP"
+        },
+        "Front Camera": {
+          "Resolution": "18MP"
+        }
+      },
+      "Design": {
+        "Body": {
+          "Weight": "204g",
+          "Thickness": "두께: 8.75mm",
+          "IP Rating": "IP68"
+        }
+      },
+      "_provenance": {
+        "provider": "manufacturer",
+        "source": "Apple 공식 사양",
+        "sourceUrl": "https://support.apple.com/ko-kr/125090",
+        "checkedOn": "2026-11-10",
+        "releasePrecision": "year"
+      }
+    },
+    "domesticVerified": true,
+    "sourceUrl": "https://support.apple.com/ko-kr/125090"
+  },
+  {
+    "id": "official_apple_125089",
+    "brand": "Apple",
+    "category": "Smartphones",
+    "name": "iPhone 17",
+    "model": "iPhone 17",
+    "version": null,
+    "region": "한국 공식 지원 문서",
+    "releaseDate": "2025년 (연도 기준)",
+    "releaseStart": "2025-01-01",
+    "releaseEnd": "2025-12-31",
+    "releasePrecision": "year",
+    "imageUrl": "https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/iphone-17-hero.png",
+    "specs": {
+      "Inside": {
+        "Processor": {
+          "CPU": "A19"
+        },
+        "RAM": {
+          "Capacity": null
+        },
+        "Storage": {
+          "Capacity": "256GB / 512GB"
+        },
+        "Software": {
+          "OS": "iOS"
+        },
+        "Battery": {
+          "Energy (Wh)": null,
+          "Video playback": "동영상 재생: 최대 30시간",
+          "Typical usage": null
+        },
+        "Wireless": {
+          "Bluetooth Version": "Bluetooth 6"
+        }
+      },
+      "Display": {
+        "Type": "Super Retina XDR",
+        "Resolution (H x W)": "2622 x 1206",
+        "Diagonal (cm)": "15.9cm",
+        "Refresh Rate": "최대 120Hz"
+      },
+      "Camera": {
+        "Back Camera": {
+          "Resolution": "48MP"
+        },
+        "Front Camera": {
+          "Resolution": "18MP"
+        }
+      },
+      "Design": {
+        "Body": {
+          "Weight": "177g",
+          "Thickness": "두께: 7.95mm",
+          "IP Rating": "IP68"
+        }
+      },
+      "_provenance": {
+        "provider": "manufacturer",
+        "source": "Apple 공식 사양",
+        "sourceUrl": "https://support.apple.com/ko-kr/125089",
+        "checkedOn": "2026-11-10",
+        "releasePrecision": "year"
+      }
+    },
+    "domesticVerified": true,
+    "sourceUrl": "https://support.apple.com/ko-kr/125089"
+  },
+  {
+    "id": "official_apple_125092",
+    "brand": "Apple",
+    "category": "Smartphones",
+    "name": "iPhone Air",
+    "model": "iPhone Air",
+    "version": null,
+    "region": "한국 공식 지원 문서",
+    "releaseDate": "2025년 (연도 기준)",
+    "releaseStart": "2025-01-01",
+    "releaseEnd": "2025-12-31",
+    "releasePrecision": "year",
+    "imageUrl": "https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/iphone-air-hero.png",
+    "specs": {
+      "Inside": {
+        "Processor": {
+          "CPU": "A19 Pro"
+        },
+        "RAM": {
+          "Capacity": null
+        },
+        "Storage": {
+          "Capacity": "256GB / 512GB / 1TB"
+        },
+        "Software": {
+          "OS": "iOS"
+        },
+        "Battery": {
+          "Energy (Wh)": null,
+          "Video playback": "동영상 재생: 최대 27시간",
+          "Typical usage": null
+        },
+        "Wireless": {
+          "Bluetooth Version": "Bluetooth 6"
+        }
+      },
+      "Display": {
+        "Type": "Super Retina XDR",
+        "Resolution (H x W)": "2736 x 1260",
+        "Diagonal (cm)": "16.6cm",
+        "Refresh Rate": "최대 120Hz"
+      },
+      "Camera": {
+        "Back Camera": {
+          "Resolution": "48MP"
+        },
+        "Front Camera": {
+          "Resolution": "18MP"
+        }
+      },
+      "Design": {
+        "Body": {
+          "Weight": "165g",
+          "Thickness": "두께: 5.64mm",
+          "IP Rating": "IP68"
+        }
+      },
+      "_provenance": {
+        "provider": "manufacturer",
+        "source": "Apple 공식 사양",
+        "sourceUrl": "https://support.apple.com/ko-kr/125092",
+        "checkedOn": "2026-11-10",
+        "releasePrecision": "year"
+      }
+    },
+    "domesticVerified": true,
+    "sourceUrl": "https://support.apple.com/ko-kr/125092"
+  },
+  {
+    "id": "official_apple_122208",
+    "brand": "Apple",
+    "category": "Smartphones",
+    "name": "iPhone 16e",
+    "model": "iPhone 16e",
+    "version": null,
+    "region": "한국 공식 지원 문서",
+    "releaseDate": "2025년 (연도 기준)",
+    "releaseStart": "2025-01-01",
+    "releaseEnd": "2025-12-31",
+    "releasePrecision": "year",
+    "imageUrl": "https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/122208-iphone-16e.png",
+    "specs": {
+      "Inside": {
+        "Processor": {
+          "CPU": "A18"
+        },
+        "RAM": {
+          "Capacity": null
+        },
+        "Storage": {
+          "Capacity": "128GB / 256GB / 512GB"
+        },
+        "Software": {
+          "OS": "iOS"
+        },
+        "Battery": {
+          "Energy (Wh)": null,
+          "Video playback": "동영상 재생: 최대 26시간",
+          "Typical usage": null
+        },
+        "Wireless": {
+          "Bluetooth Version": "Bluetooth 5.3"
+        }
+      },
+      "Display": {
+        "Type": "Super Retina XDR",
+        "Resolution (H x W)": "2532 x 1170",
+        "Diagonal (cm)": "15.4cm",
+        "Refresh Rate": null
+      },
+      "Camera": {
+        "Back Camera": {
+          "Resolution": "48MP"
+        },
+        "Front Camera": {
+          "Resolution": "12MP"
+        }
+      },
+      "Design": {
+        "Body": {
+          "Weight": "167g",
+          "Thickness": "두께: 7.80mm",
+          "IP Rating": "IP68"
+        }
+      },
+      "_provenance": {
+        "provider": "manufacturer",
+        "source": "Apple 공식 사양",
+        "sourceUrl": "https://support.apple.com/ko-kr/122208",
+        "checkedOn": "2026-11-10",
+        "releasePrecision": "year"
+      }
+    },
+    "domesticVerified": true,
+    "sourceUrl": "https://support.apple.com/ko-kr/122208"
+  },
+  {
+    "id": "official_apple_121032",
+    "brand": "Apple",
+    "category": "Smartphones",
+    "name": "iPhone 16 Pro Max",
+    "model": "iPhone 16 Pro Max",
+    "version": null,
+    "region": "한국 공식 지원 문서",
+    "releaseDate": "2024년 (연도 기준)",
+    "releaseStart": "2024-01-01",
+    "releaseEnd": "2024-12-31",
+    "releasePrecision": "year",
+    "imageUrl": "https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/121032-iphone-16-pro-max.png",
+    "specs": {
+      "Inside": {
+        "Processor": {
+          "CPU": "A18 Pro"
+        },
+        "RAM": {
+          "Capacity": null
+        },
+        "Storage": {
+          "Capacity": "256GB / 512GB / 1TB"
+        },
+        "Software": {
+          "OS": "iOS"
+        },
+        "Battery": {
+          "Energy (Wh)": null,
+          "Video playback": "동영상 재생: 최대 33시간",
+          "Typical usage": null
+        },
+        "Wireless": {
+          "Bluetooth Version": "Bluetooth 5.3"
+        }
+      },
+      "Display": {
+        "Type": "Super Retina XDR",
+        "Resolution (H x W)": "2868 x 1320",
+        "Diagonal (cm)": "17.4cm",
+        "Refresh Rate": "최대 120Hz"
+      },
+      "Camera": {
+        "Back Camera": {
+          "Resolution": "48MP"
+        },
+        "Front Camera": {
+          "Resolution": "12MP"
+        }
+      },
+      "Design": {
+        "Body": {
+          "Weight": "227g",
+          "Thickness": "두께: 8.25mm",
+          "IP Rating": "IP68"
+        }
+      },
+      "_provenance": {
+        "provider": "manufacturer",
+        "source": "Apple 공식 사양",
+        "sourceUrl": "https://support.apple.com/ko-kr/121032",
+        "checkedOn": "2026-11-10",
+        "releasePrecision": "year"
+      }
+    },
+    "domesticVerified": true,
+    "sourceUrl": "https://support.apple.com/ko-kr/121032"
+  },
+  {
+    "id": "official_apple_121031",
+    "brand": "Apple",
+    "category": "Smartphones",
+    "name": "iPhone 16 Pro",
+    "model": "iPhone 16 Pro",
+    "version": null,
+    "region": "한국 공식 지원 문서",
+    "releaseDate": "2024년 (연도 기준)",
+    "releaseStart": "2024-01-01",
+    "releaseEnd": "2024-12-31",
+    "releasePrecision": "year",
+    "imageUrl": "https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/121031-iphone-16-pro.png",
+    "specs": {
+      "Inside": {
+        "Processor": {
+          "CPU": "A18 Pro"
+        },
+        "RAM": {
+          "Capacity": null
+        },
+        "Storage": {
+          "Capacity": "128GB / 256GB / 512GB / 1TB"
+        },
+        "Software": {
+          "OS": "iOS"
+        },
+        "Battery": {
+          "Energy (Wh)": null,
+          "Video playback": "동영상 재생: 최대 27시간",
+          "Typical usage": null
+        },
+        "Wireless": {
+          "Bluetooth Version": "Bluetooth 5.3"
+        }
+      },
+      "Display": {
+        "Type": "Super Retina XDR",
+        "Resolution (H x W)": "2622 x 1206",
+        "Diagonal (cm)": "15.9cm",
+        "Refresh Rate": "최대 120Hz"
+      },
+      "Camera": {
+        "Back Camera": {
+          "Resolution": "48MP"
+        },
+        "Front Camera": {
+          "Resolution": "12MP"
+        }
+      },
+      "Design": {
+        "Body": {
+          "Weight": "199g",
+          "Thickness": "두께: 8.25mm",
+          "IP Rating": "IP68"
+        }
+      },
+      "_provenance": {
+        "provider": "manufacturer",
+        "source": "Apple 공식 사양",
+        "sourceUrl": "https://support.apple.com/ko-kr/121031",
+        "checkedOn": "2026-11-10",
+        "releasePrecision": "year"
+      }
+    },
+    "domesticVerified": true,
+    "sourceUrl": "https://support.apple.com/ko-kr/121031"
+  },
+  {
+    "id": "official_apple_121030",
+    "brand": "Apple",
+    "category": "Smartphones",
+    "name": "iPhone 16 Plus",
+    "model": "iPhone 16 Plus",
+    "version": null,
+    "region": "한국 공식 지원 문서",
+    "releaseDate": "2024년 (연도 기준)",
+    "releaseStart": "2024-01-01",
+    "releaseEnd": "2024-12-31",
+    "releasePrecision": "year",
+    "imageUrl": "https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/121030-iphone-16-plus.png",
+    "specs": {
+      "Inside": {
+        "Processor": {
+          "CPU": "A18"
+        },
+        "RAM": {
+          "Capacity": null
+        },
+        "Storage": {
+          "Capacity": "128GB / 256GB / 512GB"
+        },
+        "Software": {
+          "OS": "iOS"
+        },
+        "Battery": {
+          "Energy (Wh)": null,
+          "Video playback": "동영상 재생: 최대 27시간",
+          "Typical usage": null
+        },
+        "Wireless": {
+          "Bluetooth Version": "Bluetooth 5.3"
+        }
+      },
+      "Display": {
+        "Type": "Super Retina XDR",
+        "Resolution (H x W)": "2796 x 1290",
+        "Diagonal (cm)": "17.0cm",
+        "Refresh Rate": null
+      },
+      "Camera": {
+        "Back Camera": {
+          "Resolution": "48MP"
+        },
+        "Front Camera": {
+          "Resolution": "12MP"
+        }
+      },
+      "Design": {
+        "Body": {
+          "Weight": "199g",
+          "Thickness": "두께: 7.80mm",
+          "IP Rating": "IP68"
+        }
+      },
+      "_provenance": {
+        "provider": "manufacturer",
+        "source": "Apple 공식 사양",
+        "sourceUrl": "https://support.apple.com/ko-kr/121030",
+        "checkedOn": "2026-11-10",
+        "releasePrecision": "year"
+      }
+    },
+    "domesticVerified": true,
+    "sourceUrl": "https://support.apple.com/ko-kr/121030"
+  },
+  {
+    "id": "official_apple_121029",
+    "brand": "Apple",
+    "category": "Smartphones",
+    "name": "iPhone 16",
+    "model": "iPhone 16",
+    "version": null,
+    "region": "한국 공식 지원 문서",
+    "releaseDate": "2024년 (연도 기준)",
+    "releaseStart": "2024-01-01",
+    "releaseEnd": "2024-12-31",
+    "releasePrecision": "year",
+    "imageUrl": "https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/iphone-16.png",
+    "specs": {
+      "Inside": {
+        "Processor": {
+          "CPU": "A18"
+        },
+        "RAM": {
+          "Capacity": null
+        },
+        "Storage": {
+          "Capacity": "128GB / 256GB / 512GB"
+        },
+        "Software": {
+          "OS": "iOS"
+        },
+        "Battery": {
+          "Energy (Wh)": null,
+          "Video playback": "동영상 재생: 최대 22시간",
+          "Typical usage": null
+        },
+        "Wireless": {
+          "Bluetooth Version": "Bluetooth 5.3"
+        }
+      },
+      "Display": {
+        "Type": "Super Retina XDR",
+        "Resolution (H x W)": "2556 x 1179",
+        "Diagonal (cm)": "15.5cm",
+        "Refresh Rate": null
+      },
+      "Camera": {
+        "Back Camera": {
+          "Resolution": "48MP"
+        },
+        "Front Camera": {
+          "Resolution": "12MP"
+        }
+      },
+      "Design": {
+        "Body": {
+          "Weight": "170g",
+          "Thickness": "두께: 7.80mm",
+          "IP Rating": "IP68"
+        }
+      },
+      "_provenance": {
+        "provider": "manufacturer",
+        "source": "Apple 공식 사양",
+        "sourceUrl": "https://support.apple.com/ko-kr/121029",
+        "checkedOn": "2026-11-10",
+        "releasePrecision": "year"
+      }
+    },
+    "domesticVerified": true,
+    "sourceUrl": "https://support.apple.com/ko-kr/121029"
+  },
+  {
+    "id": "official_apple_SP904",
+    "brand": "Apple",
+    "category": "Smartphones",
+    "name": "iPhone 15 Pro Max",
+    "model": "iPhone 15 Pro Max",
+    "version": null,
+    "region": "한국 공식 지원 문서",
+    "releaseDate": "2023년 (연도 기준)",
+    "releaseStart": "2023-01-01",
+    "releaseEnd": "2023-12-31",
+    "releasePrecision": "year",
+    "imageUrl": "https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/iphone-15-pro-max.png",
+    "specs": {
+      "Inside": {
+        "Processor": {
+          "CPU": "A17 Pro"
+        },
+        "RAM": {
+          "Capacity": null
+        },
+        "Storage": {
+          "Capacity": "256GB / 512GB / 1TB"
+        },
+        "Software": {
+          "OS": "iOS"
+        },
+        "Battery": {
+          "Energy (Wh)": null,
+          "Video playback": "동영상 재생: 최대 29시간",
+          "Typical usage": null
+        },
+        "Wireless": {
+          "Bluetooth Version": "Bluetooth 5.3"
+        }
+      },
+      "Display": {
+        "Type": "Super Retina XDR",
+        "Resolution (H x W)": "2796 x 1290",
+        "Diagonal (cm)": "17.0cm",
+        "Refresh Rate": "최대 120Hz"
+      },
+      "Camera": {
+        "Back Camera": {
+          "Resolution": "48MP"
+        },
+        "Front Camera": {
+          "Resolution": "12MP"
+        }
+      },
+      "Design": {
+        "Body": {
+          "Weight": "221g",
+          "Thickness": "두께: 8.25mm",
+          "IP Rating": "IP68"
+        }
+      },
+      "_provenance": {
+        "provider": "manufacturer",
+        "source": "Apple 공식 사양",
+        "sourceUrl": "https://support.apple.com/kb/SP904?locale=ko_KR",
+        "checkedOn": "2026-11-10",
+        "releasePrecision": "year"
+      }
+    },
+    "domesticVerified": true,
+    "sourceUrl": "https://support.apple.com/kb/SP904?locale=ko_KR"
+  },
+  {
+    "id": "official_apple_SP902",
+    "brand": "Apple",
+    "category": "Smartphones",
+    "name": "iPhone 15 Plus",
+    "model": "iPhone 15 Plus",
+    "version": null,
+    "region": "한국 공식 지원 문서",
+    "releaseDate": "2023년 (연도 기준)",
+    "releaseStart": "2023-01-01",
+    "releaseEnd": "2023-12-31",
+    "releasePrecision": "year",
+    "imageUrl": "https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/iphone_15_plus_hero.png",
+    "specs": {
+      "Inside": {
+        "Processor": {
+          "CPU": "A16"
+        },
+        "RAM": {
+          "Capacity": null
+        },
+        "Storage": {
+          "Capacity": "128GB / 256GB / 512GB"
+        },
+        "Software": {
+          "OS": "iOS"
+        },
+        "Battery": {
+          "Energy (Wh)": null,
+          "Video playback": "동영상 재생: 최대 26시간",
+          "Typical usage": null
+        },
+        "Wireless": {
+          "Bluetooth Version": "Bluetooth 5.3"
+        }
+      },
+      "Display": {
+        "Type": "Super Retina XDR",
+        "Resolution (H x W)": "2796 x 1290",
+        "Diagonal (cm)": "17.0cm",
+        "Refresh Rate": null
+      },
+      "Camera": {
+        "Back Camera": {
+          "Resolution": "48MP"
+        },
+        "Front Camera": {
+          "Resolution": "12MP"
+        }
+      },
+      "Design": {
+        "Body": {
+          "Weight": "201g",
+          "Thickness": "두께: 7.80mm",
+          "IP Rating": "IP68"
+        }
+      },
+      "_provenance": {
+        "provider": "manufacturer",
+        "source": "Apple 공식 사양",
+        "sourceUrl": "https://support.apple.com/kb/SP902?locale=ko_KR",
+        "checkedOn": "2026-11-10",
+        "releasePrecision": "year"
+      }
+    },
+    "domesticVerified": true,
+    "sourceUrl": "https://support.apple.com/kb/SP902?locale=ko_KR"
+  },
+  {
+    "id": "official_apple_111831",
+    "brand": "Apple",
+    "category": "Smartphones",
+    "name": "iPhone 15",
+    "model": "iPhone 15",
+    "version": null,
+    "region": "한국 공식 지원 문서",
+    "releaseDate": "2023년 (연도 기준)",
+    "releaseStart": "2023-01-01",
+    "releaseEnd": "2023-12-31",
+    "releasePrecision": "year",
+    "imageUrl": "https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/iphone_15_hero.png",
+    "specs": {
+      "Inside": {
+        "Processor": {
+          "CPU": "A16"
+        },
+        "RAM": {
+          "Capacity": null
+        },
+        "Storage": {
+          "Capacity": "128GB / 256GB / 512GB"
+        },
+        "Software": {
+          "OS": "iOS"
+        },
+        "Battery": {
+          "Energy (Wh)": null,
+          "Video playback": "동영상 재생: 최대 20시간",
+          "Typical usage": null
+        },
+        "Wireless": {
+          "Bluetooth Version": "Bluetooth 5.3"
+        }
+      },
+      "Display": {
+        "Type": "Super Retina XDR",
+        "Resolution (H x W)": "2556 x 1179",
+        "Diagonal (cm)": "15.5cm",
+        "Refresh Rate": null
+      },
+      "Camera": {
+        "Back Camera": {
+          "Resolution": "48MP"
+        },
+        "Front Camera": {
+          "Resolution": "12MP"
+        }
+      },
+      "Design": {
+        "Body": {
+          "Weight": "171g",
+          "Thickness": "두께: 7.80mm",
+          "IP Rating": "IP68"
+        }
+      },
+      "_provenance": {
+        "provider": "manufacturer",
+        "source": "Apple 공식 사양",
+        "sourceUrl": "https://support.apple.com/ko-kr/111831",
+        "checkedOn": "2026-11-10",
+        "releasePrecision": "year"
+      }
+    },
+    "domesticVerified": true,
+    "sourceUrl": "https://support.apple.com/ko-kr/111831"
+  },
+  {
+    "id": "official_apple_SP874",
+    "brand": "Apple",
+    "category": "Smartphones",
+    "name": "iPhone 14 Plus",
+    "model": "iPhone 14 Plus",
+    "version": null,
+    "region": "한국 공식 지원 문서",
+    "releaseDate": "2022년 (연도 기준)",
+    "releaseStart": "2022-01-01",
+    "releaseEnd": "2022-12-31",
+    "releasePrecision": "year",
+    "imageUrl": "https://cdsassets.apple.com/live/SZLF0YNV/images/sp/111850_iphone-14_1.png",
+    "specs": {
+      "Inside": {
+        "Processor": {
+          "CPU": "A15"
+        },
+        "RAM": {
+          "Capacity": null
+        },
+        "Storage": {
+          "Capacity": "128GB / 256GB / 512GB"
+        },
+        "Software": {
+          "OS": "iOS"
+        },
+        "Battery": {
+          "Energy (Wh)": null,
+          "Video playback": "동영상 재생 최대 26시간",
+          "Typical usage": null
+        },
+        "Wireless": {
+          "Bluetooth Version": "Bluetooth 5.3"
+        }
+      },
+      "Display": {
+        "Type": "Super Retina XDR",
+        "Resolution (H x W)": "2778 x 1284",
+        "Diagonal (cm)": "17.0cm",
+        "Refresh Rate": null
+      },
+      "Camera": {
+        "Back Camera": {
+          "Resolution": "12MP"
+        },
+        "Front Camera": {
+          "Resolution": "12MP"
+        }
+      },
+      "Design": {
+        "Body": {
+          "Weight": "203g",
+          "Thickness": "두께: 7.80mm",
+          "IP Rating": "IP68"
+        }
+      },
+      "_provenance": {
+        "provider": "manufacturer",
+        "source": "Apple 공식 사양",
+        "sourceUrl": "https://support.apple.com/kb/SP874?locale=ko_KR",
+        "checkedOn": "2026-11-10",
+        "releasePrecision": "year"
+      }
+    },
+    "domesticVerified": true,
+    "sourceUrl": "https://support.apple.com/kb/SP874?locale=ko_KR"
+  },
+  {
+    "id": "official_apple_SP873",
+    "brand": "Apple",
+    "category": "Smartphones",
+    "name": "iPhone 14",
+    "model": "iPhone 14",
+    "version": null,
+    "region": "한국 공식 지원 문서",
+    "releaseDate": "2022년 (연도 기준)",
+    "releaseStart": "2022-01-01",
+    "releaseEnd": "2022-12-31",
+    "releasePrecision": "year",
+    "imageUrl": "https://cdsassets.apple.com/live/SZLF0YNV/images/sp/111850_iphone-14_1.png",
+    "specs": {
+      "Inside": {
+        "Processor": {
+          "CPU": "A15"
+        },
+        "RAM": {
+          "Capacity": null
+        },
+        "Storage": {
+          "Capacity": "128GB / 256GB / 512GB"
+        },
+        "Software": {
+          "OS": "iOS"
+        },
+        "Battery": {
+          "Energy (Wh)": null,
+          "Video playback": "동영상 재생 최대 20시간",
+          "Typical usage": null
+        },
+        "Wireless": {
+          "Bluetooth Version": "Bluetooth 5.3"
+        }
+      },
+      "Display": {
+        "Type": "Super Retina XDR",
+        "Resolution (H x W)": "2532 x 1170",
+        "Diagonal (cm)": "15.4cm",
+        "Refresh Rate": null
+      },
+      "Camera": {
+        "Back Camera": {
+          "Resolution": "12MP"
+        },
+        "Front Camera": {
+          "Resolution": "12MP"
+        }
+      },
+      "Design": {
+        "Body": {
+          "Weight": "172g",
+          "Thickness": "두께: 7.80mm",
+          "IP Rating": "IP68"
+        }
+      },
+      "_provenance": {
+        "provider": "manufacturer",
+        "source": "Apple 공식 사양",
+        "sourceUrl": "https://support.apple.com/kb/SP873?locale=ko_KR",
+        "checkedOn": "2026-11-10",
+        "releasePrecision": "year"
+      }
+    },
+    "domesticVerified": true,
+    "sourceUrl": "https://support.apple.com/kb/SP873?locale=ko_KR"
+  },
+  {
+    "id": "official_apple_SP867",
+    "brand": "Apple",
+    "category": "Smartphones",
+    "name": "iPhone SE(3세대)",
+    "model": "iPhone SE(3세대)",
+    "version": null,
+    "region": "한국 공식 지원 문서",
+    "releaseDate": "2022년 (연도 기준)",
+    "releaseStart": "2022-01-01",
+    "releaseEnd": "2022-12-31",
+    "releasePrecision": "year",
+    "imageUrl": "https://cdsassets.apple.com/live/SZLF0YNV/images/sp/111866_sp867-iphone-se-3gen.png",
+    "specs": {
+      "Inside": {
+        "Processor": {
+          "CPU": "A15"
+        },
+        "RAM": {
+          "Capacity": null
+        },
+        "Storage": {
+          "Capacity": "64GB / 128GB / 256GB"
+        },
+        "Software": {
+          "OS": "iOS"
+        },
+        "Battery": {
+          "Energy (Wh)": null,
+          "Video playback": "동영상 재생 최대 15시간",
+          "Typical usage": null
+        },
+        "Wireless": {
+          "Bluetooth Version": "Bluetooth 5.0"
+        }
+      },
+      "Display": {
+        "Type": "Retina",
+        "Resolution (H x W)": "1334 x 750",
+        "Diagonal (cm)": "11.9cm",
+        "Refresh Rate": null
+      },
+      "Camera": {
+        "Back Camera": {
+          "Resolution": "12MP"
+        },
+        "Front Camera": {
+          "Resolution": "7MP"
+        }
+      },
+      "Design": {
+        "Body": {
+          "Weight": "144g",
+          "Thickness": "두께: 7.3mm",
+          "IP Rating": "IP67"
+        }
+      },
+      "_provenance": {
+        "provider": "manufacturer",
+        "source": "Apple 공식 사양",
+        "sourceUrl": "https://support.apple.com/kb/SP867?locale=ko_KR",
+        "checkedOn": "2026-11-10",
+        "releasePrecision": "year"
+      }
+    },
+    "domesticVerified": true,
+    "sourceUrl": "https://support.apple.com/kb/SP867?locale=ko_KR"
+  },
+  {
+    "id": "official_apple_125407",
+    "brand": "Apple",
+    "category": "Tablets",
+    "name": "iPad Pro 13 (M5)",
+    "model": "iPad Pro 13 (M5)",
+    "version": null,
+    "region": "한국 공식 지원 문서",
+    "releaseDate": "2025년 (연도 기준)",
+    "releaseStart": "2025-01-01",
+    "releaseEnd": "2025-12-31",
+    "releasePrecision": "year",
+    "imageUrl": "https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/ipad-pro-13-inch-m5.png",
+    "specs": {
+      "Inside": {
+        "Processor": {
+          "CPU": "Apple M5"
+        },
+        "RAM": {
+          "Capacity": "12GB RAM / 16GB RAM"
+        },
+        "Storage": {
+          "Capacity": "256GB / 512GB / 1TB / 2TB"
+        },
+        "Software": {
+          "OS": "iPadOS"
+        },
+        "Battery": {
+          "Energy (Wh)": "38.99와트시",
+          "Video playback": null,
+          "Typical usage": null
+        },
+        "Wireless": {
+          "Bluetooth Version": "Bluetooth 6"
+        }
+      },
+      "Display": {
+        "Type": "Ultra Retina XDR",
+        "Resolution (H x W)": "2752 x 2064",
+        "Diagonal (cm)": null,
+        "Refresh Rate": null
+      },
+      "Camera": {
+        "Back Camera": {
+          "Resolution": "12MP"
+        },
+        "Front Camera": {
+          "Resolution": "12MP"
+        }
+      },
+      "Design": {
+        "Body": {
+          "Weight": "579g / 582g",
+          "Thickness": "두께: 5.1mm",
+          "IP Rating": null
+        }
+      },
+      "_provenance": {
+        "provider": "manufacturer",
+        "source": "Apple 공식 사양",
+        "sourceUrl": "https://support.apple.com/ko-kr/125407",
+        "checkedOn": "2026-11-10",
+        "releasePrecision": "year"
+      }
+    },
+    "domesticVerified": true,
+    "sourceUrl": "https://support.apple.com/ko-kr/125407"
+  },
+  {
+    "id": "official_apple_125406",
+    "brand": "Apple",
+    "category": "Tablets",
+    "name": "iPad Pro 11 (M5)",
+    "model": "iPad Pro 11 (M5)",
+    "version": null,
+    "region": "한국 공식 지원 문서",
+    "releaseDate": "2025년 (연도 기준)",
+    "releaseStart": "2025-01-01",
+    "releaseEnd": "2025-12-31",
+    "releasePrecision": "year",
+    "imageUrl": "https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/ipad-pro-11-inch-m5.png",
+    "specs": {
+      "Inside": {
+        "Processor": {
+          "CPU": "Apple M5"
+        },
+        "RAM": {
+          "Capacity": "12GB RAM / 16GB RAM"
+        },
+        "Storage": {
+          "Capacity": "256GB / 512GB / 1TB / 2TB"
+        },
+        "Software": {
+          "OS": "iPadOS"
+        },
+        "Battery": {
+          "Energy (Wh)": "31.29와트시",
+          "Video playback": null,
+          "Typical usage": null
+        },
+        "Wireless": {
+          "Bluetooth Version": "Bluetooth 6"
+        }
+      },
+      "Display": {
+        "Type": "Ultra Retina XDR",
+        "Resolution (H x W)": "2420 x 1668",
+        "Diagonal (cm)": null,
+        "Refresh Rate": null
+      },
+      "Camera": {
+        "Back Camera": {
+          "Resolution": "12MP"
+        },
+        "Front Camera": {
+          "Resolution": "12MP"
+        }
+      },
+      "Design": {
+        "Body": {
+          "Weight": "444g / 446g",
+          "Thickness": "두께: 5.3mm",
+          "IP Rating": null
+        }
+      },
+      "_provenance": {
+        "provider": "manufacturer",
+        "source": "Apple 공식 사양",
+        "sourceUrl": "https://support.apple.com/ko-kr/125406",
+        "checkedOn": "2026-11-10",
+        "releasePrecision": "year"
+      }
+    },
+    "domesticVerified": true,
+    "sourceUrl": "https://support.apple.com/ko-kr/125406"
+  },
+  {
+    "id": "official_apple_119891",
+    "brand": "Apple",
+    "category": "Tablets",
+    "name": "iPad Pro 13 (M4)",
+    "model": "iPad Pro 13 (M4)",
+    "version": null,
+    "region": "한국 공식 지원 문서",
+    "releaseDate": "2024년 (연도 기준)",
+    "releaseStart": "2024-01-01",
+    "releaseEnd": "2024-12-31",
+    "releasePrecision": "year",
+    "imageUrl": "https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/ipad-pro-11-inch-13-inch.png",
+    "specs": {
+      "Inside": {
+        "Processor": {
+          "CPU": "Apple M4"
+        },
+        "RAM": {
+          "Capacity": "8GB RAM / 16GB RAM"
+        },
+        "Storage": {
+          "Capacity": "256GB / 512GB / 1TB / 2TB"
+        },
+        "Software": {
+          "OS": "iPadOS"
+        },
+        "Battery": {
+          "Energy (Wh)": "38.99와트시",
+          "Video playback": null,
+          "Typical usage": null
+        },
+        "Wireless": {
+          "Bluetooth Version": "Bluetooth 5.3"
+        }
+      },
+      "Display": {
+        "Type": "Ultra Retina XDR",
+        "Resolution (H x W)": "2752 x 2064",
+        "Diagonal (cm)": null,
+        "Refresh Rate": null
+      },
+      "Camera": {
+        "Back Camera": {
+          "Resolution": "12MP"
+        },
+        "Front Camera": {
+          "Resolution": "12MP"
+        }
+      },
+      "Design": {
+        "Body": {
+          "Weight": "579g / 582g",
+          "Thickness": "두께: 5.1mm",
+          "IP Rating": null
+        }
+      },
+      "_provenance": {
+        "provider": "manufacturer",
+        "source": "Apple 공식 사양",
+        "sourceUrl": "https://support.apple.com/ko-kr/119891",
+        "checkedOn": "2026-11-10",
+        "releasePrecision": "year"
+      }
+    },
+    "domesticVerified": true,
+    "sourceUrl": "https://support.apple.com/ko-kr/119891"
+  },
+  {
+    "id": "official_apple_119892",
+    "brand": "Apple",
+    "category": "Tablets",
+    "name": "iPad Pro 11 (M4)",
+    "model": "iPad Pro 11 (M4)",
+    "version": null,
+    "region": "한국 공식 지원 문서",
+    "releaseDate": "2024년 (연도 기준)",
+    "releaseStart": "2024-01-01",
+    "releaseEnd": "2024-12-31",
+    "releasePrecision": "year",
+    "imageUrl": "https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/ipad-pro-11-inch-13-inch.png",
+    "specs": {
+      "Inside": {
+        "Processor": {
+          "CPU": "Apple M4"
+        },
+        "RAM": {
+          "Capacity": "8GB RAM / 16GB RAM"
+        },
+        "Storage": {
+          "Capacity": "256GB / 512GB / 1TB / 2TB"
+        },
+        "Software": {
+          "OS": "iPadOS"
+        },
+        "Battery": {
+          "Energy (Wh)": "31.29와트시",
+          "Video playback": null,
+          "Typical usage": null
+        },
+        "Wireless": {
+          "Bluetooth Version": "Bluetooth 5.3"
+        }
+      },
+      "Display": {
+        "Type": "Ultra Retina XDR",
+        "Resolution (H x W)": "2420 x 1668",
+        "Diagonal (cm)": null,
+        "Refresh Rate": null
+      },
+      "Camera": {
+        "Back Camera": {
+          "Resolution": "12MP"
+        },
+        "Front Camera": {
+          "Resolution": "12MP"
+        }
+      },
+      "Design": {
+        "Body": {
+          "Weight": "444g / 446g",
+          "Thickness": "두께: 5.3mm",
+          "IP Rating": null
+        }
+      },
+      "_provenance": {
+        "provider": "manufacturer",
+        "source": "Apple 공식 사양",
+        "sourceUrl": "https://support.apple.com/ko-kr/119892",
+        "checkedOn": "2026-11-10",
+        "releasePrecision": "year"
+      }
+    },
+    "domesticVerified": true,
+    "sourceUrl": "https://support.apple.com/ko-kr/119892"
+  },
+  {
+    "id": "official_apple_122242",
+    "brand": "Apple",
+    "category": "Tablets",
+    "name": "iPad Air 13 (M3)",
+    "model": "iPad Air 13 (M3)",
+    "version": null,
+    "region": "한국 공식 지원 문서",
+    "releaseDate": "2025년 (연도 기준)",
+    "releaseStart": "2025-01-01",
+    "releaseEnd": "2025-12-31",
+    "releasePrecision": "year",
+    "imageUrl": "https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/122241-122242-ipad-air-11inch-13inch-m3.png",
+    "specs": {
+      "Inside": {
+        "Processor": {
+          "CPU": "Apple M3"
+        },
+        "RAM": {
+          "Capacity": "8GB RAM"
+        },
+        "Storage": {
+          "Capacity": "128GB / 256GB / 512GB / 1TB"
+        },
+        "Software": {
+          "OS": "iPadOS"
+        },
+        "Battery": {
+          "Energy (Wh)": "36.59와트시",
+          "Video playback": null,
+          "Typical usage": null
+        },
+        "Wireless": {
+          "Bluetooth Version": "Bluetooth 5.3"
+        }
+      },
+      "Display": {
+        "Type": "Liquid Retina",
+        "Resolution (H x W)": "2732 x 2048",
+        "Diagonal (cm)": "32.78cm",
+        "Refresh Rate": null
+      },
+      "Camera": {
+        "Back Camera": {
+          "Resolution": "12MP"
+        },
+        "Front Camera": {
+          "Resolution": "12MP"
+        }
+      },
+      "Design": {
+        "Body": {
+          "Weight": "616g / 617g",
+          "Thickness": "두께: 6.1mm",
+          "IP Rating": null
+        }
+      },
+      "_provenance": {
+        "provider": "manufacturer",
+        "source": "Apple 공식 사양",
+        "sourceUrl": "https://support.apple.com/ko-kr/122242",
+        "checkedOn": "2026-11-10",
+        "releasePrecision": "year"
+      }
+    },
+    "domesticVerified": true,
+    "sourceUrl": "https://support.apple.com/ko-kr/122242"
+  },
+  {
+    "id": "official_apple_122241",
+    "brand": "Apple",
+    "category": "Tablets",
+    "name": "iPad Air 11 (M3)",
+    "model": "iPad Air 11 (M3)",
+    "version": null,
+    "region": "한국 공식 지원 문서",
+    "releaseDate": "2025년 (연도 기준)",
+    "releaseStart": "2025-01-01",
+    "releaseEnd": "2025-12-31",
+    "releasePrecision": "year",
+    "imageUrl": "https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/122241-122242-ipad-air-11inch-13inch-m3.png",
+    "specs": {
+      "Inside": {
+        "Processor": {
+          "CPU": "Apple M3"
+        },
+        "RAM": {
+          "Capacity": "8GB RAM"
+        },
+        "Storage": {
+          "Capacity": "128GB / 256GB / 512GB / 1TB"
+        },
+        "Software": {
+          "OS": "iPadOS"
+        },
+        "Battery": {
+          "Energy (Wh)": "28.93와트시",
+          "Video playback": null,
+          "Typical usage": null
+        },
+        "Wireless": {
+          "Bluetooth Version": "Bluetooth 5.3"
+        }
+      },
+      "Display": {
+        "Type": "Liquid Retina",
+        "Resolution (H x W)": "2360 x 1640",
+        "Diagonal (cm)": "27.59cm",
+        "Refresh Rate": null
+      },
+      "Camera": {
+        "Back Camera": {
+          "Resolution": "12MP"
+        },
+        "Front Camera": {
+          "Resolution": "12MP"
+        }
+      },
+      "Design": {
+        "Body": {
+          "Weight": "460g",
+          "Thickness": "두께: 6.1mm",
+          "IP Rating": null
+        }
+      },
+      "_provenance": {
+        "provider": "manufacturer",
+        "source": "Apple 공식 사양",
+        "sourceUrl": "https://support.apple.com/ko-kr/122241",
+        "checkedOn": "2026-11-10",
+        "releasePrecision": "year"
+      }
+    },
+    "domesticVerified": true,
+    "sourceUrl": "https://support.apple.com/ko-kr/122241"
+  },
+  {
+    "id": "official_apple_119893",
+    "brand": "Apple",
+    "category": "Tablets",
+    "name": "iPad Air 13 (M2)",
+    "model": "iPad Air 13 (M2)",
+    "version": null,
+    "region": "한국 공식 지원 문서",
+    "releaseDate": "2024년 (연도 기준)",
+    "releaseStart": "2024-01-01",
+    "releaseEnd": "2024-12-31",
+    "releasePrecision": "year",
+    "imageUrl": "https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/ipad-air-11-inch-m2.png",
+    "specs": {
+      "Inside": {
+        "Processor": {
+          "CPU": "Apple M2"
+        },
+        "RAM": {
+          "Capacity": "8GB RAM"
+        },
+        "Storage": {
+          "Capacity": "128GB / 256GB / 512GB / 1TB"
+        },
+        "Software": {
+          "OS": "iPadOS"
+        },
+        "Battery": {
+          "Energy (Wh)": "36.59와트시",
+          "Video playback": null,
+          "Typical usage": null
+        },
+        "Wireless": {
+          "Bluetooth Version": "Bluetooth 5.3"
+        }
+      },
+      "Display": {
+        "Type": "Liquid Retina",
+        "Resolution (H x W)": "2732 x 2048",
+        "Diagonal (cm)": "32.78cm",
+        "Refresh Rate": null
+      },
+      "Camera": {
+        "Back Camera": {
+          "Resolution": "12MP"
+        },
+        "Front Camera": {
+          "Resolution": "12MP"
+        }
+      },
+      "Design": {
+        "Body": {
+          "Weight": "617g / 618g",
+          "Thickness": "두께: 6.1mm",
+          "IP Rating": null
+        }
+      },
+      "_provenance": {
+        "provider": "manufacturer",
+        "source": "Apple 공식 사양",
+        "sourceUrl": "https://support.apple.com/ko-kr/119893",
+        "checkedOn": "2026-11-10",
+        "releasePrecision": "year"
+      }
+    },
+    "domesticVerified": true,
+    "sourceUrl": "https://support.apple.com/ko-kr/119893"
+  },
+  {
+    "id": "official_apple_119894",
+    "brand": "Apple",
+    "category": "Tablets",
+    "name": "iPad Air 11 (M2)",
+    "model": "iPad Air 11 (M2)",
+    "version": null,
+    "region": "한국 공식 지원 문서",
+    "releaseDate": "2024년 (연도 기준)",
+    "releaseStart": "2024-01-01",
+    "releaseEnd": "2024-12-31",
+    "releasePrecision": "year",
+    "imageUrl": "https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/ipad-air-11-inch-m2.png",
+    "specs": {
+      "Inside": {
+        "Processor": {
+          "CPU": "Apple M2"
+        },
+        "RAM": {
+          "Capacity": "8GB RAM"
+        },
+        "Storage": {
+          "Capacity": "128GB / 256GB / 512GB / 1TB"
+        },
+        "Software": {
+          "OS": "iPadOS"
+        },
+        "Battery": {
+          "Energy (Wh)": "28.93와트시",
+          "Video playback": null,
+          "Typical usage": null
+        },
+        "Wireless": {
+          "Bluetooth Version": "Bluetooth 5.3"
+        }
+      },
+      "Display": {
+        "Type": "Liquid Retina",
+        "Resolution (H x W)": "2360 x 1640",
+        "Diagonal (cm)": "27.59cm",
+        "Refresh Rate": null
+      },
+      "Camera": {
+        "Back Camera": {
+          "Resolution": "12MP"
+        },
+        "Front Camera": {
+          "Resolution": "12MP"
+        }
+      },
+      "Design": {
+        "Body": {
+          "Weight": "462g",
+          "Thickness": "두께: 6.1mm",
+          "IP Rating": null
+        }
+      },
+      "_provenance": {
+        "provider": "manufacturer",
+        "source": "Apple 공식 사양",
+        "sourceUrl": "https://support.apple.com/ko-kr/119894",
+        "checkedOn": "2026-11-10",
+        "releasePrecision": "year"
+      }
+    },
+    "domesticVerified": true,
+    "sourceUrl": "https://support.apple.com/ko-kr/119894"
+  },
+  {
+    "id": "official_apple_121456",
+    "brand": "Apple",
+    "category": "Tablets",
+    "name": "iPad mini (A17 Pro)",
+    "model": "iPad mini (A17 Pro)",
+    "version": null,
+    "region": "한국 공식 지원 문서",
+    "releaseDate": "2024년 (연도 기준)",
+    "releaseStart": "2024-01-01",
+    "releaseEnd": "2024-12-31",
+    "releasePrecision": "year",
+    "imageUrl": "https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/iPad_mini_A17_Pro_Wi-Fi_Lineup_Print__USEN.png",
+    "specs": {
+      "Inside": {
+        "Processor": {
+          "CPU": "A17 Pro"
+        },
+        "RAM": {
+          "Capacity": null
+        },
+        "Storage": {
+          "Capacity": "128GB / 256GB / 512GB"
+        },
+        "Software": {
+          "OS": "iPadOS"
+        },
+        "Battery": {
+          "Energy (Wh)": "19.3와트시",
+          "Video playback": null,
+          "Typical usage": null
+        },
+        "Wireless": {
+          "Bluetooth Version": "Bluetooth 5.3"
+        }
+      },
+      "Display": {
+        "Type": "Liquid Retina",
+        "Resolution (H x W)": "2266 x 1488",
+        "Diagonal (cm)": "21.08cm",
+        "Refresh Rate": null
+      },
+      "Camera": {
+        "Back Camera": {
+          "Resolution": "12MP"
+        },
+        "Front Camera": {
+          "Resolution": "12MP"
+        }
+      },
+      "Design": {
+        "Body": {
+          "Weight": "293g / 297g",
+          "Thickness": "두께: 195.4mm",
+          "IP Rating": null
+        }
+      },
+      "_provenance": {
+        "provider": "manufacturer",
+        "source": "Apple 공식 사양",
+        "sourceUrl": "https://support.apple.com/ko-kr/121456",
+        "checkedOn": "2026-11-10",
+        "releasePrecision": "year"
+      }
+    },
+    "domesticVerified": true,
+    "sourceUrl": "https://support.apple.com/ko-kr/121456"
+  },
+  {
+    "id": "official_apple_122240",
+    "brand": "Apple",
+    "category": "Tablets",
+    "name": "iPad (A16)",
+    "model": "iPad (A16)",
+    "version": null,
+    "region": "한국 공식 지원 문서",
+    "releaseDate": "2025년 (연도 기준)",
+    "releaseStart": "2025-01-01",
+    "releaseEnd": "2025-12-31",
+    "releasePrecision": "year",
+    "imageUrl": "https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/122240-ipad-a16.png",
+    "specs": {
+      "Inside": {
+        "Processor": {
+          "CPU": "A16"
+        },
+        "RAM": {
+          "Capacity": null
+        },
+        "Storage": {
+          "Capacity": "128GB / 256GB / 512GB"
+        },
+        "Software": {
+          "OS": "iPadOS"
+        },
+        "Battery": {
+          "Energy (Wh)": "28.6와트시",
+          "Video playback": null,
+          "Typical usage": null
+        },
+        "Wireless": {
+          "Bluetooth Version": "Bluetooth 5.3"
+        }
+      },
+      "Display": {
+        "Type": "Liquid Retina",
+        "Resolution (H x W)": "2360 x 1640",
+        "Diagonal (cm)": "27.59cm",
+        "Refresh Rate": null
+      },
+      "Camera": {
+        "Back Camera": {
+          "Resolution": "12MP"
+        },
+        "Front Camera": {
+          "Resolution": "12MP"
+        }
+      },
+      "Design": {
+        "Body": {
+          "Weight": "477g / 481g",
+          "Thickness": "두께: 248.6mm",
+          "IP Rating": null
+        }
+      },
+      "_provenance": {
+        "provider": "manufacturer",
+        "source": "Apple 공식 사양",
+        "sourceUrl": "https://support.apple.com/ko-kr/122240",
+        "checkedOn": "2026-11-10",
+        "releasePrecision": "year"
+      }
+    },
+    "domesticVerified": true,
+    "sourceUrl": "https://support.apple.com/ko-kr/122240"
+  },
+  {
+    "id": "official_apple_SP884",
+    "brand": "Apple",
+    "category": "Tablets",
+    "name": "iPad(10세대)",
+    "model": "iPad(10세대)",
+    "version": null,
+    "region": "한국 공식 지원 문서",
+    "releaseDate": "2022년 (연도 기준)",
+    "releaseStart": "2022-01-01",
+    "releaseEnd": "2022-12-31",
+    "releasePrecision": "year",
+    "imageUrl": "https://cdsassets.apple.com/live/SZLF0YNV/images/sp/111840_sp884-ipad-10gen-960.png",
+    "specs": {
+      "Inside": {
+        "Processor": {
+          "CPU": "A14"
+        },
+        "RAM": {
+          "Capacity": null
+        },
+        "Storage": {
+          "Capacity": "64GB / 256GB"
+        },
+        "Software": {
+          "OS": "iPadOS"
+        },
+        "Battery": {
+          "Energy (Wh)": "28.6와트시",
+          "Video playback": null,
+          "Typical usage": null
+        },
+        "Wireless": {
+          "Bluetooth Version": "Bluetooth 5.2"
+        }
+      },
+      "Display": {
+        "Type": "Liquid Retina",
+        "Resolution (H x W)": "2360 x 1640",
+        "Diagonal (cm)": "27.58cm",
+        "Refresh Rate": null
+      },
+      "Camera": {
+        "Back Camera": {
+          "Resolution": "12MP"
+        },
+        "Front Camera": {
+          "Resolution": "12MP"
+        }
+      },
+      "Design": {
+        "Body": {
+          "Weight": "477g / 481g",
+          "Thickness": "두께: 248.6mm",
+          "IP Rating": null
+        }
+      },
+      "_provenance": {
+        "provider": "manufacturer",
+        "source": "Apple 공식 사양",
+        "sourceUrl": "https://support.apple.com/kb/SP884?locale=ko_KR",
+        "checkedOn": "2026-11-10",
+        "releasePrecision": "year"
+      }
+    },
+    "domesticVerified": true,
+    "sourceUrl": "https://support.apple.com/kb/SP884?locale=ko_KR"
+  },
+  {
+    "id": "official_apple_122210",
+    "brand": "Apple",
+    "category": "Laptops",
+    "name": "MacBook Air 15(M4, 2025년)",
+    "model": "MacBook Air 15(M4, 2025년)",
+    "version": null,
+    "region": "한국 공식 지원 문서",
+    "releaseDate": "2025년 (연도 기준)",
+    "releaseStart": "2025-01-01",
+    "releaseEnd": "2025-12-31",
+    "releasePrecision": "year",
+    "imageUrl": "https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/mba-13inch-15inch.png",
+    "specs": {
+      "Inside": {
+        "Processor": {
+          "CPU": "Apple M4"
+        },
+        "RAM": {
+          "Capacity": "16GB / 24GB / 32GB"
+        },
+        "Storage": {
+          "Capacity": "256GB / 512GB / 1TB / 2TB"
+        },
+        "Software": {
+          "OS": "macOS"
+        },
+        "Battery": {
+          "Energy (Wh)": "66.5와트시",
+          "Video playback": null,
+          "Typical usage": null
+        },
+        "Wireless": {
+          "Bluetooth Version": "Bluetooth 5.3"
+        }
+      },
+      "Display": {
+        "Type": "Liquid Retina",
+        "Resolution (H x W)": "2880 x 1864",
+        "Diagonal (cm)": "38.9cm",
+        "Refresh Rate": null
+      },
+      "Camera": {
+        "Back Camera": {
+          "Resolution": "12MP"
+        },
+        "Front Camera": {
+          "Resolution": null
+        }
+      },
+      "Design": {
+        "Body": {
+          "Weight": "1.51kg",
+          "Thickness": "두께: 1.15cm",
+          "IP Rating": null
+        }
+      },
+      "_provenance": {
+        "provider": "manufacturer",
+        "source": "Apple 공식 사양",
+        "sourceUrl": "https://support.apple.com/ko-kr/122210",
+        "checkedOn": "2026-11-10",
+        "releasePrecision": "year"
+      }
+    },
+    "domesticVerified": true,
+    "sourceUrl": "https://support.apple.com/ko-kr/122210"
+  },
+  {
+    "id": "official_apple_122209",
+    "brand": "Apple",
+    "category": "Laptops",
+    "name": "MacBook Air 13(M4, 2025년)",
+    "model": "MacBook Air 13(M4, 2025년)",
+    "version": null,
+    "region": "한국 공식 지원 문서",
+    "releaseDate": "2025년 (연도 기준)",
+    "releaseStart": "2025-01-01",
+    "releaseEnd": "2025-12-31",
+    "releasePrecision": "year",
+    "imageUrl": "https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/mba-13inch-15inch.png",
+    "specs": {
+      "Inside": {
+        "Processor": {
+          "CPU": "Apple M4 / M4"
+        },
+        "RAM": {
+          "Capacity": "16GB / 24GB / 32GB"
+        },
+        "Storage": {
+          "Capacity": "256GB / 512GB / 1TB / 2TB"
+        },
+        "Software": {
+          "OS": "macOS"
+        },
+        "Battery": {
+          "Energy (Wh)": "53.8와트시",
+          "Video playback": null,
+          "Typical usage": null
+        },
+        "Wireless": {
+          "Bluetooth Version": "Bluetooth 5.3"
+        }
+      },
+      "Display": {
+        "Type": "Liquid Retina",
+        "Resolution (H x W)": "2560 x 1664",
+        "Diagonal (cm)": "34.5cm",
+        "Refresh Rate": null
+      },
+      "Camera": {
+        "Back Camera": {
+          "Resolution": "12MP"
+        },
+        "Front Camera": {
+          "Resolution": null
+        }
+      },
+      "Design": {
+        "Body": {
+          "Weight": "1.24kg",
+          "Thickness": "두께: 1.13cm",
+          "IP Rating": null
+        }
+      },
+      "_provenance": {
+        "provider": "manufacturer",
+        "source": "Apple 공식 사양",
+        "sourceUrl": "https://support.apple.com/ko-kr/122209",
+        "checkedOn": "2026-11-10",
+        "releasePrecision": "year"
+      }
+    },
+    "domesticVerified": true,
+    "sourceUrl": "https://support.apple.com/ko-kr/122209"
+  },
+  {
+    "id": "official_apple_118552",
+    "brand": "Apple",
+    "category": "Laptops",
+    "name": "MacBook Air 15(M3, 2024년)",
+    "model": "MacBook Air 15(M3, 2024년)",
+    "version": null,
+    "region": "한국 공식 지원 문서",
+    "releaseDate": "2024년 (연도 기준)",
+    "releaseStart": "2024-01-01",
+    "releaseEnd": "2024-12-31",
+    "releasePrecision": "year",
+    "imageUrl": "https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/mba_15_m3_2024_hero.png",
+    "specs": {
+      "Inside": {
+        "Processor": {
+          "CPU": "Apple M3"
+        },
+        "RAM": {
+          "Capacity": "16GB / 24GB / 8GB"
+        },
+        "Storage": {
+          "Capacity": "256GB / 512GB / 1TB / 2TB"
+        },
+        "Software": {
+          "OS": "macOS"
+        },
+        "Battery": {
+          "Energy (Wh)": "66.5와트시",
+          "Video playback": "동영상 재생 최대 18시간",
+          "Typical usage": null
+        },
+        "Wireless": {
+          "Bluetooth Version": "Bluetooth 5.3"
+        }
+      },
+      "Display": {
+        "Type": "Liquid Retina",
+        "Resolution (H x W)": "2880 x 1864",
+        "Diagonal (cm)": "38.9cm",
+        "Refresh Rate": null
+      },
+      "Camera": {
+        "Back Camera": {
+          "Resolution": null
+        },
+        "Front Camera": {
+          "Resolution": null
+        }
+      },
+      "Design": {
+        "Body": {
+          "Weight": "1.51kg",
+          "Thickness": "두께: 1.15cm",
+          "IP Rating": null
+        }
+      },
+      "_provenance": {
+        "provider": "manufacturer",
+        "source": "Apple 공식 사양",
+        "sourceUrl": "https://support.apple.com/ko-kr/118552",
+        "checkedOn": "2026-11-10",
+        "releasePrecision": "year"
+      }
+    },
+    "domesticVerified": true,
+    "sourceUrl": "https://support.apple.com/ko-kr/118552"
+  },
+  {
+    "id": "official_apple_118551",
+    "brand": "Apple",
+    "category": "Laptops",
+    "name": "MacBook Air 13(M3, 2024년)",
+    "model": "MacBook Air 13(M3, 2024년)",
+    "version": null,
+    "region": "한국 공식 지원 문서",
+    "releaseDate": "2024년 (연도 기준)",
+    "releaseStart": "2024-01-01",
+    "releaseEnd": "2024-12-31",
+    "releasePrecision": "year",
+    "imageUrl": "https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/mba_13_m3_2024_hero.png",
+    "specs": {
+      "Inside": {
+        "Processor": {
+          "CPU": "Apple M3 / M3"
+        },
+        "RAM": {
+          "Capacity": "16GB / 24GB / 8GB"
+        },
+        "Storage": {
+          "Capacity": "256GB / 512GB / 1TB / 2TB"
+        },
+        "Software": {
+          "OS": "macOS"
+        },
+        "Battery": {
+          "Energy (Wh)": "52.6와트시",
+          "Video playback": "동영상 재생 최대 18시간",
+          "Typical usage": null
+        },
+        "Wireless": {
+          "Bluetooth Version": "Bluetooth 5.3"
+        }
+      },
+      "Display": {
+        "Type": "Liquid Retina",
+        "Resolution (H x W)": "2560 x 1664",
+        "Diagonal (cm)": "34.5cm",
+        "Refresh Rate": null
+      },
+      "Camera": {
+        "Back Camera": {
+          "Resolution": null
+        },
+        "Front Camera": {
+          "Resolution": null
+        }
+      },
+      "Design": {
+        "Body": {
+          "Weight": "1.24kg",
+          "Thickness": "두께: 1.13cm",
+          "IP Rating": null
+        }
+      },
+      "_provenance": {
+        "provider": "manufacturer",
+        "source": "Apple 공식 사양",
+        "sourceUrl": "https://support.apple.com/ko-kr/118551",
+        "checkedOn": "2026-11-10",
+        "releasePrecision": "year"
+      }
+    },
+    "domesticVerified": true,
+    "sourceUrl": "https://support.apple.com/ko-kr/118551"
+  },
+  {
+    "id": "official_apple_111867",
+    "brand": "Apple",
+    "category": "Laptops",
+    "name": "MacBook Air (M2, 2022)",
+    "model": "MacBook Air (M2, 2022)",
+    "version": null,
+    "region": "한국 공식 지원 문서",
+    "releaseDate": "2022년 (연도 기준)",
+    "releaseStart": "2022-01-01",
+    "releaseEnd": "2022-12-31",
+    "releasePrecision": "year",
+    "imageUrl": "https://cdsassets.apple.com/live/SZLF0YNV/images/sp/111867_SP869-2022-macbook-air-m2-colors.png",
+    "specs": {
+      "Inside": {
+        "Processor": {
+          "CPU": "Apple M2 / M2"
+        },
+        "RAM": {
+          "Capacity": "16GB / 24GB / 8GB"
+        },
+        "Storage": {
+          "Capacity": "256GB / 512GB / 1TB / 2TB"
+        },
+        "Software": {
+          "OS": "macOS"
+        },
+        "Battery": {
+          "Energy (Wh)": "52.6와트시",
+          "Video playback": "동영상 재생 최대 18시간",
+          "Typical usage": null
+        },
+        "Wireless": {
+          "Bluetooth Version": "Bluetooth 5.3"
+        }
+      },
+      "Display": {
+        "Type": "Liquid Retina",
+        "Resolution (H x W)": "2560 x 1664",
+        "Diagonal (cm)": "34.5cm",
+        "Refresh Rate": null
+      },
+      "Camera": {
+        "Back Camera": {
+          "Resolution": null
+        },
+        "Front Camera": {
+          "Resolution": null
+        }
+      },
+      "Design": {
+        "Body": {
+          "Weight": "1.24kg",
+          "Thickness": "두께: 1.13cm",
+          "IP Rating": null
+        }
+      },
+      "_provenance": {
+        "provider": "manufacturer",
+        "source": "Apple 공식 사양",
+        "sourceUrl": "https://support.apple.com/ko-kr/111867",
+        "checkedOn": "2026-11-10",
+        "releasePrecision": "year"
+      }
+    },
+    "domesticVerified": true,
+    "sourceUrl": "https://support.apple.com/ko-kr/111867"
+  },
+  {
+    "id": "official_apple_125405",
+    "brand": "Apple",
+    "category": "Laptops",
+    "name": "MacBook Pro(14형, M5)",
+    "model": "MacBook Pro(14형, M5)",
+    "version": null,
+    "region": "한국 공식 지원 문서",
+    "releaseDate": "2025년 (연도 기준)",
+    "releaseStart": "2025-01-01",
+    "releaseEnd": "2025-12-31",
+    "releasePrecision": "year",
+    "imageUrl": "https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/macbook-pro-14-inch-m5.png",
+    "specs": {
+      "Inside": {
+        "Processor": {
+          "CPU": "Apple M5"
+        },
+        "RAM": {
+          "Capacity": "16GB / 24GB / 32GB"
+        },
+        "Storage": {
+          "Capacity": "512GB / 1TB / 2TB / 4TB"
+        },
+        "Software": {
+          "OS": "macOS"
+        },
+        "Battery": {
+          "Energy (Wh)": "72.4와트시",
+          "Video playback": null,
+          "Typical usage": null
+        },
+        "Wireless": {
+          "Bluetooth Version": "Bluetooth 5.3"
+        }
+      },
+      "Display": {
+        "Type": "Liquid Retina XDR",
+        "Resolution (H x W)": "3024 x 1964",
+        "Diagonal (cm)": "35.9cm",
+        "Refresh Rate": "최대 120Hz"
+      },
+      "Camera": {
+        "Back Camera": {
+          "Resolution": "12MP"
+        },
+        "Front Camera": {
+          "Resolution": null
+        }
+      },
+      "Design": {
+        "Body": {
+          "Weight": "1.55kg",
+          "Thickness": "두께: 1.55cm",
+          "IP Rating": null
+        }
+      },
+      "_provenance": {
+        "provider": "manufacturer",
+        "source": "Apple 공식 사양",
+        "sourceUrl": "https://support.apple.com/ko-kr/125405",
+        "checkedOn": "2026-11-10",
+        "releasePrecision": "year"
+      }
+    },
+    "domesticVerified": true,
+    "sourceUrl": "https://support.apple.com/ko-kr/125405"
+  },
+  {
+    "id": "official_apple_121552",
+    "brand": "Apple",
+    "category": "Laptops",
+    "name": "MacBook Pro(14형, M4, 2024년)",
+    "model": "MacBook Pro(14형, M4, 2024년)",
+    "version": null,
+    "region": "한국 공식 지원 문서",
+    "releaseDate": "2024년 (연도 기준)",
+    "releaseStart": "2024-01-01",
+    "releaseEnd": "2024-12-31",
+    "releasePrecision": "year",
+    "imageUrl": "https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/mbp14-m4-2024.png",
+    "specs": {
+      "Inside": {
+        "Processor": {
+          "CPU": "Apple M4"
+        },
+        "RAM": {
+          "Capacity": "16GB / 24GB / 32GB"
+        },
+        "Storage": {
+          "Capacity": "512GB / 1TB / 2TB"
+        },
+        "Software": {
+          "OS": "macOS"
+        },
+        "Battery": {
+          "Energy (Wh)": "72.4와트시",
+          "Video playback": null,
+          "Typical usage": null
+        },
+        "Wireless": {
+          "Bluetooth Version": "Bluetooth 5.3"
+        }
+      },
+      "Display": {
+        "Type": "Liquid Retina XDR",
+        "Resolution (H x W)": "3024 x 1964",
+        "Diagonal (cm)": "35.9cm",
+        "Refresh Rate": "최대 120Hz"
+      },
+      "Camera": {
+        "Back Camera": {
+          "Resolution": "12MP"
+        },
+        "Front Camera": {
+          "Resolution": null
+        }
+      },
+      "Design": {
+        "Body": {
+          "Weight": "1.55kg",
+          "Thickness": "두께: 1.55cm",
+          "IP Rating": null
+        }
+      },
+      "_provenance": {
+        "provider": "manufacturer",
+        "source": "Apple 공식 사양",
+        "sourceUrl": "https://support.apple.com/ko-kr/121552",
+        "checkedOn": "2026-11-10",
+        "releasePrecision": "year"
+      }
+    },
+    "domesticVerified": true,
+    "sourceUrl": "https://support.apple.com/ko-kr/121552"
+  },
+  {
+    "id": "official_apple_121553",
+    "brand": "Apple",
+    "category": "Laptops",
+    "name": "MacBook Pro 14(M4 Pro 또는 M4 Max, 2024 년 )",
+    "model": "MacBook Pro 14(M4 Pro 또는 M4 Max, 2024 년 )",
+    "version": null,
+    "region": "한국 공식 지원 문서",
+    "releaseDate": "2024년 (연도 기준)",
+    "releaseStart": "2024-01-01",
+    "releaseEnd": "2024-12-31",
+    "releasePrecision": "year",
+    "imageUrl": "https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/mbp14-m4-2024.png",
+    "specs": {
+      "Inside": {
+        "Processor": {
+          "CPU": "Apple M4 Pro / M4 Pro / M4 Max / Apple M4 Max"
+        },
+        "RAM": {
+          "Capacity": "24GB / 36GB / 48GB / 64GB / 128GB"
+        },
+        "Storage": {
+          "Capacity": "512GB / 1TB / 2TB / 4TB / 8TB"
+        },
+        "Software": {
+          "OS": "macOS"
+        },
+        "Battery": {
+          "Energy (Wh)": "72.4와트시",
+          "Video playback": null,
+          "Typical usage": null
+        },
+        "Wireless": {
+          "Bluetooth Version": "Bluetooth 5.3"
+        }
+      },
+      "Display": {
+        "Type": "Liquid Retina XDR",
+        "Resolution (H x W)": "3024 x 1964",
+        "Diagonal (cm)": "35.9cm",
+        "Refresh Rate": "최대 120Hz"
+      },
+      "Camera": {
+        "Back Camera": {
+          "Resolution": "12MP"
+        },
+        "Front Camera": {
+          "Resolution": null
+        }
+      },
+      "Design": {
+        "Body": {
+          "Weight": "1.60kg / 1.62kg",
+          "Thickness": "두께: 1.55cm",
+          "IP Rating": null
+        }
+      },
+      "_provenance": {
+        "provider": "manufacturer",
+        "source": "Apple 공식 사양",
+        "sourceUrl": "https://support.apple.com/ko-kr/121553",
+        "checkedOn": "2026-11-10",
+        "releasePrecision": "year"
+      }
+    },
+    "domesticVerified": true,
+    "sourceUrl": "https://support.apple.com/ko-kr/121553"
+  },
+  {
+    "id": "official_apple_121554",
+    "brand": "Apple",
+    "category": "Laptops",
+    "name": "MacBook Pro 16(2024년)",
+    "model": "MacBook Pro 16(2024년)",
+    "version": null,
+    "region": "한국 공식 지원 문서",
+    "releaseDate": "2024년 (연도 기준)",
+    "releaseStart": "2024-01-01",
+    "releaseEnd": "2024-12-31",
+    "releasePrecision": "year",
+    "imageUrl": "https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/mbp16-2024.png",
+    "specs": {
+      "Inside": {
+        "Processor": {
+          "CPU": "Apple M4 Pro / M4 Max / Apple M4 Max"
+        },
+        "RAM": {
+          "Capacity": "24GB / 36GB / 48GB / 64GB / 128GB"
+        },
+        "Storage": {
+          "Capacity": "512GB / 1TB / 2TB / 4TB / 8TB"
+        },
+        "Software": {
+          "OS": "macOS"
+        },
+        "Battery": {
+          "Energy (Wh)": "100와트시",
+          "Video playback": null,
+          "Typical usage": null
+        },
+        "Wireless": {
+          "Bluetooth Version": "Bluetooth 5.3"
+        }
+      },
+      "Display": {
+        "Type": "Liquid Retina XDR",
+        "Resolution (H x W)": "3456 x 2234",
+        "Diagonal (cm)": "41.0cm",
+        "Refresh Rate": "최대 120Hz"
+      },
+      "Camera": {
+        "Back Camera": {
+          "Resolution": "12MP"
+        },
+        "Front Camera": {
+          "Resolution": null
+        }
+      },
+      "Design": {
+        "Body": {
+          "Weight": "2.14kg / 2.15kg",
+          "Thickness": "두께: 1.68cm",
+          "IP Rating": null
+        }
+      },
+      "_provenance": {
+        "provider": "manufacturer",
+        "source": "Apple 공식 사양",
+        "sourceUrl": "https://support.apple.com/ko-kr/121554",
+        "checkedOn": "2026-11-10",
+        "releasePrecision": "year"
+      }
+    },
+    "domesticVerified": true,
+    "sourceUrl": "https://support.apple.com/ko-kr/121554"
+  },
+  {
+    "id": "official_apple_117735",
+    "brand": "Apple",
+    "category": "Laptops",
+    "name": "MacBook Pro 14(M3, 2023년 11월)",
+    "model": "MacBook Pro 14(M3, 2023년 11월)",
+    "version": null,
+    "region": "한국 공식 지원 문서",
+    "releaseDate": "2023년 (연도 기준)",
+    "releaseStart": "2023-01-01",
+    "releaseEnd": "2023-12-31",
+    "releasePrecision": "year",
+    "imageUrl": "https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/macbook-pro-14-inch-m3-pro-or-m3.png",
+    "specs": {
+      "Inside": {
+        "Processor": {
+          "CPU": "Apple M3"
+        },
+        "RAM": {
+          "Capacity": "8GB / 16GB / 24GB"
+        },
+        "Storage": {
+          "Capacity": "512GB / 1TB / 2TB"
+        },
+        "Software": {
+          "OS": "macOS"
+        },
+        "Battery": {
+          "Energy (Wh)": "70와트시",
+          "Video playback": "동영상 재생 최대 22시간",
+          "Typical usage": null
+        },
+        "Wireless": {
+          "Bluetooth Version": "Bluetooth 5.3"
+        }
+      },
+      "Display": {
+        "Type": "Liquid Retina XDR",
+        "Resolution (H x W)": "3024 x 1964",
+        "Diagonal (cm)": "35.9cm",
+        "Refresh Rate": "최대 120Hz"
+      },
+      "Camera": {
+        "Back Camera": {
+          "Resolution": null
+        },
+        "Front Camera": {
+          "Resolution": null
+        }
+      },
+      "Design": {
+        "Body": {
+          "Weight": "1.55 kg",
+          "Thickness": "두께: 1.55cm",
+          "IP Rating": null
+        }
+      },
+      "_provenance": {
+        "provider": "manufacturer",
+        "source": "Apple 공식 사양",
+        "sourceUrl": "https://support.apple.com/ko-kr/117735",
+        "checkedOn": "2026-11-10",
+        "releasePrecision": "year"
+      }
+    },
+    "domesticVerified": false,
+    "sourceUrl": "https://support.apple.com/ko-kr/117735"
+  },
+  {
+    "id": "official_apple_117737",
+    "brand": "Apple",
+    "category": "Laptops",
+    "name": "MacBook Pro 16(2023년 11월)",
+    "model": "MacBook Pro 16(2023년 11월)",
+    "version": null,
+    "region": "한국 공식 지원 문서",
+    "releaseDate": "2023년 (연도 기준)",
+    "releaseStart": "2023-01-01",
+    "releaseEnd": "2023-12-31",
+    "releasePrecision": "year",
+    "imageUrl": "https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/macbook-pro-14-inch-m3-pro-or-m3.png",
+    "specs": {
+      "Inside": {
+        "Processor": {
+          "CPU": "Apple M3 Pro / M3 Max / Apple M3 Max"
+        },
+        "RAM": {
+          "Capacity": "18GB / 36GB / 96GB / 48GB / 64GB / 128GB"
+        },
+        "Storage": {
+          "Capacity": "512GB / 1TB / 2TB / 4TB / 8TB"
+        },
+        "Software": {
+          "OS": "macOS"
+        },
+        "Battery": {
+          "Energy (Wh)": "100와트시",
+          "Video playback": "동영상 재생 최대 22시간",
+          "Typical usage": null
+        },
+        "Wireless": {
+          "Bluetooth Version": "Bluetooth 5.3"
+        }
+      },
+      "Display": {
+        "Type": "Liquid Retina XDR",
+        "Resolution (H x W)": "3456 x 2234",
+        "Diagonal (cm)": "41.0cm",
+        "Refresh Rate": "최대 120Hz"
+      },
+      "Camera": {
+        "Back Camera": {
+          "Resolution": null
+        },
+        "Front Camera": {
+          "Resolution": null
+        }
+      },
+      "Design": {
+        "Body": {
+          "Weight": "2.14kg / 2.16kg",
+          "Thickness": "두께: 1.68cm",
+          "IP Rating": null
+        }
+      },
+      "_provenance": {
+        "provider": "manufacturer",
+        "source": "Apple 공식 사양",
+        "sourceUrl": "https://support.apple.com/ko-kr/117737",
+        "checkedOn": "2026-11-10",
+        "releasePrecision": "year"
+      }
+    },
+    "domesticVerified": true,
+    "sourceUrl": "https://support.apple.com/ko-kr/117737"
+  },
+  {
+    "id": "official_apple_111838",
+    "brand": "Apple",
+    "category": "Laptops",
+    "name": "MacBook Pro(16형, 2023년)",
+    "model": "MacBook Pro(16형, 2023년)",
+    "version": null,
+    "region": "한국 공식 지원 문서",
+    "releaseDate": "2023년 (연도 기준)",
+    "releaseStart": "2023-01-01",
+    "releaseEnd": "2023-12-31",
+    "releasePrecision": "year",
+    "imageUrl": "https://cdsassets.apple.com/live/SZLF0YNV/images/sp/111838_macbook-pro-2023-16in.png",
+    "specs": {
+      "Inside": {
+        "Processor": {
+          "CPU": "Apple M2 Pro / M2 Max / Apple M2 Max"
+        },
+        "RAM": {
+          "Capacity": "16GB / 32GB / 64GB / 96GB"
+        },
+        "Storage": {
+          "Capacity": "512GB / 1TB / 2TB / 4TB / 8TB"
+        },
+        "Software": {
+          "OS": "macOS"
+        },
+        "Battery": {
+          "Energy (Wh)": "100와트시",
+          "Video playback": "동영상 재생 최대 22시간",
+          "Typical usage": null
+        },
+        "Wireless": {
+          "Bluetooth Version": "Bluetooth 5.3"
+        }
+      },
+      "Display": {
+        "Type": "Liquid Retina XDR",
+        "Resolution (H x W)": "3456 x 2234",
+        "Diagonal (cm)": "41.0cm",
+        "Refresh Rate": "최대 120Hz"
+      },
+      "Camera": {
+        "Back Camera": {
+          "Resolution": null
+        },
+        "Front Camera": {
+          "Resolution": null
+        }
+      },
+      "Design": {
+        "Body": {
+          "Weight": "2.15kg / 2.16kg",
+          "Thickness": "두께: 1.68cm",
+          "IP Rating": null
+        }
+      },
+      "_provenance": {
+        "provider": "manufacturer",
+        "source": "Apple 공식 사양",
+        "sourceUrl": "https://support.apple.com/ko-kr/111838",
+        "checkedOn": "2026-11-10",
+        "releasePrecision": "year"
+      }
+    },
+    "domesticVerified": true,
+    "sourceUrl": "https://support.apple.com/ko-kr/111838"
+  },
+  {
+    "id": "official_apple_111869",
+    "brand": "Apple",
+    "category": "Laptops",
+    "name": "MacBook Pro (13-inch, M2, 2022)",
+    "model": "MacBook Pro (13-inch, M2, 2022)",
+    "version": null,
+    "region": "한국 공식 지원 문서",
+    "releaseDate": "2022년 (연도 기준)",
+    "releaseStart": "2022-01-01",
+    "releaseEnd": "2022-12-31",
+    "releasePrecision": "year",
+    "imageUrl": "https://cdsassets.apple.com/live/SZLF0YNV/images/sp/111869_sp870-macbook-pro-13-in-m2-2022.png",
+    "specs": {
+      "Inside": {
+        "Processor": {
+          "CPU": "Apple M2"
+        },
+        "RAM": {
+          "Capacity": "8GB / 16GB / 24GB"
+        },
+        "Storage": {
+          "Capacity": "256GB / 512GB / 1TB / 2TB"
+        },
+        "Software": {
+          "OS": "macOS"
+        },
+        "Battery": {
+          "Energy (Wh)": "58.2와트시",
+          "Video playback": "동영상 재생 최대 20시간",
+          "Typical usage": null
+        },
+        "Wireless": {
+          "Bluetooth Version": "Bluetooth 5.0"
+        }
+      },
+      "Display": {
+        "Type": "Retina",
+        "Resolution (H x W)": "2560 x 1600",
+        "Diagonal (cm)": "33.7cm",
+        "Refresh Rate": null
+      },
+      "Camera": {
+        "Back Camera": {
+          "Resolution": null
+        },
+        "Front Camera": {
+          "Resolution": null
+        }
+      },
+      "Design": {
+        "Body": {
+          "Weight": "1.4kg",
+          "Thickness": "두께: 1.56cm",
+          "IP Rating": null
+        }
+      },
+      "_provenance": {
+        "provider": "manufacturer",
+        "source": "Apple 공식 사양",
+        "sourceUrl": "https://support.apple.com/ko-kr/111869",
+        "checkedOn": "2026-11-10",
+        "releasePrecision": "year"
+      }
+    },
+    "domesticVerified": true,
+    "sourceUrl": "https://support.apple.com/ko-kr/111869"
+  },
+  {
+    "id": "official_apple_121202",
+    "brand": "Apple",
+    "category": "Smartwatches",
+    "name": "Apple Watch Series 10",
+    "model": "Apple Watch Series 10",
+    "version": null,
+    "region": "한국 공식 지원 문서",
+    "releaseDate": "2024년 (연도 기준)",
+    "releaseStart": "2024-01-01",
+    "releaseEnd": "2024-12-31",
+    "releasePrecision": "year",
+    "imageUrl": "https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/121202-apple-watch-series-10.png",
+    "specs": {
+      "Inside": {
+        "Processor": {
+          "CPU": "S10 SiP"
+        },
+        "RAM": {
+          "Capacity": null
+        },
+        "Storage": {
+          "Capacity": "저장 용량 64GB"
+        },
+        "Software": {
+          "OS": "watchOS"
+        },
+        "Battery": {
+          "Energy (Wh)": null,
+          "Video playback": null,
+          "Typical usage": "일반 사용 시 최대 18시간"
+        },
+        "Wireless": {
+          "Bluetooth Version": "Bluetooth 5.3"
+        }
+      },
+      "Display": {
+        "Type": "LTPO3 OLED",
+        "Resolution (H x W)": null,
+        "Diagonal (cm)": null,
+        "Refresh Rate": null
+      },
+      "Camera": {
+        "Back Camera": {
+          "Resolution": null
+        },
+        "Front Camera": {
+          "Resolution": null
+        }
+      },
+      "Design": {
+        "Body": {
+          "Weight": null,
+          "Thickness": "두께: 9.7mm",
+          "IP Rating": null
+        }
+      },
+      "_provenance": {
+        "provider": "manufacturer",
+        "source": "Apple 공식 사양",
+        "sourceUrl": "https://support.apple.com/ko-kr/121202",
+        "checkedOn": "2026-11-10",
+        "releasePrecision": "year"
+      }
+    },
+    "domesticVerified": true,
+    "sourceUrl": "https://support.apple.com/ko-kr/121202"
+  },
+  {
+    "id": "official_apple_125093",
+    "brand": "Apple",
+    "category": "Smartwatches",
+    "name": "Apple Watch Series 11",
+    "model": "Apple Watch Series 11",
+    "version": null,
+    "region": "한국 공식 지원 문서",
+    "releaseDate": "2025년 (연도 기준)",
+    "releaseStart": "2025-01-01",
+    "releaseEnd": "2025-12-31",
+    "releasePrecision": "year",
+    "imageUrl": "https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/apple-watch-series-11-hero.png",
+    "specs": {
+      "Inside": {
+        "Processor": {
+          "CPU": "S10"
+        },
+        "RAM": {
+          "Capacity": null
+        },
+        "Storage": {
+          "Capacity": "저장 용량 64GB"
+        },
+        "Software": {
+          "OS": "watchOS"
+        },
+        "Battery": {
+          "Energy (Wh)": null,
+          "Video playback": null,
+          "Typical usage": "일반 사용 시 최대 24시간"
+        },
+        "Wireless": {
+          "Bluetooth Version": "Bluetooth 5.3"
+        }
+      },
+      "Display": {
+        "Type": "Retina",
+        "Resolution (H x W)": null,
+        "Diagonal (cm)": null,
+        "Refresh Rate": null
+      },
+      "Camera": {
+        "Back Camera": {
+          "Resolution": null
+        },
+        "Front Camera": {
+          "Resolution": null
+        }
+      },
+      "Design": {
+        "Body": {
+          "Weight": null,
+          "Thickness": "두께: 9.7mm",
+          "IP Rating": null
+        }
+      },
+      "_provenance": {
+        "provider": "manufacturer",
+        "source": "Apple 공식 사양",
+        "sourceUrl": "https://support.apple.com/ko-kr/125093",
+        "checkedOn": "2026-11-10",
+        "releasePrecision": "year"
+      }
+    },
+    "domesticVerified": true,
+    "sourceUrl": "https://support.apple.com/ko-kr/125093"
+  }
+]

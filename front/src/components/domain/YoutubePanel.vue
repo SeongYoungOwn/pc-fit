@@ -87,8 +87,8 @@ export default {
       this.loading = true;
       try {
         // Use keyword instead of full name for better search results
-        const cpuQuery = this.cpu.split(' ').slice(0, 2).join(' ');
-        const gpuQuery = this.gpu.split(' ').slice(0, 3).join(' ');
+        const cpuQuery = this.cpu;
+        const gpuQuery = this.gpu;
         
         const res = await api.get('youtube/benchmark', {
           params: { cpu: cpuQuery, gpu: gpuQuery }

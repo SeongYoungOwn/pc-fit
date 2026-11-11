@@ -173,6 +173,18 @@ async function queryDbPartsForComparison(currentBuild = {}, question = '') {
     // 질문에 등장한 모델 키워드 추출 (예: 4060, 4070, 5070, 7800XT, 14700, 9800X3D 등)
     const tokenMatches = String(question).match(/(RTX\s*\d{4}(?:\s*Ti)?(?:\s*SUPER)?|RX\s*\d{4}(?:\s*XTX|\s*XT)?|\d{4,5}X3D|\d{4,5}KF?|\d{4}F)/gi) || [];
 
+    if (!supabase) {
+      const repo = require('../services/partsCatalogRepository').getPartsRepository();
+      for (const query of [...namesToLookup.slice(0,6),...tokenMatches.slice(0,2)]) {
+        for (const type of ['cpu','gpu']) {
+          for (const part of repo.builderList({type,query,size:3}).items) {
+            if (!matchedDbParts.some(p=>p.id===part.id)) matchedDbParts.push(part);
+          }
+        }
+      }
+      return matchedDbParts;
+    }
+
     if (namesToLookup.length > 0) {
       const { data } = await supabase
         .from('parts')
@@ -251,7 +263,7 @@ function formatBuildContext(currentBuild = {}, totalPrice = 0, budget = 0, usage
 - 구성된 부품 목록:
 ${partLines.length > 0 ? partLines.join('\n') : '- 부품 정보 없음'}
 
-[Supabase DB 실측 부품 상세 스펙 (${dbParts.length}건 매칭)]
+[제품 DB 원본 부품 상세 스펙 (${dbParts.length}건 매칭)]
 ${dbSpecLines.length > 0 ? dbSpecLines.join('\n') : '- 기본 견적 스펙 참조'}
 
 [공인 하드웨어 벤치마크 레퍼런스 DB — GPU (3DMark Time Spy / 퀘이사존 QHD 평균 FPS / TechPowerUp 스펙)]

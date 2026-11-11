@@ -63,7 +63,8 @@
           <v-icon color="secondary" class="mr-2">mdi-magnify</v-icon>
           <span class="text-subtitle-1 font-weight-black text-secondary">직접 검색</span>
         </div>
-        <v-form @submit.prevent="search" class="mb-8">
+        <p class="text-caption text-secondary mb-3">BuildCores 원본 DB에서 검색합니다. 국내 판매가가 없는 부품은 가격 미확인으로 표시됩니다.</p>
+        <v-form @submit.prevent="search(1)" class="mb-8">
           <v-text-field
             v-model="keyword"
             placeholder="제조사 또는 모델명을 입력하세요 (예: i7-14700K)"
@@ -72,14 +73,15 @@
             clearable
             hide-details
             class="neon-input-field search-input"
-            @click:prepend-inner="search"
+            @click:prepend-inner="search(1)"
           >
             <template v-slot:append>
-              <v-btn color="primary" @click="search" height="56" class="px-6 font-weight-bold ml-2">검색</v-btn>
+              <v-btn color="primary" @click="search(1)" height="56" class="px-6 font-weight-bold ml-2">검색</v-btn>
             </template>
           </v-text-field>
         </v-form>
 
+        <v-alert v-if="error" type="error" variant="tonal" class="mb-4">{{ error }}</v-alert>
         <div v-if="loading" class="text-center py-16">
           <v-progress-circular indeterminate color="primary" size="64" width="4"></v-progress-circular>
           <div class="mt-4 text-caption text-secondary font-weight-bold tracking-widest">CONNECTING TO DATABASE...</div>
@@ -110,8 +112,9 @@
               
               <v-list-item-subtitle class="d-flex align-center">
                 <v-chip size="x-small" color="primary" variant="tonal" class="mr-2 font-weight-bold">{{ partTitleMap[partType] }}</v-chip>
-                <span class="text-h6 font-weight-black neon-text-cyan font-mono">{{ formatPrice(item.price) }}</span>
+                <span class="text-h6 font-weight-black neon-text-cyan font-mono">{{ item.price == null ? '가격 미확인' : formatPrice(item.price) }}</span>
               </v-list-item-subtitle>
+              <div v-for="line in item.highlights || []" :key="line" class="text-caption text-secondary">{{ line }}</div>
 
               <template v-slot:append>
                 <v-btn 
@@ -126,6 +129,7 @@
             </v-list-item>
           </v-list>
         </div>
+        <div v-if="searched && !loading && total" class="d-flex justify-center align-center ga-3 mt-5"><v-btn variant="text" :disabled="page <= 1" @click="search(page - 1)">이전</v-btn><span class="text-caption">{{ total.toLocaleString('ko-KR') }}개 · {{ page }} 페이지</span><v-btn variant="text" :disabled="!hasMore" @click="search(page + 1)">다음</v-btn></div>
       </v-card-text>
     </v-card>
   </v-dialog>
@@ -148,6 +152,7 @@ export default {
       results: [],
       loading: false,
       searched: false,
+      error: '', page: 1, total: 0, hasMore: false, searchRequest: 0,
       partTitleMap: {
         cpu: 'CPU', gpu: 'GPU', ram: 'RAM', motherboard: '메인보드',
         storage: 'SSD', psu: '파워', cooler: '쿨러', case: '케이스'
@@ -160,28 +165,36 @@ export default {
         this.keyword = '';
         this.results = [];
         this.searched = false;
-      }
+        this.error = ''; this.page = 1;
+        this.search(1);
+      } else { this.searchRequest++; this.loading=false; }
     }
   },
   methods: {
     formatPrice,
-    async search() {
-      if (!this.keyword?.trim()) return;
+    async search(page = 1) {
+      const request=++this.searchRequest;
       this.loading = true;
       this.searched = true;
+      this.error = '';
       try {
         const res = await api.get('search/parts', {
-          params: { keyword: this.keyword, type: this.partType, page: 1 }
+          params: { keyword: this.keyword || '', type: this.partType, page }
         });
+        if (request!==this.searchRequest) return;
         this.results = res.data.data.items || res.data.data;
+        this.page = page; this.total = res.data.data.total || 0; this.hasMore = Boolean(res.data.data.hasMore);
       } catch (err) {
+        if (request!==this.searchRequest) return;
         this.results = [];
+        this.total=0; this.hasMore=false;
+        this.error = err.response?.data?.error || '부품 DB를 불러오지 못했습니다.';
       } finally {
-        this.loading = false;
+        if (request===this.searchRequest) this.loading = false;
       }
     },
     selectPart(item) {
-      this.$emit('select', { ...item, type: this.partType, keyword: item.keyword || this.keyword });
+      this.$emit('select', { ...item, type: this.partType, keyword: item.keyword || item.name || this.keyword });
       this.$emit('close');
     }
   }

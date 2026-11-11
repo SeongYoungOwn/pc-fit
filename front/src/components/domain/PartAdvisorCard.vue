@@ -19,7 +19,7 @@
               </v-chip>
             </div>
             <div class="text-caption text-secondary font-weight-medium mt-1">
-              현재 견적 부품을 기준으로 Supabase DB 스펙과 공인 벤치마크 레퍼런스(3DMark·퀘이사존·Cinebench)를 대조해 게임 프레임(FPS), 기준가 차이, 가성비를 분석합니다.
+              제품 DB에 등록된 사양과 기존 벤치마크 참고값으로 예상 게임 성능과 금액 차이를 분석합니다. 현재 국내 실판매가와 실측 성능은 연결되지 않았습니다.
             </div>
           </div>
         </div>
@@ -91,7 +91,7 @@
           <div class="d-flex flex-column align-center text-center mb-6">
             <v-progress-circular indeterminate color="#00f3ff" size="44" width="4" class="mb-3"></v-progress-circular>
             <div class="text-subtitle-1 font-weight-black text-cyan mb-1">
-              Supabase 부품 DB 스펙과 공인 벤치마크 레퍼런스 DB를 대조 중입니다...
+              제품 DB 사양과 기존 벤치마크 참고값을 대조 중입니다...
             </div>
             <div class="text-caption text-secondary">
               내장된 3DMark Time Spy·퀘이사존 해상도별 FPS 레퍼런스 및 DB 기준가를 기반으로 AI가 비교 지표를 계산합니다.
@@ -304,7 +304,7 @@
                   variant="tonal"
                   class="font-weight-bold"
                 >
-                  Supabase DB 실측 스펙 {{ result.verification_meta.dbMatchedCount }}건 직접 대조됨
+                  제품 DB 등록 사양 {{ result.verification_meta.dbMatchedCount }}건 대조됨
                 </v-chip>
                 <v-chip
                   size="x-small"

@@ -15,10 +15,15 @@
 
       <div class="nav-links d-none d-md-flex align-center">
         <v-btn variant="text" to="/builder" class="nav-item mx-1" :active-class="'active-nav'">AI 견적</v-btn>
+        <v-btn variant="text" to="/devices" class="nav-item mx-1" :active-class="'active-nav'">기기 카탈로그</v-btn>
+        <v-btn variant="text" to="/devices/compare" class="nav-item mx-1" :active-class="'active-nav'">기기 비교</v-btn>
         <v-btn variant="text" to="/takeoff" class="nav-item mx-1" :active-class="'active-nav'">이륙 심사</v-btn>
       </div>
 
       <v-spacer class="d-none d-md-flex"></v-spacer>
+
+      <v-btn to="/devices" icon="mdi-devices" variant="text" class="d-md-none" aria-label="부품 및 기기 카탈로그" />
+      <v-btn to="/devices/compare" icon="mdi-compare" variant="text" class="d-md-none" aria-label="기기 비교" />
 
       <template v-if="isAuthenticated">
         <v-menu location="bottom end" :close-on-content-click="false">

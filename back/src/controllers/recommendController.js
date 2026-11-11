@@ -147,6 +147,10 @@ exports.recommend = async (req, res, next) => {
                 image: naverData?.image || getDefaultPartImage(t),
                 link: naverData?.link || buildShoppingSearchUrl(part.name),
                 ...part.specs,
+                price: dbPrice,
+                priceStatus: 'estimated',
+                source: part.source || '기존 부품 DB',
+                sourceUrl: part.sourceUrl || null,
                 ...(socketVal ? { socket: socketVal } : {}),
                 ...(ramTypeVal ? { ramType: ramTypeVal } : {}),
                 ...(wattageVal ? { wattage: wattageVal } : {}),
@@ -177,6 +181,7 @@ exports.recommend = async (req, res, next) => {
       data: {
         parts: finalParts,
         totalPrice: totalPrice,
+        pricing: { status: 'estimated', message: '기존 추천 알고리즘의 예상 금액입니다. 국내 실판매 가격은 아직 연결되지 않았습니다.' },
         totalWattage: compat.totalWattage,
         recommendedPsu: compat.recommendedPsu,
         compatibility: { isCompatible: compat.isCompatible, warnings: compat.warnings },

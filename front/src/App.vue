@@ -1,11 +1,13 @@
 <template>
-  <v-app>
-    <ParticleBackground />
-    <AppHeader />
+  <v-app :theme="deviceWorkspace ? 'catalog' : 'dark'" :class="{ 'device-workspace': deviceWorkspace }">
+    <ParticleBackground v-if="!deviceWorkspace" />
+    <DeviceHeader v-if="deviceWorkspace" />
+    <AppHeader v-else />
     <v-main>
-      <router-view />
+      <router-view :key="$route.name" />
     </v-main>
-    <AppFooter />
+    <footer v-if="deviceWorkspace" class="device-footer"><div><strong>PC-FIT<span> / </span>기기를 고르는 기준</strong><p>PC 견적부터 IT 기기 비교까지.</p></div><router-link to="/builder">PC 견적 만들기 <v-icon size="18">mdi-arrow-top-right</v-icon></router-link></footer>
+    <AppFooter v-else />
     <CustomToast />
   </v-app>
 </template>
@@ -15,10 +17,13 @@ import AppHeader from '@/components/layout/AppHeader.vue';
 import AppFooter from '@/components/layout/AppFooter.vue';
 import CustomToast from '@/components/common/CustomToast.vue';
 import ParticleBackground from '@/components/common/ParticleBackground.vue';
+import DeviceHeader from '@/components/layout/DeviceHeader.vue';
+import '@/assets/css/device-workspace.css';
 
 export default {
-  components: { AppHeader, AppFooter, CustomToast, ParticleBackground },
+  components: { AppHeader, AppFooter, CustomToast, ParticleBackground, DeviceHeader },
   computed: {
+    deviceWorkspace() { return Boolean(this.$route.meta.deviceWorkspace); },
     isAuthenticated() { return this.$store.state.auth.isAuthenticated; },
     user() { return this.$store.state.auth.user; }
   },

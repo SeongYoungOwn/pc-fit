@@ -1,3 +1,5 @@
+> 과거 기획·발표 초안입니다. 현재 구현 범위는 [프로젝트 현황](../PROJECT_STATUS.md)을 기준으로 검토하세요.
+
 # 🖥️ PC-FIT 2.0 : 최종 견적 후의 고민을 끝내는 AI 부품·가격 비교 어드바이저
 > **과목**: 소프트웨어공학 (2학기 프로젝트 고도화)  
 > **제출 구성**: ① 해결하고자 하는 문제 / ② 인공지능 활용 방안 / ③ 서비스 기획서 및 동작하는 코드 / ④ 슬라이드별 실전 발표 대본
@@ -10,13 +12,13 @@
 
 | 발표자료에 포함된 기능/내용 | 실제 내 프로젝트 구현 파일 및 라인 | 실제 동작 여부 |
 | :--- | :--- | :---: |
-| **AI 부품 비교 & 가성비 어드바이저 UI** | [`front/src/components/domain/PartAdvisorCard.vue`](file:///d:/3학년%20대학교/전공심화/1학기/소프트웨어공학/2.work/myproject/front/src/components/domain/PartAdvisorCard.vue#L1-L338) | ✅ 100% 실제 구현 |
-| **맞춤형 빠른 질문 칩 동적 생성 (`dynamicChips`)** | [`PartAdvisorCard.vue (394~532행)`](file:///d:/3학년%20대학교/전공심화/1학기/소프트웨어공학/2.work/myproject/front/src/components/domain/PartAdvisorCard.vue#L394-L532) — GPU/CPU 대안 부품 및 예산 초과 다이어트 비교 칩 자동 생성 | ✅ 100% 실제 구현 |
-| **3-Tier 시각화 (결론 배지 + FPS 막대차트 + 스펙 비교표 + 출처 배지)** | [`PartAdvisorCard.vue (140~335행)`](file:///d:/3학년%20대학교/전공심화/1학기/소프트웨어공학/2.work/myproject/front/src/components/domain/PartAdvisorCard.vue#L140-L335) — `verdict`, `chartData`, `tableData`, `sources` 바인딩 | ✅ 100% 실제 구현 |
-| **공인 벤치마크 레퍼런스 DB (`3DMark Time Spy`, `퀘이사존 QHD 배그·사펑·몬헌 FPS`, `Cinebench R23`)** | [`back/src/controllers/advisorController.js (15~56행)`](file:///d:/3학년%20대학교/전공심화/1학기/소프트웨어공학/2.work/myproject/back/src/controllers/advisorController.js#L15-L56) — `GPU_BENCHMARK_REF`, `CPU_BENCHMARK_REF` | ✅ 100% 실제 구현 |
-| **Supabase `parts` DB(945종) 실측 스펙 조회 및 AI 프롬프트 주입** | [`advisorController.js (161~263행)`](file:///d:/3학년%20대학교/전공심화/1학기/소프트웨어공학/2.work/myproject/back/src/controllers/advisorController.js#L161-L263) — `queryDbPartsForComparison()`, `formatBuildContext()` | ✅ 100% 실제 구현 |
-| **멀티 AI 폴백 체인 (`Gemini` ➔ `GPT-5.1` ➔ `Claude`)** | [`advisorController.js (442~506행)`](file:///d:/3학년%20대학교/전공심화/1학기/소프트웨어공학/2.work/myproject/back/src/controllers/advisorController.js#L442-L506) — `compareAdvisor` 컨트롤러 | ✅ 100% 실제 구현 |
-| **네이버 쇼핑 최저가 구매 버튼 연동 (`naverSearchLink`)** | [`front/src/components/domain/PartCard.vue (78~90행, 163~194행)`](file:///d:/3학년%20대학교/전공심화/1학기/소프트웨어공학/2.work/myproject/front/src/components/domain/PartCard.vue#L163-L194) | ✅ 100% 실제 구현 |
+| **AI 부품 비교 & 가성비 어드바이저 UI** | [`front/src/components/domain/PartAdvisorCard.vue`](../../front/src/components/domain/PartAdvisorCard.vue) | ✅ 100% 실제 구현 |
+| **맞춤형 빠른 질문 칩 동적 생성 (`dynamicChips`)** | [`PartAdvisorCard.vue (394~532행)`](../../front/src/components/domain/PartAdvisorCard.vue) — GPU/CPU 대안 부품 및 예산 초과 다이어트 비교 칩 자동 생성 | ✅ 100% 실제 구현 |
+| **3-Tier 시각화 (결론 배지 + FPS 막대차트 + 스펙 비교표 + 출처 배지)** | [`PartAdvisorCard.vue (140~335행)`](../../front/src/components/domain/PartAdvisorCard.vue) — `verdict`, `chartData`, `tableData`, `sources` 바인딩 | ✅ 100% 실제 구현 |
+| **공인 벤치마크 레퍼런스 DB (`3DMark Time Spy`, `퀘이사존 QHD 배그·사펑·몬헌 FPS`, `Cinebench R23`)** | [`back/src/controllers/advisorController.js (15~56행)`](../../back/src/controllers/advisorController.js) — `GPU_BENCHMARK_REF`, `CPU_BENCHMARK_REF` | ✅ 100% 실제 구현 |
+| **Supabase `parts` DB(945종) 실측 스펙 조회 및 AI 프롬프트 주입** | [`advisorController.js (161~263행)`](../../back/src/controllers/advisorController.js) — `queryDbPartsForComparison()`, `formatBuildContext()` | ✅ 100% 실제 구현 |
+| **멀티 AI 폴백 체인 (`Gemini` ➔ `GPT-5.1` ➔ `Claude`)** | [`advisorController.js (442~506행)`](../../back/src/controllers/advisorController.js) — `compareAdvisor` 컨트롤러 | ✅ 100% 실제 구현 |
+| **네이버 쇼핑 최저가 구매 버튼 연동 (`naverSearchLink`)** | [`front/src/components/domain/PartCard.vue (78~90행, 163~194행)`](../../front/src/components/domain/PartCard.vue) | ✅ 100% 실제 구현 |
 
 ---
 

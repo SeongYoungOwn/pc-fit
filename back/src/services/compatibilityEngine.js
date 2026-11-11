@@ -1,3 +1,4 @@
+const {socketKey,formKey}=require('./physicalPartFit');
 function inferSocketFromName(name) {
   if (!name) return null;
   const upper = name.toUpperCase();
@@ -27,10 +28,10 @@ function checkCompatibility(parts) {
   const psu = parts.psu || {};
   const cooler = parts.cooler || {};
 
-  const cpuSocket = cpu.socket || inferSocketFromName(cpu.name);
-  const mbSocket = motherboard.socket || inferSocketFromName(motherboard.name);
-  const ramType = ram.type || inferRamTypeFromName(ram.name);
-  const mbRamType = motherboard.ramType || inferRamTypeFromName(motherboard.name) || (mbSocket === 'AM5' ? 'DDR5' : null);
+  const cpuSocket = cpu.socket || cpu.specs?.Socket || cpu.specs?.socket || inferSocketFromName(cpu.name);
+  const mbSocket = motherboard.socket || motherboard.specs?.Socket || motherboard.specs?.socket || inferSocketFromName(motherboard.name);
+  const ramType = ram.memory_type || ram.ramType || ram.specs?.ram_type || ram.specs?.type || inferRamTypeFromName(ram.name);
+  const mbRamType = motherboard.ramType || motherboard.memory_type || motherboard.specs?.memory?.ram_type || motherboard.specs?.memory_type || inferRamTypeFromName(motherboard.name) || (mbSocket === 'AM5' ? 'DDR5' : null);
 
   // 규칙 1: CPU 소켓 ↔ 메인보드 소켓
   if (cpuSocket && mbSocket) {
@@ -65,13 +66,26 @@ function checkCompatibility(parts) {
   }
 
   // 규칙 3: 쿨러 소켓
-  const coolerSocket = cooler.socket || inferSocketFromName(cooler.name);
-  if (coolerSocket && cpuSocket && coolerSocket !== cpuSocket && !cooler.name?.toUpperCase().includes('멀티소켓') && !cooler.name?.toUpperCase().includes('공용')) {
-    // 쿨러는 대부분 여러 소켓을 지원하므로 경고 생략 또는 추가 로직 가능
-  }
+  const coolerSocket=cooler.cpu_sockets || cooler.specs?.cpu_sockets || cooler.socket || cooler.specs?.socket;
+  const coolerSockets=Array.isArray(coolerSocket) ? coolerSocket : (coolerSocket ? [coolerSocket] : []);
+  if (cpuSocket && coolerSockets.length && !coolerSockets.some(s=>socketKey(s)===socketKey(cpuSocket))) warnings.push({
+    type:'cooler_socket_mismatch',severity:'error',message:`CPU 소켓(${cpuSocket})을 지원하지 않는 쿨러입니다.`,affectedParts:['cpu','cooler']});
+
+  const enclosure=parts.case?.specs || parts.case || {};
+  const gpuLength=gpu.length || gpu.specs?.length;
+  const gpuSpace=enclosure.max_video_card_length || enclosure.max_gpu_length;
+  if (gpuLength>0 && gpuSpace>0 && gpuLength>gpuSpace) warnings.push({type:'gpu_case_mismatch',severity:'error',message:`그래픽카드 길이(${gpuLength}mm)가 케이스 공간(${gpuSpace}mm)을 초과합니다.`,affectedParts:['gpu','case']});
+  const coolerHeight=cooler.height || cooler.specs?.height;
+  const coolerSpace=enclosure.max_cpu_cooler_height || enclosure.max_cooler_height;
+  const waterCooled=cooler.water_cooled ?? cooler.specs?.water_cooled;
+  if (waterCooled!==true && coolerHeight>0 && coolerSpace>0 && coolerHeight>coolerSpace) warnings.push({type:'cooler_case_mismatch',severity:'error',message:`쿨러 높이(${coolerHeight}mm)가 케이스 공간(${coolerSpace}mm)을 초과합니다.`,affectedParts:['cooler','case']});
+  const boardForm=motherboard.form_factor || motherboard.specs?.form_factor;
+  if (boardForm && Array.isArray(enclosure.supported_motherboard_form_factors) && !enclosure.supported_motherboard_form_factors.some(f=>formKey(f)===formKey(boardForm))) warnings.push({type:'board_case_mismatch',severity:'error',message:`케이스가 메인보드 규격(${boardForm})을 지원하지 않습니다.`,affectedParts:['motherboard','case']});
 
   // 규칙 4: 전력량
-  const totalTdp = (cpu.tdp || 65) + (gpu.tdp || 200);
+  const cpuTdp=cpu.tdp || cpu.specs?.tdp || cpu.specs?.specifications?.tdp || 65;
+  const gpuTdp=gpu.tdp ?? gpu.specs?.tdp ?? (/내장그래픽|INTEGRATED/i.test(gpu.name || '') ? 0 : 200);
+  const totalTdp = Number(cpuTdp) + Number(gpuTdp);
   const psuWattage = psu.specs?.total_wattage || psu.total_wattage || psu.wattage || psu.specs?.wattage || 600;
   const recommendedPsu = Math.ceil(totalTdp * 1.5 / 50) * 50;
 

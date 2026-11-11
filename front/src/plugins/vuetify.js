@@ -26,7 +26,12 @@ export default createVuetify({
   directives,
   theme: {
     defaultTheme: 'dark',
-    themes: { dark: darkTheme }
+    themes: { dark: darkTheme, catalog: { dark: false, colors: {
+      background: '#f5f6f8', surface: '#ffffff', 'surface-variant': '#edf1f7',
+      primary: '#2459d3', secondary: '#456184', success: '#16816b',
+      error: '#c73346', warning: '#99621b', info: '#2459d3',
+      'on-background': '#182334', 'on-surface': '#182334'
+    } } }
   },
   defaults: {
     VCard: { elevation: 4, rounded: 'xl' },
