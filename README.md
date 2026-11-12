@@ -55,10 +55,11 @@ if (-not (Test-Path -LiteralPath .env)) { Copy-Item -LiteralPath .env.example -D
 
 back/.env에서 SESSION_SECRET을 직접 설정합니다. 사용하지 않는 Supabase 예제 URL·키는 비워 두세요. 기본 포트는 백엔드 3000, 프론트엔드 8080입니다. API 키는 .env.example에 입력하지 않습니다.
 
-PC 부품 DB를 처음 준비할 때 실행합니다. 기존 SQLite DB를 복원했다면 생략합니다.
+집과 같은 부품 목록이 필요하면 집의 `parts-catalog.sqlite` 백업을 `back/.local/`에 넣습니다. 백업이 없을 때만 `npm.cmd run sync:parts`로 다시 구성합니다. 공식 IT 기기 DB는 저장소 자료로 초기화됩니다. 두 DB로 실행할 때는 `.env.example`의 `TECHSPECS_STORAGE_ALLOWED=false` 설정을 사용합니다. 파일 복사와 확인 방법은 [학교 셋업](docs/SCHOOL_SETUP.md)을 참고하세요.
+
+PC 부품 DB를 준비했으면 백엔드를 실행합니다.
 
 ```powershell
-npm.cmd run sync:parts
 npm.cmd start
 ```
 
